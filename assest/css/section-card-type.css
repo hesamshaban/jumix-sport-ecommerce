@@ -1,0 +1,131 @@
+
+.cards-row-type{
+    margin: 1px auto;
+    max-width: 1200px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    box-shadow: 1px 1px 10px var(--black);
+    margin: 5px 10px;
+    overflow: hidden;
+    transition: all 0.8s;
+    width: 25%;
+    border: 2px solid var(--gray);
+    position: relative;
+    height:300px ;
+    border-radius: 20px;
+    transition: all 0.9s;
+}
+.card-img{
+object-fit: cover;
+    border-radius: 20px;
+    transform: scale();
+    height: 100%;
+    transition: all 0.8s;
+}
+.card-title{
+    text-transform: capitalize;
+    font-size: 30px;
+    margin-left: 10px;
+    padding: 20px 20px;
+    border-radius: 20px;
+
+    right: 60%;
+    top: 80%;
+    transform: translate(50%,-50%);
+color: var(--whait);
+position: absolute;
+}
+.filter-card{
+        border-radius: 20px;
+    top:0px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+     background: linear-gradient(to top, rgba(0, 0, 0, 0.836) 0%, rgba(255, 255, 255, 0) 100%);
+
+}
+.card:hover img{
+     
+    transform: rotate(20deg) scale(1.4);
+    
+
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 30px var(--green);
+}
+@media screen and (max-width:880px) {
+    .card{
+        justify-content: center;
+        
+        width:45%;
+        
+        height: 180px;
+    }
+    .card img{
+        transform: translateY(-40px);
+    }
+    .card:hover img{
+        transform: translateY(-70px);
+    }
+    .card-title{
+        font-size: 25px;
+        top: 70%;
+    }
+
+.cards-row-type{
+    flex-wrap: wrap;
+}
+    
+}
+@media screen and (max-width:880px) and (min-width:650px){
+.cards-row-type{
+    flex-wrap: nowrap;
+}
+   
+            .card{
+        justify-content: center;
+        align-items: center;
+        width:23%;
+        
+        height: 180px;
+    }
+        .card-title{
+        font-size: 20px;
+        top: 70%;
+        
+    }
+    .card img{
+        transform: translateY(-10px);
+    }
+    .card:hover img{
+        transform: translateY(-40px);
+    }
+}
+@media screen and (max-width:390px) {
+    .cards-row-type{
+    flex-wrap: wrap;
+}
+   
+            .card{
+        justify-content: center;
+        align-items: center;
+        width:40%;
+        
+        height: 180px;
+    }
+        .card-title{
+        font-size: 18px;
+        top: 70%;
+        
+    }
+    .card img{
+        transform: translateY(0px);
+    }
+    .card:hover img{
+        transform: translateY(-40px);
+    }
+}

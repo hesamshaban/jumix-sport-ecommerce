@@ -1,0 +1,190 @@
+:root{--green:#39ff14;--green2:#7ec303;--black:#080808;--bg:#0f1010;--panel:#151717;--panel2:#1b1d1d;--line:#2a2d2d;--muted:#999;--white:#fff;--plan3:#111414;}
+.header-main-art{
+    
+    height: 290px;
+    background-color: red;
+    position: relative;
+    border-bottom: 1px solid var(--line);
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+    }
+    .titile-header-ma{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+      z-index: 5;
+      background:linear-gradient(to top,var(--panel) , rgba(0, 0, 0, 0.452));
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      .title-header-ma-c{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        /* margin-left: 40px; */
+        h4{
+            color:var(--green);
+            font-size: 18px;
+        }h1{
+            color: var(--white);
+            font-size: 60px;
+        }p{
+            color: var(--muted);
+            /* font-size: 18px; */
+            font-weight: 500;
+        }
+      }
+    }
+}
+/* ///////////////////////////////////////////////////////////////// */
+.main-banner-art{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    max-width: 1200px;
+    margin: 50px auto;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    overflow: hidden;
+    background-color: var(--plan3);
+    img{
+        object-fit: cover;
+        width: 55%;
+        height: 100%;
+    }
+    .title-mba{
+        width: 100%;
+        height: 100%;
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h3{
+            color: var(--green);
+            font-size: 14px;
+
+        }
+        h2{
+            font-size: 35px;
+            color:var(--white);
+
+        }
+        p{
+            color: var(--muted);
+            font-size: 14px;
+        }
+        button{
+            color: var(--plan3);
+            background-color: var(--green);
+            font-size: 20px;
+            border-radius:8px;
+            border: none;
+            padding: 10px;
+        }
+    }
+}
+main{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    .title-main{
+        margin: 20px;
+        h2{
+            font-size: 25px;
+            color: var(--white);
+        }p{
+            font-size: 16px;
+            color: var(--muted);
+        }
+    }
+    .product-art{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 18px;
+        width: 100%;
+        margin: 20px;
+    }
+    .fotter-main{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin: 20px;
+        button{
+            border-radius: 100%;
+            border: 1px solid var(--line);
+            width: 30px;
+            height: 30px;
+            color: var(--white);
+            background-color: var(--plan3);
+            transition: 0.7s;
+        }button.select-page{
+            color: var(--black);
+            background-color: var(--green);
+            box-shadow: 0px 0px 10px var(--green);
+        }
+        button:hover{
+            color: var(--black);
+            background-color: var(--green);
+            box-shadow: 0px 0px 10px var(--green);
+        }
+    }
+}
+.card-art-wrap{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--plan3);
+    height: 350px;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: 0.9s;
+    img{
+        height: 45%;
+        object-fit: cover;
+
+    }   
+    .title-card-art{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        
+        .categoory-card{
+            margin-top: 10px;
+            font-size: 14px;
+            color: var(--green);
+        }
+        .title-main-card{
+            margin-top: 10px;
+            font-size: 20px;
+            color: var(--white);
+        }
+        .caption-card{
+            margin-top: 10px;
+            color: var(--muted);
+            font-size: 14px;
+        }
+        .footer-card{
+            margin-top: 15px;
+            display: flex;
+            justify-content:space-between;
+            .nasher , .time-reading{
+                color: var(--muted);
+                font-size: 12px;
+
+            }
+        }
+
+    }
+    
+}.card-art-wrap:hover{
+        border-color:var(--green2) ;
+        transform: translateY(-10px);
+        /* background-color: red; */
+
+    }

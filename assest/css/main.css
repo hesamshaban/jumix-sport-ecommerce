@@ -1,0 +1,52 @@
+@import url(nav-main.css);
+@import url("header-main.css");
+@import url("section-card-type.css");
+@import url("section-poroduct.css");
+@import url("about-section.css");
+@import url("footer.css");
+@import url("product.css");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+@font-face {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root{
+    --green:#39ff14;
+
+    --green-text:#7ec303;
+    --black:#0b0b0b;
+    --gray:#1e1e1e;
+    --gray-text:#a7a7a6;
+    --back-gray:#0f1010;
+    --whait:#ffff;
+    --back-g:#131212;
+}
+*{
+    font-family: "Oswald";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--whait);
+}
+body{
+    background-color: #0f0f0f;
+}
+.img-res{
+    width: 100%;
+    height: auto;
+}
+.line-section{
+    margin:10px  auto;
+    width: 96vw;
+    height: 2px;
+background: #8c8c8c;
+background: radial-gradient(circle, rgba(140, 140, 140, 0.81) 10%, rgba(255, 255, 255, 0) 100%);
+}
+/* //////////////////////////////////////// */
