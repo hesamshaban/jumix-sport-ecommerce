@@ -1,7 +1,7 @@
 :root{--green:#39ff14;--green2:#7ec303;--black:#080808;--bg:#0f1010;--panel:#151717;--panel2:#1b1d1d;--line:#2a2d2d;--muted:#999;--white:#fff;--plan3:#111414;}
 .header-main-art{
     
-    height: 290px;
+    height: 340px;
     background-color: red;
     position: relative;
     border-bottom: 1px solid var(--line);
@@ -9,6 +9,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+        
         z-index: 1;
     }
     .titile-header-ma{
@@ -18,6 +19,7 @@
         top: 0;
         left: 0;
       z-index: 5;
+      
       background:linear-gradient(to top,var(--panel) , rgba(0, 0, 0, 0.452));
       display: flex;
       align-items: center;
@@ -56,6 +58,7 @@
         object-fit: cover;
         width: 55%;
         height: 100%;
+
     }
     .title-mba{
         width: 100%;
@@ -85,7 +88,12 @@
             border-radius:8px;
             border: none;
             padding: 10px;
+            transition: 0.9s;
         }
+         button:hover{
+            background-color: var(--white);
+            transform: translateY(-10px);
+         }
     }
 }
 main{

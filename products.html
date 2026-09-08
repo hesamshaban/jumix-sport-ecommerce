@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUMIX SPORT | PRODUCTS</title>
+    <link rel="stylesheet" href="assest/css/products.css">
+    <link rel="stylesheet" href="assest/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <!-- nav bar tag start => -->
+    <nav class="main-nav-head">
+        <div class="main-nav-header">
+            <div class="nav-main-logo"><img class="img-res" src="assest/img/lego-header-site.png" alt="logo-jumix-sport"></div>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="">home</a></li>
+                    <li><a href="">shose</a></li>
+                    <li><a href="">volleyball</a></li>
+                    <li><a href="">basketball</a></li>
+                    <li><a href="">collectioans</a></li>
+                    <li><a href="">about</a></li>
+                    <li><a href="">contact</a></li>
+                </ul>
+            </div>
+            <div class="search-input">
+                <label for="searh-input-m">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="search" placeholder="search..." id="searh-input-m">
+                </label>
+            </div>
+            <div  class="nav-icon">
+                <ul>
+                    <li class="search-icon-nav"><a href="javascript:void(0);" onclick="click_search();"><i class="fa fa-search" aria-hidden="true"></i></a>
+                    <div id="search-icon-nav-div" class="search-input-icon">
+                        <label for="searh-input-icon">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                        <input type="search" placeholder="search..." id="searh-input-icon">
+                        </label>
+                    </div>
+                    </li>
+                    <li><a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                    <li><a href=""><i class="fa fa-user" aria-hidden="true"></i></a></li>
+                    <li class="menu-res"><a id="btn-nav" onclick="click_menu();"  href="javascript:void(0);"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                        <ul id="nav-bar-menu" class="menu-respon-m ">
+                            <li><a href="">home</a></li>
+                            <li><a href="">shose</a></li>
+                            <li><a href="">volleyball</a></li>
+                            <li><a href="">basketball</a></li>
+                            <li><a href="">collectioans</a></li>
+                            <li><a href="">about</a></li>
+                            <li><a href="">contact</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- <= end nav bar tag -->
+    <header class="header-main-art">
+        <img src="assest/img/header.png" alt="">
+        <div class="titile-header-ma">
+        <div class="title-header-ma-c">
+                <h4>Built for athletes</h4>
+                <h1>Built for athletes</h1>
+                <p>Performance footwear engineered for volleyball and basketball players who demand grip, stability and speed.</p>
+                <div class="adress-page"><a href="index.html">home</a><i> ›  Shoes</i></div>
+        </div>
+    </div>
+    </header> 
+
+    <main class="main-products">
+        <div class="filter-products">
+            <h2 class="title-fillter">SPORT</h2>
+            <label for="s-v"><input id="s-v" type="checkbox" >Volleyball</label>
+            <label for="s-b"><input id="s-b" type="checkbox" >Basketball</label>
+            <div class="filter-gruop"></div>
+            <h2 class="title-fillter">PRODUCT TYPE</h2>
+            <label for="p-p"><input id="p-p" type="checkbox" >Performance</label>
+            <label for="p-t"><input id="p-t" type="checkbox" >Training</label>
+            <label for="p-l"><input id="p-l" type="checkbox" >Lifestyle</label>
+            <div class="filter-gruop"></div>
+            <h2>BRAND</h2>
+            <label for="b-j"><input id="b-j" type="checkbox" >Jumix</label>
+            <label for="b-n"><input id="b-n" type="checkbox" >Nike</label>
+            <label for="b-a"><input id="b-a" type="checkbox" >Adidass</label>
+            <div class="filter-gruop"></div>
+            <h2>PRICE</h2>
+            <input class="inpt-range" type="range" max="100" value="20" id="">
+            <h3>$0 — <i id="max-price-f">$200</i></h3>
+        </div>
+        <div class="layer-tow">
+            <div class="sort-product">
+                
+                    <p>Showing <i id="shows-pro">8</i> of <i id="all-pro">24</i> products</p>
+                    <select name="sort-product-m" id="sort-product-m">
+                        <option value="Featured">Featured</option>
+                        <option value="price:L to H">price: Low to High</option>
+                        <option value="price:H to L">price: High to Low</option>
+                        <option value="newest">Newest</option>
+                    </select>
+                </div>
+                
+                <div class="wrap-products">
+                    <div class="load-api" hidden>
+                        <div class="massage-error" hidden>
+                            <h2>
+                                <i>❗</i>
+                                load Page not found
+                                <i>❗</i>
+                            </h2>
+                        </div>
+                        <div class="anim-load" hidden>
+                            <div class="item">☢</div>
+                            <div class="title-load" >Loading...</div>
+                        </div>
+                    </div>
+                    <div class="card-product">
+                        <div class="img-product">
+                            <img src="assest/img/shose-3.png" alt="">
+                        </div>
+                        <div class="title-card-product">
+                            <h3>JUMIX QUICKSTEP</h3>
+                            <p>Training Shoes</p>
+                            <h4>$<i>109.99</i></h4>
+                        </div>
+                        <div class="btns-card-pro">
+                            <button class="love"><i class="fa fa-heart-o"></i></button>
+                            <button><i class="fa fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <div class="card-product">
+                        <div class="img-product">
+                            <img src="assest/img/shose-3.png" alt="">
+                        </div>
+                        <div class="title-card-product">
+                            <h3>JUMIX QUICKSTEP</h3>
+                            <p>Training Shoes</p>
+                            <h4>$<i>109.99</i></h4>
+                        </div>
+                        <div class="btns-card-pro">
+                            <button class="love"><i class="fa fa-heart-o"></i></button>
+                            <button><i class="fa fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <div class="card-product">
+                        <div class="img-product">
+                            <img src="assest/img/shose-3.png" alt="">
+                        </div>
+                        <div class="title-card-product">
+                            <h3>JUMIX QUICKSTEP</h3>
+                            <p>Training Shoes</p>
+                            <h4>$<i>109.99</i></h4>
+                        </div>
+                        <div class="btns-card-pro">
+                            <button class="love"><i class="fa fa-heart-o"></i></button>
+                            <button><i class="fa fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <div class="card-product">
+                        <div class="img-product">
+                            <img src="assest/img/shose-3.png" alt="">
+                        </div>
+                        <div class="title-card-product">
+                            <h3>JUMIX QUICKSTEP</h3>
+                            <p>Training Shoes</p>
+                            <h4>$<i>109.99</i></h4>
+                        </div>
+                        <div class="btns-card-pro">
+                            <button class="love"><i class="fa fa-heart-o"></i></button>
+                            <button><i class="fa fa-plus"></i></button>
+                        </div>
+                    </div>
+                    <div class="card-product">
+                        <div class="img-product">
+                            <img src="assest/img/shose-3.png" alt="">
+                        </div>
+                        <div class="title-card-product">
+                            <h3>JUMIX QUICKSTEP</h3>
+                            <p>Training Shoes</p>
+                            <h4>$<i>109.99</i></h4>
+                        </div>
+                        <div class="btns-card-pro">
+                            <button class="love"><i class="fa fa-heart-o"></i></button>
+                            <button><i class="fa fa-plus"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="move-page-pro">
+                    <button>←</button>
+                    <div class="number-btn">
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                    </div>
+                    <button>→</button>
+                </div>
+            </div>
+        </div>
+     </main>
+             <!-- send about section start => -->
+                  <div>
+        <div class="line-section"></div>
+    </div>
+         <section class="send-about">
+            <div class="send-about-row">
+                <div class="send-about-item">
+                    <div class="img-send-about">
+                        <img  class="car img-res" src="assest/img/item-1.png" alt="">
+                    </div>
+                    <div>
+                        <h3>FAST DELIVERY</h3>
+                        <p>Across the Country</p>
+                    </div>
+                </div>
+                <div class="send-about-item">
+                    <div class="img-send-about">
+                        <img class="quality img-res" src="assest/img/item-2.png" alt="">
+                    </div>
+                    <div>
+                        <h3>PEREMIUM QUALITY</h3>
+                        <p>Built to Last</p>
+                    </div>
+                </div>
+                <div class="send-about-item">
+                    <div class="img-send-about">
+                        <img class="louck img-res" src="assest/img/item-3.png" alt="">
+                    </div>
+                    <div>
+                        <h3>SECURE PAYMENT</h3>
+                        <p>100% safe & secure</p>
+                    </div>
+                </div>
+                <div class="send-about-item">
+                    <div class="img-send-about">
+                        <img class="return img-res" src="assest/img/item-4.png" alt="">
+                    </div>
+                    <div>
+                        <h3>EASY RETURNS</h3>
+                        <p>Hassle free returns</p>
+                    </div>
+                </div>
+            </div>
+         </section>
+         
+     <!-- <= send abut  footer section tag  -->
+     <!-- /////////////////////// -->
+    <footer class="footer">
+        <div class="main-footer">
+            <div class="call-me">
+                <div class="title">
+                    <h3>NEWSLETTER</h3>
+                    <p>Join the JUMIX community and get exclusive offerse and Updetes</p>
+                </div>
+                <div class="emsil-user">
+                    
+                    
+                    <input class="input-email" type="email" placeholder="  Enter your email">
+                <button class="btn-send-mail"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <ul class="link-footer">
+                <li><h4>COMPANY</h4></li>
+                <li><p><a href="">About Us</a></p></li>
+                <li><p><a href="">Careers</a></p></li>
+                <li><p><a href="">News</a></p></li>
+                <li><p><a href="">Sustainability</a></p></li>
+                <li><p><a href="">Become a Partner</a></p></li>
+            </ul>
+            <ul class="link-footer">
+                <li><h4>SUPPORT</h4></li>
+                <li><p><a href="">Help Center</a></p></li>
+                <li><p><a href="">Shipping</a></p></li>
+                <li><p><a href="">Return</a></p></li>
+                <li><p><a href="">Size Guide</a></p></li>
+                <li><p><a href="">Track Order</a></p></li>
+                <li><p><a href="">Contact Us</a></p></li>
+            </ul>
+            <ul class="link-footer">
+               <li> <h4>SHOP</h4></li>
+                <li><p><a href="">All Shoes</a></p></li>
+                <li><p><a href="">Volleyball</a></p></li>
+                <li><p><a href="">Basketball</a></p></li>
+                <li><p><a href="">Training</a></p></li>
+                <li><p><a href="">Lifestyle</a></p></li>
+                <li><p><a href="">Collections</a></p></li>
+            </ul>
+            <div class="about-us">
+                <div class="logo-img"><img class="img-res" src="assest/img/lego-header-site.png" alt=""></div>
+                <div class="discription">
+                    <p>Built for athletes. Designed for performace. JUMIX SPORT delivers premium quality and unstoppable energy in every move</p>
+                </div>
+                <ul class="icon-contact">
+                    <li><a id="email-icon" href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+                    <li><a id="instagram-icon"  href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a id="telegram-icon"  href=""><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+                    <li><a  id="youtube-icon" href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    <li><a id="phone-icon"  href=""><i class="fa fa-phone" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            </div>
+            <div>
+                <div class="line-section"></div>
+            </div>
+            <div class="b-footer">
+                <div class="foot-mo">
+                    <h6>c 2025 JUMIX SPORT.All rights reserved.</h6>
+                </div>
+                <ul class="foot-tozi">
+                    <li>Privacy Policy</li>
+                    <li>Terms of Service</li>
+                    <li>Cookie Policy</li>
+                </ul>
+            </div>
+    </footer>
+</body>
+</html>

@@ -5,6 +5,7 @@
 @import url("about-section.css");
 @import url("footer.css");
 @import url("product.css");
+@import url(articles.css);
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
 @font-face {
   font-family: "Oswald", sans-serif;
@@ -50,3 +51,50 @@ background: #8c8c8c;
 background: radial-gradient(circle, rgba(140, 140, 140, 0.81) 10%, rgba(255, 255, 255, 0) 100%);
 }
 /* //////////////////////////////////////// */
+.main-banner-art{
+    display: flex;
+    width: 100%;
+    height: 350px;
+    max-width: 1200px;
+    margin: 50px auto;
+    border-radius: 10px;
+    border: 1px solid var(--line);
+    overflow: hidden;
+    background-color: var(--plan3);
+    img{
+        object-fit: cover;
+        width: 55%;
+        height: 100%;
+    }
+    .title-mba{
+        width: 100%;
+        height: 100%;
+        padding: 40px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        h3{
+            color: var(--green);
+            font-size: 14px;
+
+        }
+        h2{
+            font-size: 35px;
+            color:var(--white);
+
+        }
+        p{
+            color: var(--muted);
+            font-size: 14px;
+        }
+        button{
+            color: var(--plan3);
+            background-color: var(--green);
+            font-size: 20px;
+            border-radius:8px;
+            border: none;
+            padding: 10px;
+        }
+    }
+}
+/* /////////////////////////////////////////////// */
