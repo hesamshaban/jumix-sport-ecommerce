@@ -15,13 +15,13 @@
             <div class="nav-main-logo"><img class="img-res" src="assest/img/lego-header-site.png" alt="logo-jumix-sport"></div>
             <div class="nav-bar">
                 <ul>
-                    <li><a href="">home</a></li>
-                    <li><a href="">shose</a></li>
-                    <li><a href="">volleyball</a></li>
-                    <li><a href="">basketball</a></li>
-                    <li><a href="">collectioans</a></li>
-                    <li><a href="">about</a></li>
-                    <li><a href="">contact</a></li>
+                    <li><a data-id-move="home" data-state="link" data-file="home"  href="">home</a></li>
+                    <li><a data-id-move="shose"   data-state="link" data-file="shose" href="">shose</a></li>
+                    <li><a data-id-move="volly"  data-state="link" data-file="volleyball" href="">volleyball</a></li>
+                    <li><a data-id-move="basket"  data-state="link" data-file="basketball" href="">basketball</a></li>
+                    <li><a data-id-move="collect"  data-state="link" data-file="collectioans" href="">collectioans</a></li>
+                    <li><a data-id-move="about"  data-state="link" data-file="about" href="">about</a></li>
+                    <li><a data-id-move="contact"  data-state="link" data-file="contact" href="">contact</a></li>
                 </ul>
             </div>
             <div class="search-input">
@@ -40,18 +40,18 @@
                         </label>
                     </div>
                     </li>
-                    <li><a href=""><i class="fa fa-heart-o" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
-                    <li><a href=""><i class="fa fa-user" aria-hidden="true"></i></a></li>
-                    <li class="menu-res"><a id="btn-nav" onclick="click_menu();"  href="javascript:void(0);"><i class="fa fa-bars" aria-hidden="true"></i></a>
-                        <ul id="nav-bar-menu" class="menu-respon-m ">
-                            <li><a href="">home</a></li>
-                            <li><a href="">shose</a></li>
-                            <li><a href="">volleyball</a></li>
-                            <li><a href="">basketball</a></li>
-                            <li><a href="">collectioans</a></li>
-                            <li><a href="">about</a></li>
-                            <li><a href="">contact</a></li>
+                    <li><a data-state="link" data-id-move="love" href=""><i data-state="link" data-id-move="love" class="fa fa-heart-o" aria-hidden="true"></i></a></li>
+                    <li><a data-state="link" data-id-move="cart" href=""><i data-state="link" data-id-move="cart" class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                    <li><a data-state="link" data-id-move="login" href=""><i data-state="link" data-id-move="login" class="fa fa-user" aria-hidden="true"></i></a></li>
+                    <li class="menu-res" ><a id="btn-nav" data-state="menuResponsive" href="#"><i class="fa fa-bars" data-state="menuResponsive" aria-hidden="true"></i></a>
+                        <ul id="nav-bar-menu" class="menu-respon-m menu-respon-m-hidden">
+                            <li><a data-id-move="home"  data-state="link" href="" data-file="home">home</a></li>
+                            <li><a data-id-move="shose"  data-state="link" href=""data-file="shose">shose</a></li>
+                            <li><a data-id-move="volly"  data-state="link" href="" data-file="volleyball">volleyball</a></li>
+                            <li><a data-id-move="basket"  data-state="link" href="" data-file="basketball">basketball</a></li>
+                            <li><a data-id-move="collect" data-state="link"  href="" data-file="collectioans">collectioans</a></li>
+                            <li><a data-id-move="about" data-state="link"  href="" data-file="about">about</a></li>
+                            <li><a data-idmove="contact" data-state="link"  href="" data-file="contact">contact</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -73,23 +73,31 @@
 
     <main class="main-products">
         <div class="filter-products">
-            <h2 class="title-fillter">SPORT</h2>
-            <label for="s-v"><input id="s-v" type="checkbox" >Volleyball</label>
-            <label for="s-b"><input id="s-b" type="checkbox" >Basketball</label>
-            <div class="filter-gruop"></div>
-            <h2 class="title-fillter">PRODUCT TYPE</h2>
-            <label for="p-p"><input id="p-p" type="checkbox" >Performance</label>
-            <label for="p-t"><input id="p-t" type="checkbox" >Training</label>
-            <label for="p-l"><input id="p-l" type="checkbox" >Lifestyle</label>
-            <div class="filter-gruop"></div>
-            <h2>BRAND</h2>
-            <label for="b-j"><input id="b-j" type="checkbox" >Jumix</label>
-            <label for="b-n"><input id="b-n" type="checkbox" >Nike</label>
-            <label for="b-a"><input id="b-a" type="checkbox" >Adidass</label>
-            <div class="filter-gruop"></div>
-            <h2>PRICE</h2>
-            <input class="inpt-range" type="range" max="100" value="20" id="">
-            <h3>$0 — <i id="max-price-f">$200</i></h3>
+            <div class="wrapwer-item-filter">
+                <h2 class="title-fillter">SPORT</h2>
+                <label for="s-v"><input id="s-v" type="checkbox" >Volleyball</label>
+                <label for="s-b"><input id="s-b" type="checkbox" >Basketball</label>
+                <div class="filter-gruop"></div>
+            </div>
+            <div class="wrapwer-item-filter">
+                <h2 class="title-fillter">PRODUCT TYPE</h2>
+                <label for="p-p"><input id="p-p" type="checkbox" >Performance</label>
+                <label for="p-t"><input id="p-t" type="checkbox" >Training</label>
+                <label for="p-l"><input id="p-l" type="checkbox" >Lifestyle</label>
+                <div class="filter-gruop"></div>
+            </div>
+            <div class="wrapwer-item-filter">
+                <h2>BRAND</h2>
+                <label for="b-j"><input id="b-j" type="checkbox" >Jumix</label>
+                <label for="b-n"><input id="b-n" type="checkbox" >Nike</label>
+                <label for="b-a"><input id="b-a" type="checkbox" >Adidass</label>
+                <div class="filter-gruop"></div>
+            </div>
+            <div class="wrapwer-item-filter">
+                <h2>PRICE</h2>
+                <input class="inpt-range" type="range" max="100" value="20" id="">
+                <h3>$0 — <i id="max-price-f">$200</i></h3>
+            </div>
         </div>
         <div class="layer-tow">
             <div class="sort-product">
@@ -315,5 +323,7 @@
                 </ul>
             </div>
     </footer>
+    <script src="assest/js/header-nav.js"></script>
+
 </body>
 </html>

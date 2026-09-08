@@ -76,6 +76,7 @@
     margin: 20px auto;
     gap: 10px;
     .filter-products{
+
         width: 30%;
         height: fit-content;
         border-radius: 10px;
@@ -88,6 +89,10 @@
         padding: 30px 20px;
         display: flex;
         flex-direction: column;
+        .wrapwer-item-filter{
+            display: flex;
+            flex-direction: column;   
+        }
         h2{
             color: var(--white);
             font-size: 18px;
@@ -148,6 +153,7 @@
             }
         }
         .wrap-products{
+            width: 100%;
             display: grid;
             grid-template-columns:repeat( 4,1fr );
             padding: 10px;
@@ -238,22 +244,25 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /* width: 100%; */
     border: 1px solid var(--line);
     border-radius: 10px;
     background-color: var(--plan3);
-    width: 230px;
+    /* width: 230px; */
     overflow: hidden;
     .img-product{
         height: 205px;
         display: grid;
+        width: 100%;
         place-items: center;
         background: radial-gradient(circle, #262b25, #0c0d0d);
         padding: 15px;
         overflow: hidden;
         img{
-            
+            width: 150%;
+            transform: translateX(15%);
             object-fit: cover;
+            /* object-fit: cover; */
         }
     }.title-card-product{
         padding: 15px;
@@ -331,6 +340,38 @@
 
 
 /* ///////////////////////////////////////////// */
+@media (max-width:1170px) {
+    .main-products{
+        flex-direction: column;
+        .filter-products{
+            width: 100%;
+            position: relative;
+            /* flex-direction: row; */
+            display: grid;
+            grid-template-columns: repeat(4 ,1fr);
+            .filter-gruop{
+                display: none;
+            }
+        }
+        .layer-tow{
+            padding: 10px;
+        }
+        .sort-product{
+            margin-top: 92px;
+        }
+    }
+}
+@media (max-width:998px) {
+    .main-products{
+        .layer-tow{
+            .wrap-products{
+                
+                grid-template-columns:1fr 1fr 1fr;
+                gap: 10px;
+            }
+        }
+    }
+}
 @media (max-width:800px) {
     .header-main-art{
         
@@ -344,6 +385,16 @@
             }
             p{
                 font-size: 12px;
+            }
+        }
+    }
+}
+@media (max-width:558px) {
+    .main-products{
+        .layer-tow{
+            .wrap-products{
+                grid-template-columns: repeat(2,1fr);
+                gap: 10px;
             }
         }
     }

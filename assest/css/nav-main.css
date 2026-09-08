@@ -53,6 +53,12 @@ background: radial-gradient(circle, rgba(13, 84, 0, 0.22) 0%, rgba(255, 255, 255
 
 font-size: 19px;
 }
+.nav-bar >ul a.selected-n-m{
+        color: var(--green);
+    border-bottom: 2px solid var(--green);
+
+font-size: 19px;
+}
  /* end style for nav bar center */
 
  /* start style for nav icon */
@@ -86,7 +92,7 @@ font-size: 19px;
  .menu-respon-m{
     z-index: 999;
     list-style: none;
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -97,7 +103,9 @@ font-size: 19px;
     border-radius: 10px;
     backdrop-filter: blur(15px);
  }
-
+.menu-respon-m-hidden{
+    display: none;
+}
   .menu-respon-m li{
     padding: 5px;
     margin-top: 10px;
@@ -106,6 +114,11 @@ font-size: 19px;
     transition: all 0.7s;
    }
   .menu-respon-m li a:hover{
+    color: var(--green);
+    border-bottom: 2px solid var(--green);
+    font-size: 19px;
+  }
+  .menu-respon-m li a.selected-n-m{
     color: var(--green);
     border-bottom: 2px solid var(--green);
     font-size: 19px;
