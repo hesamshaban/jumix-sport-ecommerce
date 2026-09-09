@@ -1,4 +1,6 @@
-
+#header-import{
+    height: 70px;
+}
 /* start style for nav header => */
 .main-nav-head{
     padding-top: 5px;
@@ -6,6 +8,8 @@
     background-color: var(--black);
     position:fixed;
     top:0px;
+    /* margin-bottom: ; */
+
     z-index: 1000;
 }
 .main-nav-header{
@@ -139,6 +143,9 @@ font-size: 19px;
     border-radius: 40px;
     padding: 5px;
     transition: all 0.7s;
+}
+div.hidden-search{
+    display: flex;
 }
 .search-input label i {
     padding-right:5px ;

@@ -1,5 +1,21 @@
+import renderOrApi from "./renderOrApi.js";
+const headerParent = document.getElementById("header-import");
+new renderOrApi(  "./header.html", "html" ,headerParent).getHtmlType().then((result)=>{
+   
+    new headerEngine
+    console.log(headerParent)
+} , (error)=>{
+    headerParent.innerHTML="<h1 class ='error '>header no Loading...</h1>"
+})
 class headerEngine{
     #formatLonkMove = [
+        {id:"home",
+            address:"./index.html",
+            file:"home",
+            query:{
+                
+            }
+        },
         {id:"shose",
             address:"./products.html",
             file:"shose",
@@ -78,6 +94,7 @@ class headerEngine{
             this.clickManagerHeader(e);
 
         })
+        mainNavHeader.addEventListener('focusout' , (e)=>{this.searchEnginr(e)})
         this.menuItemSelect();
         
     }
@@ -89,6 +106,11 @@ class headerEngine{
                 break;
             case "link":
                 this.moveToPage(btnClicked);
+                break;
+            case "search":
+                this.showSearchRes(e);
+                break;
+
         }        
     }
     menuRespon(e){
@@ -144,13 +166,21 @@ class headerEngine{
                 quryParams.append(i , item.query[i]);
             }
             quryParams.append("file", item.file);
-
+            // console.log(quryParams.get("file"));
             // console.log(quryParams.toString())
             window.location.href = item.address+"?" + quryParams.toString()
 
         }
         
     }
+    showSearchRes(e){
+        const searchBox = document.getElementById("search-icon-nav-div");
+        searchBox.classList.toggle("hidden-search");
+    }
+    searchEnginr(e){
+        // console.log(e)
+        //////after figthur
+    }
 
 }
-new headerEngine
+
