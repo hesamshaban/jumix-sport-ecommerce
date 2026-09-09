@@ -54,11 +54,11 @@ class headerEngine{
                 art:"about"
             }
         },
-        {id:"contact",
-            file:"contact",
-            address:"./products.html",
+        {id:"articles",
+            file:"articles",
+            address:"./articles.html",
             query:{
-                art:"contact"
+                file:"articles"
             }
         },
         {id:"cart",

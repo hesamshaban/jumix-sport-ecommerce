@@ -5,6 +5,11 @@ class renderOrApi{
     constructor( url ,  typeFile="json" , elemParent){
         this.#url = url
         this.#ElemParent = elemParent;
+        this.managerEngin(typeFile);
+        
+
+    }
+    async managerEngin(typeFile){
         switch(typeFile){
             case "html":
                 this.getHtmlType()
@@ -13,10 +18,9 @@ class renderOrApi{
                 // get json type
                 break;
             default:
-                throw new Error("type file not found");
+                throw new Error("type file not found😥");
+                break
         }
-        
-
     }
     async getHtmlType(){
         try{

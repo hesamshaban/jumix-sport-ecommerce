@@ -24,6 +24,7 @@
     --back-gray:#0f1010;
     --whait:#ffff;
     --back-g:#131212;
+    --green:#39ff14;--green2:#7ec303;--black:#080808;--bg:#0f1010;--panel:#151717;--panel2:#1b1d1d;--line:#2a2d2d;--muted:#999;--white:#fff;--plan3:#111414;
 }
 *{
     font-family: "Oswald";
@@ -99,6 +100,8 @@ background: radial-gradient(circle, rgba(140, 140, 140, 0.81) 10%, rgba(255, 255
 }
 /* /////////////////////////////////////////////// */
 .error{
+    margin: auto;
+    margin-top: 20px;
     color:red;
     padding: 20px;
     width: 100%;
@@ -108,7 +111,83 @@ background: radial-gradient(circle, rgba(140, 140, 140, 0.81) 10%, rgba(255, 255
     border: 1px solid red;
     border-radius: 10px;
 }
+/* ////////////////////////////////////////////////////////// */
+.list-article{
+    width: 98%;
+    max-width: 1200px;
+    margin: auto;
+    border:1px solid var(--line) ;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .title-list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        h2{
+            color:var(--whait);
+            font-size: 20px;
+        }
+        h5{
+            a{
+                font-size: 14px;
+                color: var(--muted);
 
+            }
+            a:hover{
+                color: var(--green);
+            }
+        }
+    }
+    .wraper-item-list-article{
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        gap: 15px;
+        padding: 10px;
+        .card-article{
+            background-color: var(--plan3);
+            overflow: hidden;
+            border: 1px solid var(--line);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            /* width: 100%; */
+            .img-title{
+                width: 100%;
+                
+                img{
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                    /* height: auto; */
+                    
+                }
+            }
+            .card-title-text{
+                padding: 20px;
+                width: 100%;
+                .item-category{
+                    color: var(--green);
+                    font-size: 12px;
+                }
+                .item-header{
+                    color: var(--white);
+                    font-size: 18px;
+                }
+                .wraper-item-information{
+                    display: flex;
+                    margin-top: 5px;
+                    justify-content: space-between;
+                    h4{
+                        color: var(--gray-text);
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 
@@ -121,5 +200,9 @@ background: radial-gradient(circle, rgba(140, 140, 140, 0.81) 10%, rgba(255, 255
             width: 100%;
 
         }
+    }
+    .wraper-item-list-article{
+        grid-template-columns: repeat(2 , 1fr)!important;
+        
     }
 }
