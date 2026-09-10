@@ -2,17 +2,18 @@ class renderOrApi{
     #ElemParent
     #htmlChild
     #url
+    #typeFile;
     constructor( url ,  typeFile="json" , elemParent){
         this.#url = url
         this.#ElemParent = elemParent;
-        this.managerEngin(typeFile);
-        
+        // this.managerEngin(typeFile);
+        this.#typeFile = typeFile;
 
     }
-    async managerEngin(typeFile){
-        switch(typeFile){
+    async managerEngin(){
+        switch(this.#typeFile){
             case "html":
-                this.getHtmlType()
+                await this.getHtmlType()
                 break;
             case "json":
                 // get json type
@@ -21,6 +22,8 @@ class renderOrApi{
                 throw new Error("type file not found😥");
                 break
         }
+        
+        
     }
     async getHtmlType(){
         try{
@@ -44,6 +47,7 @@ class renderOrApi{
     }
     setDatahtml(){
         this.#ElemParent.innerHTML = this.#htmlChild;
+        
     }
     
 }

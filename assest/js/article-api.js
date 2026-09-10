@@ -1,20 +1,11 @@
+export { articleApiEngine};
+
 class articleApiEngine{
     #urlApi = "./assest/date/articles.json"
     #typeList
     #singelType;
-    constructor( method="article" , id="001"  , typeList , singelType){
-        switch(method){
-            case "article":
-                this.setResponArticle(id);
-                break;
-            case "list":
-                this.#singelType = singelType;
-                this.#typeList = typeList;
-                this.creatList();
-                break;
-            default:
-                throw new Error("method get api Error😤");
-        }
+    constructor(){
+        
     }
     async getApi(){
         let respon = await fetch(this.#urlApi);
@@ -22,7 +13,14 @@ class articleApiEngine{
         return date
         
     }
-    async creatList(){
+    async allArticle(){
+        let allArt = await this.getApi();
+        return allArt;
+    }
+    async creatList(typeList){
+         this.#typeList =typeList
+        let itemFainaly;
+
         let respon = await this.getApi();
         switch (this.#typeList){
             case "random":
@@ -31,7 +29,7 @@ class articleApiEngine{
             case "timer":
                 timeAsList(respon);
                 break;
-            case "sinel":
+            case "singel":
                 singelList(respon)
                 break;
             default :
@@ -41,30 +39,42 @@ class articleApiEngine{
         function randomList(res){
             let listRandomItem = [];
             let listRandomNumber=[] ;
-            while(listRandomNumber.length < 4 ){
-                let num = Math.floor(Math.random()* res.length);
-                let condition= listRandomNumber.every((i)=>{
-                    return i !== num;
+            if(res.length >=4){
+                while(listRandomNumber.length < 4 ){
+                    let num = Math.floor(Math.random()* res.length);
+                    let condition= listRandomNumber.every((i)=>{
+                        return i !== num;
+                    })
+                    if(condition){
+                        listRandomNumber.push(num);
+                    }
+                }
+                listRandomNumber.forEach((i)=>{
+                    listRandomItem.push(res[i])
                 })
-                if(condition){
-                    listRandomNumber.push(num);
+            }
+            else{
+                for(let i=0 ;i<4;i++ ){
+                    listRandomItem.push(res[Math.floor(Math.random()* res.length)]);
+                    
                 }
             }
-            // for(let i=0 ;i<4;i++ ){
-            //     listRandomItem.push(res[Math.floor(Math.random()* res.length)]);
-                
-            // }
-            console.log(listRandomNumber);
+            itemFainaly = listRandomItem;
             
         }
         function timeAsList(res){
-
+            //coming soon
         }
         function singelList(res){
+            // singel time with time Coming soooooon
+            let listSingelItem =(res[Math.floor(Math.random()* res.length)]);
+            itemFainaly = listSingelItem;
 
+            
         }
+        return itemFainaly;
     }
-    async setResponArticle(id){
+    async setByIdArticle(id){
         let artMain;
         let respon = await this.getApi();
         artMain = respon.find(art => {
@@ -78,5 +88,5 @@ class articleApiEngine{
     }
 }
 
+export default articleApiEngine;
 
-new articleApiEngine("list" , "001" , "random")

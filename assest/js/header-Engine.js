@@ -1,9 +1,8 @@
 import renderOrApi from "./renderOrApi.js";
 const headerParent = document.getElementById("header-import");
-new renderOrApi(  "./header.html", "html" ,headerParent).getHtmlType().then((result)=>{
-   
+new renderOrApi(  "./header.html", "html" ,headerParent).managerEngin().then((result)=>{
+   console.log("header load");
     new headerEngine
-    console.log(headerParent)
 } , (error)=>{
     headerParent.innerHTML="<h1 class ='error '>header no Loading...</h1>"
 })
