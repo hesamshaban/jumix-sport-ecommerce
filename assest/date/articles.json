@@ -1,38 +1,3160 @@
 [
     {
-        "id":"001",
-        "title":"for example",
-        "caption":"caption haye baraye test emkanat hay vaghei"
-        ,"category":"Volleyball",
-        "cover":"/assest/img/header.png"
-        ,"timeC":"sep9,2027"
-        ,"content":[
+        "id": "001",
+        "title": "for example",
+        "caption": "caption haye baraye test emkanat hay vaghei",
+        "category": "Volleyball",
+        "cover": "/assest/img/header.png",
+        "timeC": "sep9,2027",
+        "content": [
             {
-                "type":"heading"
-                ,"value":"start article system for example"
+                "type": "heading",
+                "value": "start article system for example"
+            },
+            {
+                "type": "paragraph",
+                "value": "in maghale serfan braye test neveshte shode ast va hich bahre bardari nadarad"
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/header.png",
+                "alt": "alt for test",
+                "caption": "caption image test"
+            },
+            {
+                "type": "heading",
+                "value": "part tow headin tag for examp"
+            },
+            {
+                "type": "paragraph",
+                "value": "in maghale serfan braye test neveshte shode ast va hich bahre bardari nadarad"
+            },
+            {
+                "type": "quote",
+                "value": "adam ha mitavanad baraye khodeshoon tasmim bgiran",
+                "author": "Hesam shaban"
             }
-            ,{
-                "type":"paragraph"
-                ,"value":"in maghale serfan braye test neveshte shode ast va hich bahre bardari nadarad"
+        ],
+        "dir": "ltr"
+    },
+    {
+        "id": "en-001",
+        "title": "The Science of VO2 Max: What Endurance Really Measures",
+        "caption": "VO2 max gets treated like a magic number. Here's what it actually tells a coach, and what it leaves out.",
+        "category": "Sport Science",
+        "cover": "/assest/img/articles/vo2max/cover.jpg",
+        "timeC": "jan10,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "What VO2 Max Actually Measures"
+            },
+            {
+                "type": "paragraph",
+                "value": "VO2 max is the maximum rate at which your body can take in, transport and use oxygen during intense effort. It's tested by pushing an athlete to exhaustion on a treadmill or bike while measuring the gas they breathe out. A higher number means more oxygen can reach working muscles per minute, which sets a ceiling on aerobic performance."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/vo2max/img-1.jpg",
+                "alt": "Runner mid-stride on a track at dusk",
+                "caption": "Aerobic capacity sets the ceiling — pacing decides who reaches it."
+            },
+            {
+                "type": "heading",
+                "value": "Why a High Number Isn't the Whole Story"
+            },
+            {
+                "type": "paragraph",
+                "value": "Two athletes with an identical VO2 max can finish a race minutes apart. Running economy, lactate threshold and the ability to sustain a high percentage of that ceiling for hours matter just as much. A lab number predicts potential; it doesn't predict who wins on race day."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/vo2max/img-2.jpg",
+                "alt": "Sports lab treadmill testing setup",
+                "caption": "A VO2 max test in progress — data that shapes personalized training zones."
+            },
+            {
+                "type": "heading",
+                "value": "Training Zones Built Around Oxygen Use"
+            },
+            {
+                "type": "paragraph",
+                "value": "Modern programs use VO2 max testing mainly to set personalized heart-rate and pace zones, so easy days stay easy and hard days stay purposeful. Retesting every few months shows whether a training block is actually improving aerobic capacity or just adding fatigue."
+            },
+            {
+                "type": "quote",
+                "value": "A great engine still needs a driver who knows how to use it.",
+                "author": "Dr. Elena Cross, JUMIX Sport Science Lead"
             }
-            ,{
-                "type":"img"
-                ,"value":"/assest/img/header.png"
-                ,"alt":"alt for test"
-                ,"caption":"caption image test"
+        ]
+    },
+    {
+        "id": "fa-001",
+        "title": "علم VO2 Max؛ استقامت واقعاً چه چیزی را اندازه می‌گیرد؟",
+        "caption": "با VO2 max مثل یک عدد جادویی رفتار می‌شود. این مطلب می‌گوید این شاخص واقعاً چه می‌گوید و چه چیزهایی را نشان نمی‌دهد.",
+        "category": "علم ورزش",
+        "cover": "/assest/img/articles/vo2max/cover.jpg",
+        "timeC": "jan10,2026",
+        "dir": "rtl",
+        "nadher":"jumix Team"
+        ,"content": [
+            {
+                "type": "heading",
+                "value": "VO2 Max دقیقاً چه چیزی را نشان می‌دهد"
+            },
+            {
+                "type": "paragraph",
+                "value": "VO2 max حداکثر نرخی است که بدن می‌تواند در فعالیت شدید، اکسیژن را دریافت، منتقل و مصرف کند. این شاخص با رساندن ورزشکار تا مرز خستگی روی تردمیل یا دوچرخه و اندازه‌گیری گاز بازدمی سنجیده می‌شود. عدد بالاتر یعنی اکسیژن بیشتری در هر دقیقه به عضلات فعال می‌رسد و همین سقف عملکرد هوازی را تعیین می‌کند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/vo2max/img-1.jpg",
+                "alt": "دونده در میانه گام روی پیست در غروب",
+                "caption": "ظرفیت هوازی سقف را تعیین می‌کند؛ ریتم مسابقه تعیین می‌کند چه کسی به آن می‌رسد."
+            },
+            {
+                "type": "heading",
+                "value": "چرا عدد بالا همه‌ی داستان نیست"
+            },
+            {
+                "type": "paragraph",
+                "value": "دو ورزشکار با VO2 max یکسان ممکن است چند دقیقه با هم فاصله داشته باشند تا خط پایان. اقتصاد دویدن، آستانه لاکتات و توانایی حفظ درصد بالایی از آن سقف برای ساعت‌ها، به همان اندازه اهمیت دارد. یک عدد آزمایشگاهی پتانسیل را پیش‌بینی می‌کند، نه برنده‌ی روز مسابقه را."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/vo2max/img-2.jpg",
+                "alt": "تجهیزات تست تردمیل در آزمایشگاه ورزشی",
+                "caption": "تست VO2 max در حال انجام؛ داده‌ای که ناحیه‌های تمرینی شخصی‌سازی‌شده را شکل می‌دهد."
+            },
+            {
+                "type": "heading",
+                "value": "ناحیه‌های تمرینی بر پایه مصرف اکسیژن"
+            },
+            {
+                "type": "paragraph",
+                "value": "برنامه‌های مدرن از تست VO2 max عمدتاً برای تعیین ناحیه‌های ضربان قلب و سرعت اختصاصی هر فرد استفاده می‌کنند تا روزهای سبک واقعاً سبک بمانند و روزهای سخت هدفمند باشند. تکرار تست هر چند ماه یک‌بار نشان می‌دهد که آیا یک دوره تمرینی واقعاً ظرفیت هوازی را بالا برده یا فقط خستگی اضافه کرده است."
+            },
+            {
+                "type": "quote",
+                "value": "یک موتور عالی هم به راننده‌ای نیاز دارد که بلد باشد از آن استفاده کند.",
+                "author": "دکتر النا کراس، مسئول علم ورزش جومیکس"
             }
-            ,{
-                "type":"heading"
-                ,"value":"part tow headin tag for examp"
+        ]
+    },
+    {
+        "id": "en-002",
+        "title": "Fascia and Free Speed: How Elastic Energy Powers a Sprint",
+        "caption": "Muscles aren't the only thing driving a fast start. Tendons and fascia work like springs, and that spring can be trained.",
+        "category": "Sport Science",
+        "cover": "/assest/img/articles/fascia-elastic/cover.jpg",
+        "timeC": "jan17,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "The Body's Hidden Springs"
+            },
+            {
+                "type": "paragraph",
+                "value": "When a sprinter's foot strikes the ground, tendons and fascia stretch and store energy like a compressed spring, then release it on the next push-off. This elastic recoil reduces the metabolic cost of each stride, letting muscles focus on force rather than doing all the work themselves."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/fascia-elastic/img-1.jpg",
+                "alt": "Sprinter exploding out of the blocks",
+                "caption": "Ground contact time is where elastic energy is stored and released."
+            },
+            {
+                "type": "heading",
+                "value": "Why Stiffness Isn't a Bad Word"
+            },
+            {
+                "type": "paragraph",
+                "value": "A certain amount of tendon stiffness is desirable in sprinters and jumpers — it improves the efficiency of that spring-like return. Plyometric drills, hopping and bounding train this quality directly, teaching the body to spend less time on the ground while still producing high force."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/fascia-elastic/img-2.jpg",
+                "alt": "Athlete performing a bounding plyometric drill",
+                "caption": "Bounding drills train the tendon's spring-like response directly."
+            },
+            {
+                "type": "heading",
+                "value": "Training the Spring Without Breaking It"
+            },
+            {
+                "type": "paragraph",
+                "value": "Because tendons adapt more slowly than muscles, elastic training is introduced gradually and monitored closely. Coaches build volume over weeks, not days, to let connective tissue catch up — the goal is a stronger spring, not an overloaded one."
+            },
+            {
+                "type": "quote",
+                "value": "You don't outrun the ground. You learn to bounce off it.",
+                "author": "Marcus Fields, JUMIX Performance Coach"
             }
-            ,{
-                "type":"paragraph"
-                ,"value":"in maghale serfan braye test neveshte shode ast va hich bahre bardari nadarad"
+        ]
+    },
+    {
+        "id": "fa-002",
+        "title": "فاسیا و سرعت رایگان؛ انرژی الاستیک چگونه دوی سرعت را قدرت می‌دهد",
+        "caption": "عضلات تنها عامل شروع سریع نیستند. تاندون‌ها و فاسیا مثل فنر عمل می‌کنند، و این فنر قابل تمرین دادن است.",
+        "category": "علم ورزش",
+        "cover": "/assest/img/articles/fascia-elastic/cover.jpg",
+        "timeC": "jan17,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "فنرهای پنهان بدن"
+            },
+            {
+                "type": "paragraph",
+                "value": "وقتی پای دونده‌ی سرعت به زمین می‌خورد، تاندون‌ها و فاسیا مثل یک فنر فشرده کشیده و انرژی را ذخیره می‌کنند، سپس آن را در فشار بعدی آزاد می‌کنند. این بازگشت الاستیک هزینه متابولیکی هر گام را کم می‌کند و اجازه می‌دهد عضلات روی تولید نیرو تمرکز کنند نه تمام کار را خودشان انجام دهند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/fascia-elastic/img-1.jpg",
+                "alt": "دونده سرعت در حال خروج از بلوک استارت",
+                "caption": "زمان تماس با زمین جایی است که انرژی الاستیک ذخیره و آزاد می‌شود."
+            },
+            {
+                "type": "heading",
+                "value": "چرا سفتی همیشه بد نیست"
+            },
+            {
+                "type": "paragraph",
+                "value": "مقداری سفتی تاندون در دوندگان سرعت و پرش‌کاران مطلوب است؛ چون کارایی آن بازگشت فنری را بالا می‌برد. تمرین‌های پلایومتریک، جفت‌پرش و گام‌های جهشی این ویژگی را مستقیم تمرین می‌دهند و به بدن یاد می‌دهند زمان کمتری روی زمین بگذارد و همچنان نیروی زیادی تولید کند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/fascia-elastic/img-2.jpg",
+                "alt": "ورزشکار در حال انجام تمرین جهشی پلایومتریک",
+                "caption": "تمرین‌های جهشی پاسخ فنری تاندون را مستقیم تمرین می‌دهند."
+            },
+            {
+                "type": "heading",
+                "value": "تمرین دادن فنر بدون شکستن آن"
+            },
+            {
+                "type": "paragraph",
+                "value": "چون تاندون‌ها کندتر از عضله سازگار می‌شوند، تمرین‌های الاستیک به‌تدریج و با نظارت دقیق معرفی می‌شوند. مربیان حجم تمرین را در طول هفته‌ها بالا می‌برند نه روزها، تا بافت همبند فرصت هماهنگ شدن پیدا کند؛ هدف فنر قوی‌تر است، نه فنر تحت فشار زیاد."
+            },
+            {
+                "type": "quote",
+                "value": "از زمین جلو نمی‌زنی؛ یاد می‌گیری از آن برگردی.",
+                "author": "مارکوس فیلدز، مربی عملکرد جومیکس"
             }
-            ,{
-                "type":"quote"
-                ,"value":"adam ha mitavanad baraye khodeshoon tasmim bgiran"
-                ,"author":"Hesam shaban"
+        ]
+    },
+    {
+        "id": "en-003",
+        "title": "Wearables on Court: Turning Movement Into Real-Time Data",
+        "caption": "Small sensors are quietly changing how volleyball and basketball teams see fatigue, load and risk before it becomes an injury.",
+        "category": "Sport Science",
+        "cover": "/assest/img/articles/wearables/cover.jpg",
+        "timeC": "jan24,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "From Stopwatch to Sensor"
+            },
+            {
+                "type": "paragraph",
+                "value": "Inertial sensors small enough to sit between the shoulder blades now track jump count, acceleration, deceleration and change of direction in real time. For jump-heavy sports like volleyball and basketball, this turns a practice into a stream of numbers coaches can act on immediately, not review days later."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/wearables/img-1.jpg",
+                "alt": "Volleyball player wearing a small back sensor during practice",
+                "caption": "A compact sensor tracks jump load without slowing the player down."
+            },
+            {
+                "type": "heading",
+                "value": "Reading Load, Not Just Effort"
+            },
+            {
+                "type": "paragraph",
+                "value": "Two players can look equally tired and carry very different physical loads. Wearables quantify total jump count and impact forces across a week, helping staff spot when a player is accumulating fatigue faster than they're recovering — often before the player notices it themselves."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/wearables/img-2.jpg",
+                "alt": "Coach reviewing performance data on a tablet courtside",
+                "caption": "Live data lets staff adjust a session while it's still happening."
+            },
+            {
+                "type": "heading",
+                "value": "Data Is a Conversation Starter, Not a Verdict"
+            },
+            {
+                "type": "paragraph",
+                "value": "The best programs treat wearable data as one input among several, cross-checked against sleep, wellness surveys and how a player actually moves. A number never benches an athlete on its own — it opens a conversation between coach, medical staff and the player."
+            },
+            {
+                "type": "quote",
+                "value": "The sensor doesn't replace the coach's eye. It gives the eye somewhere to look first.",
+                "author": "Dr. Elena Cross, JUMIX Sport Science Lead"
+            }
+        ]
+    },
+    {
+        "id": "fa-003",
+        "title": "پوشیدنی‌ها در زمین؛ تبدیل حرکت به داده لحظه‌ای",
+        "caption": "حسگرهای کوچک به‌آرامی نحوه دیدن خستگی، بار تمرینی و ریسک را در والیبال و بسکتبال، پیش از تبدیل شدن به مصدومیت، تغییر می‌دهند.",
+        "category": "علم ورزش",
+        "cover": "/assest/img/articles/wearables/cover.jpg",
+        "timeC": "jan24,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "از کرنومتر تا حسگر"
+            },
+            {
+                "type": "paragraph",
+                "value": "حسگرهای اینرسی که آن‌قدر کوچک‌اند که بین دو کتف جا می‌شوند، اکنون تعداد پرش، شتاب، کاهش سرعت و تغییر جهت را به‌صورت لحظه‌ای ثبت می‌کنند. برای ورزش‌های پرپرش مثل والیبال و بسکتبال، این یعنی یک تمرین به جریانی از داده تبدیل می‌شود که مربی می‌تواند همان لحظه روی آن عمل کند، نه روزها بعد."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/wearables/img-1.jpg",
+                "alt": "بازیکن والیبال با حسگر کوچک پشتی هنگام تمرین",
+                "caption": "یک حسگر فشرده بار پرش را بدون کند کردن بازیکن ثبت می‌کند."
+            },
+            {
+                "type": "heading",
+                "value": "خواندن بار تمرینی، نه فقط تلاش"
+            },
+            {
+                "type": "paragraph",
+                "value": "دو بازیکن می‌توانند به یک اندازه خسته به نظر برسند اما بار فیزیکی کاملاً متفاوتی حمل کنند. پوشیدنی‌ها تعداد کل پرش و نیروی برخورد را در طول یک هفته اندازه می‌گیرند و به کادر کمک می‌کنند تشخیص دهند چه زمانی خستگی یک بازیکن سریع‌تر از ریکاوری‌اش انباشته می‌شود، اغلب پیش از آنکه خودِ بازیکن متوجه شود."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/wearables/img-2.jpg",
+                "alt": "مربی در حال بررسی داده عملکرد روی تبلت کنار زمین",
+                "caption": "داده لحظه‌ای به کادر اجازه می‌دهد جلسه را همان لحظه تنظیم کند."
+            },
+            {
+                "type": "heading",
+                "value": "داده شروع‌کننده گفتگو است، نه حکم نهایی"
+            },
+            {
+                "type": "paragraph",
+                "value": "بهترین برنامه‌ها داده‌ی پوشیدنی‌ها را یکی از چند ورودی می‌بینند، در کنار خواب، پرسش‌نامه‌های سلامت و نحوه واقعی حرکت بازیکن. هیچ عددی به‌تنهایی بازیکنی را کنار نمی‌گذارد؛ فقط گفتگویی بین مربی، کادر پزشکی و بازیکن را باز می‌کند."
+            },
+            {
+                "type": "quote",
+                "value": "حسگر جای چشم مربی را نمی‌گیرد؛ فقط به آن چشم می‌گوید اول کجا را نگاه کند.",
+                "author": "دکتر النا کراس، مسئول علم ورزش جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-004",
+        "title": "Heat Acclimatization: Training the Body to Handle the Heat",
+        "caption": "Playing well in the heat isn't toughness alone — it's a physiological adaptation that can be built on purpose.",
+        "category": "Sport Science",
+        "cover": "/assest/img/articles/heat-acclimation/cover.jpg",
+        "timeC": "feb3,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "What the Body Learns From Heat"
+            },
+            {
+                "type": "paragraph",
+                "value": "Repeated exposure to heat triggers real adaptations: earlier and heavier sweating, expanded blood plasma volume, and a lower resting core temperature. These changes typically build over one to two weeks of consistent exposure and noticeably reduce cardiovascular strain during hot-weather competition."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/heat-acclimation/img-1.jpg",
+                "alt": "Athletes training outdoors under bright sun",
+                "caption": "Progressive heat exposure builds real cardiovascular adaptation."
+            },
+            {
+                "type": "heading",
+                "value": "Why Rushing It Backfires"
+            },
+            {
+                "type": "paragraph",
+                "value": "Athletes who skip acclimatization and go straight into intense heat face a much higher risk of heat illness, since the body hasn't yet built the cooling capacity to match the demand. Controlled, progressive heat exposure in training is safer and more effective than hoping for the best on game day."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/heat-acclimation/img-2.jpg",
+                "alt": "Athlete drinking water during a hot-weather training break",
+                "caption": "Hydration protocols are built around measured fluid loss, not guesswork."
+            },
+            {
+                "type": "heading",
+                "value": "Practical Ways Teams Build Tolerance"
+            },
+            {
+                "type": "paragraph",
+                "value": "Programs use shorter, controlled heat sessions, deliberate hydration protocols and sometimes post-exercise hot baths to trigger adaptation without overloading recovery. Monitoring body weight before and after sessions is a simple way to track fluid loss and adjust the plan."
+            },
+            {
+                "type": "quote",
+                "value": "Heat tolerance isn't willpower. It's plasma volume, and plasma volume can be trained.",
+                "author": "Dr. Elena Cross, JUMIX Sport Science Lead"
+            }
+        ]
+    },
+    {
+        "id": "fa-004",
+        "title": "سازگاری با گرما؛ آماده کردن بدن برای مقابله با گرما",
+        "caption": "بازی خوب در گرما فقط سرسختی نیست؛ یک سازگاری فیزیولوژیک است که می‌توان آن را عمداً ساخت.",
+        "category": "علم ورزش",
+        "cover": "/assest/img/articles/heat-acclimation/cover.jpg",
+        "timeC": "feb3,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "بدن از گرما چه می‌آموزد"
+            },
+            {
+                "type": "paragraph",
+                "value": "قرار گرفتن مکرر در معرض گرما سازگاری‌های واقعی ایجاد می‌کند: تعریق زودتر و بیشتر، افزایش حجم پلاسمای خون و پایین‌تر آمدن دمای مرکزی بدن در حالت استراحت. این تغییرات معمولاً طی یک تا دو هفته قرارگیری منظم شکل می‌گیرد و فشار قلبی-عروقی را در مسابقات هوای گرم به‌طور محسوسی کم می‌کند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/heat-acclimation/img-1.jpg",
+                "alt": "ورزشکاران در حال تمرین در فضای باز زیر نور شدید خورشید",
+                "caption": "قرارگیری تدریجی در گرما سازگاری واقعی قلبی-عروقی می‌سازد."
+            },
+            {
+                "type": "heading",
+                "value": "چرا عجله کردن نتیجه معکوس می‌دهد"
+            },
+            {
+                "type": "paragraph",
+                "value": "ورزشکارانی که سازگاری را رد می‌کنند و مستقیم وارد گرمای شدید می‌شوند، با ریسک بسیار بالاتر بیماری‌های گرمایی روبه‌رو هستند، چون بدن هنوز ظرفیت خنک‌سازی متناسب با نیاز را نساخته است. قرارگیری کنترل‌شده و تدریجی در گرما طی تمرین، ایمن‌تر و مؤثرتر از امیدواری در روز مسابقه است."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/heat-acclimation/img-2.jpg",
+                "alt": "ورزشکار در حال نوشیدن آب هنگام استراحت تمرین در هوای گرم",
+                "caption": "پروتکل‌های هیدراتاسیون بر پایه اندازه‌گیری مایعات از دست‌رفته ساخته می‌شوند، نه حدس."
+            },
+            {
+                "type": "heading",
+                "value": "راه‌های عملی تیم‌ها برای ساخت تحمل"
+            },
+            {
+                "type": "paragraph",
+                "value": "برنامه‌ها از جلسات کوتاه و کنترل‌شده گرمایی، پروتکل‌های هیدراتاسیون هدفمند و گاهی حمام گرم پس از تمرین برای تحریک سازگاری بدون فشار اضافه به ریکاوری استفاده می‌کنند. اندازه‌گیری وزن بدن پیش و پس از جلسه، راهی ساده برای پیگیری میزان از دست رفتن مایعات و تنظیم برنامه است."
+            },
+            {
+                "type": "quote",
+                "value": "تحمل گرما اراده نیست؛ حجم پلاسماست، و حجم پلاسما قابل تمرین دادن است.",
+                "author": "دکتر النا کراس، مسئول علم ورزش جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-005",
+        "title": "Sleep Architecture: The Recovery Tool Athletes Underuse",
+        "caption": "No supplement comes close to what a well-structured night of sleep does for an athlete's next-day performance.",
+        "category": "Sport Science",
+        "cover": "/assest/img/articles/sleep-recovery/cover.jpg",
+        "timeC": "feb10,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "Why Sleep Stages Matter, Not Just Hours"
+            },
+            {
+                "type": "paragraph",
+                "value": "Sleep isn't one uniform state — it cycles through light, deep and REM stages roughly every ninety minutes. Deep sleep is when the body releases most of its growth hormone and does the heaviest physical repair, while REM sleep supports motor learning and reaction time."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/sleep-recovery/img-1.jpg",
+                "alt": "Athlete asleep in a dark, quiet bedroom",
+                "caption": "Deep sleep stages drive most of the body's physical repair."
+            },
+            {
+                "type": "heading",
+                "value": "What Cuts Into Recovery Sleep"
+            },
+            {
+                "type": "paragraph",
+                "value": "Late-night screens, inconsistent sleep and wake times, and evening caffeine all fragment the deeper stages of sleep even when total hours look adequate on paper. An athlete can log eight hours and still wake up under-recovered if that sleep was constantly interrupted."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/sleep-recovery/img-2.jpg",
+                "alt": "Sleep tracking data displayed on a phone screen",
+                "caption": "Tracking sleep alongside training load helps flag under-recovery early."
+            },
+            {
+                "type": "heading",
+                "value": "Building a Recovery-Friendly Routine"
+            },
+            {
+                "type": "paragraph",
+                "value": "Consistent sleep and wake times, a cool dark room and winding down without screens before bed are simple, evidence-backed habits. Some programs now track sleep alongside training load, treating a bad night as seriously as a missed session."
+            },
+            {
+                "type": "quote",
+                "value": "You can't out-train a bad night's sleep. You can only out-rest it.",
+                "author": "Dr. Elena Cross, JUMIX Sport Science Lead"
+            }
+        ]
+    },
+    {
+        "id": "fa-005",
+        "title": "معماری خواب؛ ابزار ریکاوری‌ای که ورزشکاران کم از آن استفاده می‌کنند",
+        "caption": "هیچ مکملی به‌اندازه یک شب خواب باکیفیت روی عملکرد روز بعد ورزشکار اثر ندارد.",
+        "category": "علم ورزش",
+        "cover": "/assest/img/articles/sleep-recovery/cover.jpg",
+        "timeC": "feb10,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "چرا مراحل خواب مهم‌اند، نه فقط تعداد ساعت"
+            },
+            {
+                "type": "paragraph",
+                "value": "خواب یک حالت یکنواخت نیست؛ تقریباً هر نود دقیقه بین مراحل سبک، عمیق و REM چرخه می‌زند. خواب عمیق زمانی است که بدن بیشترین هورمون رشد را آزاد می‌کند و سنگین‌ترین ترمیم فیزیکی را انجام می‌دهد، درحالی‌که خواب REM از یادگیری حرکتی و زمان واکنش پشتیبانی می‌کند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/sleep-recovery/img-1.jpg",
+                "alt": "ورزشکار در خواب در اتاقی تاریک و ساکت",
+                "caption": "مراحل خواب عمیق بیشترین ترمیم فیزیکی بدن را انجام می‌دهند."
+            },
+            {
+                "type": "heading",
+                "value": "چه چیزی خواب ریکاوری را خراب می‌کند"
+            },
+            {
+                "type": "paragraph",
+                "value": "صفحه‌نمایش تا دیروقت، زمان خواب و بیداری نامنظم و کافئین عصرگاهی، همگی مراحل عمیق‌تر خواب را قطعه‌قطعه می‌کنند حتی اگر مجموع ساعات روی کاغذ کافی به نظر برسد. یک ورزشکار می‌تواند هشت ساعت بخوابد و همچنان با ریکاوری ناقص بیدار شود اگر آن خواب مدام قطع شده باشد."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/sleep-recovery/img-2.jpg",
+                "alt": "داده ردیابی خواب روی صفحه گوشی",
+                "caption": "پیگیری خواب در کنار بار تمرینی به تشخیص زودهنگام ریکاوری ناقص کمک می‌کند."
+            },
+            {
+                "type": "heading",
+                "value": "ساختن یک روتین دوستدار ریکاوری"
+            },
+            {
+                "type": "paragraph",
+                "value": "زمان ثابت خواب و بیداری، اتاق خنک و تاریک، و آرام کردن ذهن بدون صفحه‌نمایش پیش از خواب، عادت‌های ساده و مبتنی بر شواهد هستند. برخی برنامه‌ها اکنون خواب را در کنار بار تمرینی پیگیری می‌کنند و یک شب بد را به‌اندازه یک جلسه ازدست‌رفته جدی می‌گیرند."
+            },
+            {
+                "type": "quote",
+                "value": "نمی‌توانی با تمرین بیشتر، یک شب خواب بد را جبران کنی؛ فقط می‌توانی با استراحت بیشتر جبرانش کنی.",
+                "author": "دکتر النا کراس، مسئول علم ورزش جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-006",
+        "title": "Neuromuscular Fatigue: The Tiredness That Doesn't Show on a Stopwatch",
+        "caption": "An athlete can look fresh and still have a slower nervous system underneath. Here's why that matters late in games.",
+        "category": "Sport Science",
+        "cover": "/assest/img/articles/neuromuscular/cover.jpg",
+        "timeC": "feb17,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "Two Kinds of Tired"
+            },
+            {
+                "type": "paragraph",
+                "value": "Muscular fatigue is what burns during a heavy set. Neuromuscular fatigue is different — it's a slowdown in how quickly the brain can recruit muscle fibers and fire signals, and it can linger well after muscle soreness fades, quietly affecting reaction time and coordination."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/neuromuscular/img-1.jpg",
+                "alt": "Basketball player reacting late in a fourth-quarter play",
+                "caption": "Reaction speed is often the first thing to fade, not raw strength."
+            },
+            {
+                "type": "heading",
+                "value": "Why It Shows Up Late in Matches"
+            },
+            {
+                "type": "paragraph",
+                "value": "This is often the hidden factor behind a player who reacts a beat slower in the fourth quarter or fifth set, even though they don't look physically gassed. Fine motor control and split-second decisions are usually the first things to degrade, long before raw strength drops off."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/neuromuscular/img-2.jpg",
+                "alt": "Athlete performing a jump-height test on a mat",
+                "caption": "Simple jump tests flag fatigue building up before it shows on the court."
+            },
+            {
+                "type": "heading",
+                "value": "Monitoring and Managing It"
+            },
+            {
+                "type": "paragraph",
+                "value": "Simple tools like jump-height testing or grip-strength checks before and after sessions give coaches an early signal of neuromuscular fatigue building up across a season. Adjusting practice intensity in response, rather than pushing through it, protects both performance and injury risk."
+            },
+            {
+                "type": "quote",
+                "value": "The legs can still run. It's the wiring that gets tired first.",
+                "author": "Marcus Fields, JUMIX Performance Coach"
+            }
+        ]
+    },
+    {
+        "id": "fa-006",
+        "title": "خستگی عصبی-عضلانی؛ خستگی‌ای که روی کرنومتر دیده نمی‌شود",
+        "caption": "یک ورزشکار می‌تواند سرحال به نظر برسد اما سیستم عصبی‌اش کندتر شده باشد. این موضوع در انتهای بازی‌ها اهمیت دارد.",
+        "category": "علم ورزش",
+        "cover": "/assest/img/articles/neuromuscular/cover.jpg",
+        "timeC": "feb17,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "دو نوع خستگی"
+            },
+            {
+                "type": "paragraph",
+                "value": "خستگی عضلانی همان چیزی است که در یک ست سنگین می‌سوزد. خستگی عصبی-عضلانی متفاوت است؛ کند شدن سرعتی است که مغز می‌تواند فیبرهای عضلانی را فراخوانی کند و سیگنال بفرستد، و می‌تواند مدت‌ها پس از فروکش کردن درد عضلانی باقی بماند و بی‌سروصدا روی زمان واکنش و هماهنگی اثر بگذارد."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/neuromuscular/img-1.jpg",
+                "alt": "بازیکن بسکتبال در حال واکنش در اواخر کوارتر چهارم",
+                "caption": "سرعت واکنش اغلب اولین چیزی است که افت می‌کند، نه قدرت خام."
+            },
+            {
+                "type": "heading",
+                "value": "چرا در انتهای بازی‌ها خودش را نشان می‌دهد"
+            },
+            {
+                "type": "paragraph",
+                "value": "این اغلب عامل پنهان بازیکنی است که در کوارتر چهارم یا ست پنجم کمی کندتر واکنش نشان می‌دهد، حتی اگر از نظر فیزیکی خسته به نظر نرسد. کنترل حرکتی ظریف و تصمیم‌های لحظه‌ای معمولاً اولین چیزهایی هستند که افت می‌کنند، خیلی پیش از افت قدرت خام."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/neuromuscular/img-2.jpg",
+                "alt": "ورزشکار در حال انجام تست ارتفاع پرش روی تشک",
+                "caption": "تست‌های ساده پرش، خستگی در حال انباشته شدن را پیش از بروز در زمین نشان می‌دهند."
+            },
+            {
+                "type": "heading",
+                "value": "پایش و مدیریت آن"
+            },
+            {
+                "type": "paragraph",
+                "value": "ابزارهای ساده مثل تست ارتفاع پرش یا بررسی قدرت مچ دست پیش و پس از جلسات، سیگنال زودهنگامی از انباشته شدن خستگی عصبی-عضلانی در طول فصل به مربیان می‌دهد. تنظیم شدت تمرین در واکنش به آن، به‌جای ادامه دادن با فشار، هم عملکرد و هم ریسک مصدومیت را محافظت می‌کند."
+            },
+            {
+                "type": "quote",
+                "value": "پاها هنوز می‌توانند بدوند؛ این سیم‌کشی است که اول خسته می‌شود.",
+                "author": "مارکوس فیلدز، مربی عملکرد جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-007",
+        "title": "Carbon Plates and Running Economy: What the Science Says",
+        "caption": "A stiff carbon plate inside a foam midsole changed distance running. Here's the mechanism behind the hype.",
+        "category": "Sport Science",
+        "cover": "/assest/img/articles/carbon-plate/cover.jpg",
+        "timeC": "feb24,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "A Lever Inside the Shoe"
+            },
+            {
+                "type": "paragraph",
+                "value": "A curved carbon-fiber plate embedded in a thick, resilient foam midsole acts like a rigid lever. It reduces the energy lost bending the foot through push-off and helps return stored energy at the right moment in the stride, lowering the metabolic cost of running at a given pace."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/carbon-plate/img-1.jpg",
+                "alt": "Cross-section view of a running shoe midsole with embedded plate",
+                "caption": "The curved plate and high-rebound foam work as a single system."
+            },
+            {
+                "type": "heading",
+                "value": "Why the Foam Matters as Much as the Plate"
+            },
+            {
+                "type": "paragraph",
+                "value": "The plate alone doesn't do much without a foam soft and lively enough to compress and rebound efficiently. It's the pairing — high-rebound foam plus a stabilizing plate — that produces the combined effect, which is why simply adding a plate to an ordinary midsole rarely replicates the results."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/carbon-plate/img-2.jpg",
+                "alt": "Distance runner mid-stride on a road course",
+                "caption": "The efficiency gain is clearest over long, steady-pace efforts."
+            },
+            {
+                "type": "heading",
+                "value": "Where the Benefit Shows Up Most"
+            },
+            {
+                "type": "paragraph",
+                "value": "The efficiency gain is most measurable in steady-pace distance running. It has a smaller, more debated effect on court sports with constant direction changes, where stability and traction usually matter more than straight-line propulsion."
+            },
+            {
+                "type": "quote",
+                "value": "The plate doesn't run for you. It just makes every stride cost a little less.",
+                "author": "Priya Nakamura, JUMIX Footwear Engineer"
+            }
+        ]
+    },
+    {
+        "id": "fa-007",
+        "title": "صفحه کربنی و اقتصاد دویدن؛ علم چه می‌گوید",
+        "caption": "یک صفحه کربنی سفت داخل میان‌کفی فومی، دوی استقامت را متحول کرد. مکانیزم پشت این هیاهو این است.",
+        "category": "علم ورزش",
+        "cover": "/assest/img/articles/carbon-plate/cover.jpg",
+        "timeC": "feb24,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "یک اهرم داخل کفش"
+            },
+            {
+                "type": "paragraph",
+                "value": "یک صفحه فیبر کربن منحنی که داخل میان‌کفی فومی ضخیم و کشسان جاسازی شده، مثل یک اهرم سفت عمل می‌کند. این صفحه انرژی از دست‌رفته در خم شدن پا هنگام فشار پایانی را کم می‌کند و کمک می‌کند انرژی ذخیره‌شده در لحظه مناسب گام بازگردد، که هزینه متابولیکی دویدن در یک سرعت مشخص را پایین می‌آورد."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/carbon-plate/img-1.jpg",
+                "alt": "برش عرضی میان‌کفی کفش دویدن با صفحه جاسازی‌شده",
+                "caption": "صفحه منحنی و فوم با بازگشت بالا مثل یک سیستم واحد کار می‌کنند."
+            },
+            {
+                "type": "heading",
+                "value": "چرا فوم به‌اندازه صفحه مهم است"
+            },
+            {
+                "type": "paragraph",
+                "value": "خود صفحه بدون فومی که به‌اندازه کافی نرم و پرانرژی باشد تا کارآمد فشرده و بازگردد، کار زیادی انجام نمی‌دهد. این ترکیب فوم با بازگشت بالا و صفحه‌ی تثبیت‌کننده است که اثر مشترک را ایجاد می‌کند، به همین دلیل فقط اضافه کردن صفحه به یک میان‌کفی معمولی به‌ندرت همان نتیجه را تکرار می‌کند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/carbon-plate/img-2.jpg",
+                "alt": "دونده استقامت در میانه گام در مسیر جاده‌ای",
+                "caption": "افزایش کارایی در تلاش‌های طولانی و با سرعت ثابت واضح‌تر است."
+            },
+            {
+                "type": "heading",
+                "value": "کجا این مزیت بیشتر دیده می‌شود"
+            },
+            {
+                "type": "paragraph",
+                "value": "افزایش کارایی بیشتر در دویدن استقامت با سرعت ثابت قابل اندازه‌گیری است. در ورزش‌های زمینی با تغییر جهت مداوم، اثر آن کوچک‌تر و بحث‌برانگیزتر است، جایی که پایداری و چسبندگی معمولاً از پیشرانش خط‌مستقیم مهم‌تر است."
+            },
+            {
+                "type": "quote",
+                "value": "صفحه به‌جای تو نمی‌دود؛ فقط هزینه هر گام را کمی کمتر می‌کند.",
+                "author": "پریا ناکامورا، مهندس پوشاک ورزشی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-008",
+        "title": "Blood Flow Restriction Training: Big Gains From Light Loads",
+        "caption": "Wrapping a cuff around a limb and lifting light weights sounds unlikely to work. The physiology behind it says otherwise.",
+        "category": "Sport Science",
+        "cover": "/assest/img/articles/bfr-training/cover.jpg",
+        "timeC": "mar3,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "How Light Weight Can Feel Heavy"
+            },
+            {
+                "type": "paragraph",
+                "value": "Blood flow restriction training uses a pneumatic cuff to partially limit blood flow to a working limb while exercising with light loads, often around twenty to thirty percent of what someone could normally lift. The partial restriction creates a metabolic environment similar to much heavier lifting, triggering muscle growth signals without the joint stress of maximal loads."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/bfr-training/img-1.jpg",
+                "alt": "Athlete's arm with a blood flow restriction cuff during light training",
+                "caption": "A pneumatic cuff partially restricts blood flow during light-load training."
+            },
+            {
+                "type": "heading",
+                "value": "Where It's Most Useful"
+            },
+            {
+                "type": "paragraph",
+                "value": "This makes it especially valuable during injury rehabilitation, when heavy loading isn't yet appropriate but muscle mass and strength still need to be maintained. It's also used by healthy athletes as a low-impact way to add training volume without extra joint wear."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/bfr-training/img-2.jpg",
+                "alt": "Physiotherapist supervising a rehab strength session",
+                "caption": "Supervision matters — pressure and duration are dialed in individually."
+            },
+            {
+                "type": "heading",
+                "value": "Why It Needs Supervision"
+            },
+            {
+                "type": "paragraph",
+                "value": "Cuff pressure, session duration and limb selection all matter for both safety and effectiveness, which is why the method is typically introduced under the guidance of a trained clinician or coach rather than used casually."
+            },
+            {
+                "type": "quote",
+                "value": "You can make a light weight feel heavy to the muscle without making it heavy on the joint.",
+                "author": "Dr. Elena Cross, JUMIX Sport Science Lead"
+            }
+        ]
+    },
+    {
+        "id": "fa-008",
+        "title": "تمرین محدودیت جریان خون؛ نتایج بزرگ از وزنه‌های سبک",
+        "caption": "بستن یک کاف دور اندام و بلند کردن وزنه سبک بعید به نظر می‌رسد جواب بدهد. فیزیولوژی پشت آن چیز دیگری می‌گوید.",
+        "category": "علم ورزش",
+        "cover": "/assest/img/articles/bfr-training/cover.jpg",
+        "timeC": "mar3,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "چگونه وزنه سبک می‌تواند سنگین حس شود"
+            },
+            {
+                "type": "paragraph",
+                "value": "تمرین محدودیت جریان خون از یک کاف بادی برای محدود کردن جزئی جریان خون به اندام فعال حین تمرین با وزنه‌های سبک، اغلب حدود بیست تا سی درصد وزنه معمول فرد، استفاده می‌کند. این محدودیت جزئی محیطی متابولیک شبیه تمرین با وزنه خیلی سنگین‌تر ایجاد می‌کند و سیگنال‌های رشد عضلانی را بدون فشار مفصلی وزنه‌های حداکثری فعال می‌کند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/bfr-training/img-1.jpg",
+                "alt": "بازوی ورزشکار با کاف محدودیت جریان خون هنگام تمرین سبک",
+                "caption": "یک کاف بادی حین تمرین با وزنه سبک، جریان خون را جزئی محدود می‌کند."
+            },
+            {
+                "type": "heading",
+                "value": "کجا بیشترین کاربرد را دارد"
+            },
+            {
+                "type": "paragraph",
+                "value": "همین ویژگی آن را در دوران ریکاوری از مصدومیت بسیار ارزشمند می‌کند، زمانی که وزنه سنگین هنوز مناسب نیست اما همچنان باید توده و قدرت عضلانی حفظ شود. ورزشکاران سالم نیز از آن به‌عنوان راهی کم‌فشار برای افزودن حجم تمرین بدون سایش اضافه مفصل استفاده می‌کنند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/bfr-training/img-2.jpg",
+                "alt": "فیزیوتراپیست در حال نظارت بر جلسه تقویتی ریکاوری",
+                "caption": "نظارت مهم است؛ فشار و مدت زمان به‌صورت فردی تنظیم می‌شود."
+            },
+            {
+                "type": "heading",
+                "value": "چرا به نظارت نیاز دارد"
+            },
+            {
+                "type": "paragraph",
+                "value": "فشار کاف، مدت جلسه و انتخاب اندام همگی هم برای ایمنی و هم اثربخشی مهم‌اند، به همین دلیل این روش معمولاً زیر نظر یک متخصص یا مربی آموزش‌دیده معرفی می‌شود، نه به‌صورت آزاد و بدون نظارت."
+            },
+            {
+                "type": "quote",
+                "value": "می‌توانی وزنه سبک را برای عضله سنگین حس کنی، بدون آنکه برای مفصل سنگین باشد.",
+                "author": "دکتر النا کراس، مسئول علم ورزش جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-009",
+        "title": "Genetics and Talent ID: What DNA Can and Can't Tell a Coach",
+        "caption": "Genetic testing in youth sport is growing fast. The science is real, but the hype has outrun it.",
+        "category": "Sport Science",
+        "cover": "/assest/img/articles/genetics-talent/cover.jpg",
+        "timeC": "mar10,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "What the Tests Actually Look At"
+            },
+            {
+                "type": "paragraph",
+                "value": "Some youth sport programs now offer genetic panels that flag variants linked to muscle fiber type, tendon stiffness or recovery speed. These markers have real, published associations with athletic traits, but each one only explains a small slice of a hugely complex picture."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/genetics-talent/img-1.jpg",
+                "alt": "Sports science lab sample tubes on a tray",
+                "caption": "Genetic markers offer clues, not certainties, about athletic potential."
+            },
+            {
+                "type": "heading",
+                "value": "Why One Gene Never Decides Anything"
+            },
+            {
+                "type": "paragraph",
+                "value": "Athletic performance is influenced by hundreds of genes interacting with training, nutrition, coaching and plain opportunity. A favorable variant doesn't guarantee success, and an unfavorable one doesn't rule it out — history is full of elite athletes who wouldn't have been picked by a gene panel alone."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/genetics-talent/img-2.jpg",
+                "alt": "Youth athletes training together on an indoor court",
+                "caption": "Coaching, opportunity and effort still shape outcomes far more than any single gene."
+            },
+            {
+                "type": "heading",
+                "value": "A Tool, Not a Verdict"
+            },
+            {
+                "type": "paragraph",
+                "value": "Used responsibly, genetic information can help personalize recovery protocols or flag injury-risk markers worth monitoring. Used irresponsibly, it can narrow opportunity for a child based on incomplete science. Most sport scientists treat it as one small data point among many, not a talent gatekeeper."
+            },
+            {
+                "type": "quote",
+                "value": "DNA can suggest a starting point. It has never once run a training session.",
+                "author": "Dr. Elena Cross, JUMIX Sport Science Lead"
+            }
+        ]
+    },
+    {
+        "id": "fa-009",
+        "title": "ژنتیک و شناسایی استعداد؛ DNA چه می‌گوید و چه نمی‌گوید",
+        "caption": "تست ژنتیک در ورزش نوجوانان به‌سرعت در حال رشد است. علمش واقعی است، اما هیاهوی اطرافش از آن جلو زده.",
+        "category": "علم ورزش",
+        "cover": "/assest/img/articles/genetics-talent/cover.jpg",
+        "timeC": "mar10,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "این تست‌ها واقعاً به چه چیزی نگاه می‌کنند"
+            },
+            {
+                "type": "paragraph",
+                "value": "برخی برنامه‌های ورزش نوجوانان اکنون پنل‌های ژنتیکی ارائه می‌دهند که واریانت‌های مرتبط با نوع فیبر عضلانی، سفتی تاندون یا سرعت ریکاوری را نشان می‌دهند. این نشانگرها ارتباط واقعی و منتشرشده‌ای با ویژگی‌های ورزشی دارند، اما هرکدام فقط بخش کوچکی از یک تصویر بسیار پیچیده را توضیح می‌دهند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/genetics-talent/img-1.jpg",
+                "alt": "لوله‌های نمونه آزمایشگاه علم ورزش روی سینی",
+                "caption": "نشانگرهای ژنتیکی سرنخ می‌دهند، نه قطعیت، درباره پتانسیل ورزشی."
+            },
+            {
+                "type": "heading",
+                "value": "چرا یک ژن هرگز چیزی را قطعی نمی‌کند"
+            },
+            {
+                "type": "paragraph",
+                "value": "عملکرد ورزشی تحت تأثیر صدها ژن است که با تمرین، تغذیه، مربی‌گری و فرصت ساده تعامل دارند. یک واریانت مطلوب موفقیت را تضمین نمی‌کند و یک واریانت نامطلوب آن را رد نمی‌کند؛ تاریخ پر از ورزشکاران نخبه‌ای است که یک پنل ژنتیک به‌تنهایی هرگز آن‌ها را انتخاب نمی‌کرد."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/genetics-talent/img-2.jpg",
+                "alt": "ورزشکاران نوجوان در حال تمرین با هم در سالن سرپوشیده",
+                "caption": "مربی‌گری، فرصت و تلاش همچنان بسیار بیشتر از هر ژن منفرد بر نتیجه اثر می‌گذارند."
+            },
+            {
+                "type": "heading",
+                "value": "یک ابزار، نه یک حکم"
+            },
+            {
+                "type": "paragraph",
+                "value": "اگر مسئولانه استفاده شود، اطلاعات ژنتیکی می‌تواند به شخصی‌سازی پروتکل‌های ریکاوری یا شناسایی نشانگرهای قابل پایش ریسک مصدومیت کمک کند. اگر غیرمسئولانه استفاده شود، می‌تواند فرصت یک کودک را بر پایه علمی ناقص محدود کند. اغلب متخصصان علم ورزش آن را یک نقطه داده کوچک در کنار خیلی چیزهای دیگر می‌بینند، نه دروازه‌بان استعداد."
+            },
+            {
+                "type": "quote",
+                "value": "DNA می‌تواند یک نقطه شروع پیشنهاد بدهد؛ اما هیچ‌وقت یک جلسه تمرینی را خودش اجرا نکرده.",
+                "author": "دکتر النا کراس، مسئول علم ورزش جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-010",
+        "title": "AI Video Analysis: How Coaches See the Game Differently Now",
+        "caption": "Pose-tracking software can now break down a jump shot or an approach jump frame by frame, in minutes instead of hours.",
+        "category": "Sport Science",
+        "cover": "/assest/img/articles/ai-video-analysis/cover.jpg",
+        "timeC": "mar17,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "From Film Room to Frame-by-Frame Data"
+            },
+            {
+                "type": "paragraph",
+                "value": "AI-based video analysis tools can now track joint angles, timing and body position automatically from ordinary game footage, turning hours of manual film review into a searchable, measurable dataset within minutes of a session ending."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/ai-video-analysis/img-1.jpg",
+                "alt": "Pose-tracking overlay on a basketball player's jump shot",
+                "caption": "Joint-angle tracking turns a jump shot into measurable, comparable data."
+            },
+            {
+                "type": "heading",
+                "value": "Catching What the Naked Eye Misses"
+            },
+            {
+                "type": "paragraph",
+                "value": "A shooting-arm angle that's two degrees off, or a takeoff foot landing a fraction of a second early, is nearly impossible to catch consistently by eye across dozens of repetitions. Automated tracking flags these small deviations and shows them next to a player's own best-performance baseline."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/ai-video-analysis/img-2.jpg",
+                "alt": "Coach and player reviewing footage on a laptop courtside",
+                "caption": "Visual feedback lands faster than a verbal correction mid-session."
+            },
+            {
+                "type": "heading",
+                "value": "Still a Tool the Coach Has to Interpret"
+            },
+            {
+                "type": "paragraph",
+                "value": "The software surfaces patterns; it doesn't decide what to do about them. Good staff use it to confirm or challenge what they already suspect, and to give players concrete, visual feedback instead of a verbal correction that's hard to picture mid-game."
+            },
+            {
+                "type": "quote",
+                "value": "The camera doesn't get tired of watching the same rep forty times. The coach shouldn't have to either.",
+                "author": "Marcus Fields, JUMIX Performance Coach"
+            }
+        ]
+    },
+    {
+        "id": "fa-010",
+        "title": "تحلیل ویدیویی هوش مصنوعی؛ مربیان اکنون چطور بازی را متفاوت می‌بینند",
+        "caption": "نرم‌افزار ردیابی حرکت اکنون می‌تواند یک شوت یا پرش حمله را فریم‌به‌فریم، در چند دقیقه به‌جای چند ساعت، تجزیه کند.",
+        "category": "علم ورزش",
+        "cover": "/assest/img/articles/ai-video-analysis/cover.jpg",
+        "timeC": "mar17,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "از اتاق فیلم تا داده فریم‌به‌فریم"
+            },
+            {
+                "type": "paragraph",
+                "value": "ابزارهای تحلیل ویدیویی مبتنی بر هوش مصنوعی اکنون می‌توانند زاویه مفاصل، زمان‌بندی و وضعیت بدن را به‌طور خودکار از فیلم معمولی بازی ردیابی کنند و ساعت‌ها بررسی دستی فیلم را به یک مجموعه داده قابل‌جست‌وجو و قابل‌اندازه‌گیری در چند دقیقه پس از پایان جلسه تبدیل کنند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/ai-video-analysis/img-1.jpg",
+                "alt": "همپوشانی ردیابی حرکت روی شوت پرشی بازیکن بسکتبال",
+                "caption": "ردیابی زاویه مفاصل یک شوت پرشی را به داده قابل‌اندازه‌گیری و مقایسه تبدیل می‌کند."
+            },
+            {
+                "type": "heading",
+                "value": "دیدن چیزی که چشم غیرمسلح از دست می‌دهد"
+            },
+            {
+                "type": "paragraph",
+                "value": "زاویه بازوی شوت که دو درجه اشتباه است، یا پای برخاستنی که کسری از ثانیه زودتر فرود می‌آید، تقریباً غیرممکن است که با چشم و به‌طور پیوسته در ده‌ها تکرار تشخیص داده شود. ردیابی خودکار این انحراف‌های کوچک را نشان می‌دهد و کنار بهترین عملکرد خود بازیکن قرار می‌دهد."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/ai-video-analysis/img-2.jpg",
+                "alt": "مربی و بازیکن در حال بررسی فیلم روی لپ‌تاپ کنار زمین",
+                "caption": "بازخورد تصویری سریع‌تر از اصلاح کلامی وسط جلسه اثر می‌کند."
+            },
+            {
+                "type": "heading",
+                "value": "همچنان ابزاری که مربی باید تفسیرش کند"
+            },
+            {
+                "type": "paragraph",
+                "value": "نرم‌افزار الگوها را نشان می‌دهد؛ تصمیم نمی‌گیرد با آن‌ها چه باید کرد. کادر خوب از آن برای تأیید یا به چالش کشیدن چیزی که از قبل حدس می‌زدند استفاده می‌کند، و به بازیکنان بازخورد تصویری و ملموس می‌دهد به‌جای اصلاح کلامی‌ای که تصورش وسط بازی سخت است."
+            },
+            {
+                "type": "quote",
+                "value": "دوربین از دیدن یک حرکت برای چهلمین بار خسته نمی‌شود؛ مربی هم نباید مجبور باشد باشد.",
+                "author": "مارکوس فیلدز، مربی عملکرد جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-011",
+        "title": "Anatomy of a Modern Volleyball Shoe",
+        "caption": "Volleyball shoes look simple next to basketball sneakers, but every part is built around one thing: repeated vertical landings.",
+        "category": "Volleyball",
+        "cover": "/assest/img/articles/volleyball-shoe-anatomy/cover.jpg",
+        "timeC": "mar24,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "Built for Landing, Not Just Jumping"
+            },
+            {
+                "type": "paragraph",
+                "value": "A volleyball shoe's job isn't really the jump — it's the landing, over and over, often from an awkward angle after a block or a swing. That means a wide, stable base and a forefoot built to resist ankle roll matter more than raw cushioning height."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/volleyball-shoe-anatomy/img-1.jpg",
+                "alt": "Close-up of a volleyball shoe outsole tread pattern",
+                "caption": "Gum-rubber tread is tuned for grip on polished indoor courts."
+            },
+            {
+                "type": "heading",
+                "value": "Gum Rubber and Indoor Grip"
+            },
+            {
+                "type": "paragraph",
+                "value": "Most volleyball shoes use a non-marking gum-rubber outsole tuned specifically for polished indoor courts, offering high traction without excessive stick that could twist a knee on a quick direction change. This is different from the harder rubber compounds used on outdoor basketball courts."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/volleyball-shoe-anatomy/img-2.jpg",
+                "alt": "Volleyball player landing after a block at the net",
+                "caption": "Repeated landings, not the jump itself, are what the shoe is really built to handle."
+            },
+            {
+                "type": "heading",
+                "value": "Lightweight Uppers for Fast Footwork"
+            },
+            {
+                "type": "paragraph",
+                "value": "Because volleyball involves constant short, fast steps to adjust position before a play, uppers are kept light and breathable, often mesh-based with targeted overlays only where lateral support is actually needed, rather than heavy structure everywhere."
+            },
+            {
+                "type": "quote",
+                "value": "A volleyball shoe earns its keep in the split second after the landing, not during the jump.",
+                "author": "Priya Nakamura, JUMIX Footwear Engineer"
+            }
+        ]
+    },
+    {
+        "id": "fa-011",
+        "title": "آناتومی یک کفش والیبال مدرن",
+        "caption": "کفش‌های والیبال در کنار کتانی‌های بسکتبال ساده به نظر می‌رسند، اما هر بخش آن حول یک چیز ساخته شده: فرودهای عمودی مکرر.",
+        "category": "والیبال",
+        "cover": "/assest/img/articles/volleyball-shoe-anatomy/cover.jpg",
+        "timeC": "mar24,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "ساخته‌شده برای فرود، نه فقط پرش"
+            },
+            {
+                "type": "paragraph",
+                "value": "کار کفش والیبال واقعاً پرش نیست؛ فرود است، بارها و بارها، اغلب از زاویه‌ای ناجور پس از یک بلاک یا اسپک. یعنی پایه‌ای پهن و پایدار و پنجه‌ای که در برابر پیچش مچ پا مقاوم باشد، بیشتر از ارتفاع خالص کوشن اهمیت دارد."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/volleyball-shoe-anatomy/img-1.jpg",
+                "alt": "نمای نزدیک از طرح آج کف بیرونی کفش والیبال",
+                "caption": "آج لاستیک صمغی برای چسبندگی روی زمین‌های سرپوشیده صیقلی تنظیم شده است."
+            },
+            {
+                "type": "heading",
+                "value": "لاستیک صمغی و چسبندگی داخل سالن"
+            },
+            {
+                "type": "paragraph",
+                "value": "اغلب کفش‌های والیبال از یک کف بیرونی لاستیک صمغی بدون‌رد استفاده می‌کنند که مخصوص زمین‌های سرپوشیده صیقلی تنظیم شده و چسبندگی بالا بدون چسبندگی بیش‌ازحد ارائه می‌دهد که ممکن است در تغییر جهت سریع زانو را بپیچاند. این با ترکیب لاستیک سخت‌تر زمین‌های بسکتبال روباز فرق دارد."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/volleyball-shoe-anatomy/img-2.jpg",
+                "alt": "بازیکن والیبال در حال فرود پس از بلاک کنار تور",
+                "caption": "فرودهای مکرر، نه خود پرش، چیزی است که کفش واقعاً برای آن ساخته شده."
+            },
+            {
+                "type": "heading",
+                "value": "رویه‌های سبک برای فوت‌ورک سریع"
+            },
+            {
+                "type": "paragraph",
+                "value": "چون والیبال شامل قدم‌های کوتاه و سریع پیوسته برای تنظیم موقعیت پیش از یک اکشن است، رویه‌ها سبک و قابل‌تنفس نگه داشته می‌شوند، اغلب بر پایه مش با روکش‌های هدفمند فقط جایی که پشتیبانی جانبی واقعاً لازم است، نه ساختار سنگین در همه‌جا."
+            },
+            {
+                "type": "quote",
+                "value": "کفش والیبال ارزشش را در کسری از ثانیه پس از فرود نشان می‌دهد، نه حین پرش.",
+                "author": "پریا ناکامورا، مهندس پوشاک ورزشی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-012",
+        "title": "How Basketball Cushioning Systems Evolved",
+        "caption": "From flat foam to pressurized air pockets to reactive polymer foams — cushioning technology keeps chasing the same goal from different directions.",
+        "category": "Basketball",
+        "cover": "/assest/img/articles/basketball-cushioning/cover.jpg",
+        "timeC": "apr3,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "The Original Problem: Impact, Repeated Thousands of Times"
+            },
+            {
+                "type": "paragraph",
+                "value": "A basketball game involves thousands of small and large impacts — running, cutting, jumping and landing. Early basketball shoes relied on simple compressed foam, which cushioned reasonably well when new but broke down and packed out relatively quickly under that repeated load."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/basketball-cushioning/img-1.jpg",
+                "alt": "Cutaway diagram-style view of a basketball shoe midsole cushioning",
+                "caption": "Different cushioning generations solve the same problem in different ways."
+            },
+            {
+                "type": "heading",
+                "value": "Air and Gel Pockets Change the Approach"
+            },
+            {
+                "type": "paragraph",
+                "value": "Encapsulated air units and gel inserts introduced a different idea: a sealed pocket of material that compresses and rebounds without permanently deforming the way foam eventually does, extending how long the cushioning stays consistent over the life of the shoe."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/basketball-cushioning/img-2.jpg",
+                "alt": "Basketball player landing hard after a rebound",
+                "caption": "Consistent cushioning late in a game matters as much as it does early on."
+            },
+            {
+                "type": "heading",
+                "value": "Modern Reactive Foams"
+            },
+            {
+                "type": "paragraph",
+                "value": "Newer foam chemistries are engineered to be both softer at rest and more responsive under load than older compressed foams, aiming to combine plush comfort for walking with energy return for explosive movement — the long-running goal cushioning technology keeps working toward."
+            },
+            {
+                "type": "quote",
+                "value": "Cushioning isn't about being soft. It's about giving the same response on rep one thousand that you got on rep one.",
+                "author": "Priya Nakamura, JUMIX Footwear Engineer"
+            }
+        ]
+    },
+    {
+        "id": "fa-012",
+        "title": "سیستم‌های کوشن بسکتبال چگونه تکامل یافتند",
+        "caption": "از فوم تخت تا کیسه‌های هوای فشرده تا فوم‌های واکنشی پلیمری؛ فناوری کوشن همچنان همان هدف را از زوایای متفاوت دنبال می‌کند.",
+        "category": "بسکتبال",
+        "cover": "/assest/img/articles/basketball-cushioning/cover.jpg",
+        "timeC": "apr3,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "مشکل اصلی: ضربه، هزاران بار تکرارشونده"
+            },
+            {
+                "type": "paragraph",
+                "value": "یک بازی بسکتبال شامل هزاران ضربه کوچک و بزرگ است؛ دویدن، تغییر جهت، پرش و فرود. کفش‌های اولیه بسکتبال به فوم فشرده ساده متکی بودند که وقتی نو بود نسبتاً خوب کوشن می‌کرد اما نسبتاً سریع زیر این بار مکرر فرسوده و صاف می‌شد."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/basketball-cushioning/img-1.jpg",
+                "alt": "نمای برش‌خورده میان‌کفی کوشن کفش بسکتبال",
+                "caption": "نسل‌های مختلف کوشن، یک مشکل مشترک را به روش‌های متفاوت حل می‌کنند."
+            },
+            {
+                "type": "heading",
+                "value": "کیسه‌های هوا و ژل رویکرد را تغییر دادند"
+            },
+            {
+                "type": "paragraph",
+                "value": "واحدهای هوای کپسوله‌شده و اینسرت‌های ژل ایده متفاوتی معرفی کردند: یک کیسه مهروموم‌شده از ماده که فشرده و بازمی‌گردد بدون آنکه دائمی تغییر شکل دهد، آن‌طور که فوم در نهایت این کار را می‌کند، و این طول عمر ثبات کوشن را در طول عمر کفش افزایش می‌دهد."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/basketball-cushioning/img-2.jpg",
+                "alt": "بازیکن بسکتبال در حال فرود سنگین پس از ریباند",
+                "caption": "ثبات کوشن در اواخر بازی به‌اندازه اوایل آن اهمیت دارد."
+            },
+            {
+                "type": "heading",
+                "value": "فوم‌های واکنشی مدرن"
+            },
+            {
+                "type": "paragraph",
+                "value": "ترکیب‌های شیمیایی فوم جدیدتر طوری مهندسی شده‌اند که هم در حالت استراحت نرم‌تر باشند و هم زیر بار واکنشی‌تر از فوم‌های فشرده قدیمی، با هدف ترکیب راحتی نرم برای راه رفتن با بازگشت انرژی برای حرکت انفجاری؛ همان هدف دیرینه‌ای که فناوری کوشن همچنان دنبالش است."
+            },
+            {
+                "type": "quote",
+                "value": "کوشن یعنی نرم بودن نیست؛ یعنی دادن همان پاسخ در تکرار هزارم که در تکرار اول دادی.",
+                "author": "پریا ناکامورا، مهندس پوشاک ورزشی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-013",
+        "title": "Ankle Stability and Traction: The Outsole's Real Job",
+        "caption": "Grip and stability aren't the same feature, even though they're often marketed together. Here's how outsole design tries to balance both.",
+        "category": "Footwear",
+        "cover": "/assest/img/articles/ankle-traction/cover.jpg",
+        "timeC": "apr10,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "Grip Without Getting Stuck"
+            },
+            {
+                "type": "paragraph",
+                "value": "An outsole with too much grip can actually increase injury risk, because a foot that stops too abruptly during a fast direction change transfers more twisting force into the ankle and knee. The goal isn't maximum stickiness — it's controlled, predictable traction."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/ankle-traction/img-1.jpg",
+                "alt": "Close-up of a herringbone outsole traction pattern",
+                "caption": "Multi-directional patterns aim for even grip, not just maximum grip."
+            },
+            {
+                "type": "heading",
+                "value": "Pattern Design Does More Than Look Good"
+            },
+            {
+                "type": "paragraph",
+                "value": "Herringbone and multi-directional pivot patterns are shaped to grip evenly whether a player is moving forward, laterally, or pivoting on a planted foot, rather than gripping hard in one direction and sliding unpredictably in another."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/ankle-traction/img-2.jpg",
+                "alt": "Player planting foot to change direction on court",
+                "caption": "Controlled traction lets the foot stop without transferring excess force to the ankle."
+            },
+            {
+                "type": "heading",
+                "value": "Where Stability Actually Comes From"
+            },
+            {
+                "type": "paragraph",
+                "value": "A wider outsole base, a lower platform and structured heel counters do more for ankle stability than the outsole rubber alone. Traction and stability work together, but they're solved by different parts of the shoe."
+            },
+            {
+                "type": "quote",
+                "value": "You don't want the shoe that grips hardest. You want the one that grips the same way every time.",
+                "author": "Priya Nakamura, JUMIX Footwear Engineer"
+            }
+        ]
+    },
+    {
+        "id": "fa-013",
+        "title": "پایداری مچ پا و چسبندگی؛ وظیفه واقعی کف بیرونی",
+        "caption": "چسبندگی و پایداری یک ویژگی نیستند، هرچند اغلب با هم تبلیغ می‌شوند. طراحی کف بیرونی این‌طور سعی می‌کند بین این دو تعادل ایجاد کند.",
+        "category": "پوشاک ورزشی",
+        "cover": "/assest/img/articles/ankle-traction/cover.jpg",
+        "timeC": "apr10,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "چسبندگی بدون گیر کردن"
+            },
+            {
+                "type": "paragraph",
+                "value": "کف بیرونی با چسبندگی بیش‌ازحد می‌تواند ریسک مصدومیت را واقعاً بالا ببرد، چون پایی که در تغییر جهت سریع خیلی ناگهانی می‌ایستد، نیروی پیچشی بیشتری به مچ پا و زانو منتقل می‌کند. هدف چسبندگی حداکثری نیست؛ چسبندگی کنترل‌شده و قابل‌پیش‌بینی است."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/ankle-traction/img-1.jpg",
+                "alt": "نمای نزدیک از طرح آج چسبندگی استخوان‌شاه‌ماهی",
+                "caption": "طرح‌های چندجهته به دنبال چسبندگی یکنواخت‌اند، نه فقط چسبندگی حداکثری."
+            },
+            {
+                "type": "heading",
+                "value": "طرح آج بیشتر از زیبایی انجام می‌دهد"
+            },
+            {
+                "type": "paragraph",
+                "value": "طرح‌های آج استخوان‌شاه‌ماهی و چرخشی چندجهته طوری شکل گرفته‌اند که چه بازیکن رو به جلو حرکت کند، چه جانبی، چه روی پای ثابت بچرخد، به‌طور یکنواخت بچسبند، نه اینکه در یک جهت محکم بچسبند و در جهت دیگر غیرقابل‌پیش‌بینی سر بخورند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/ankle-traction/img-2.jpg",
+                "alt": "بازیکن در حال ثابت کردن پا برای تغییر جهت در زمین",
+                "caption": "چسبندگی کنترل‌شده اجازه می‌دهد پا بایستد بدون انتقال نیروی اضافه به مچ پا."
+            },
+            {
+                "type": "heading",
+                "value": "پایداری واقعاً از کجا می‌آید"
+            },
+            {
+                "type": "paragraph",
+                "value": "پایه‌ی پهن‌تر کف بیرونی، پلتفرم پایین‌تر و کانتر پاشنه ساختاریافته، بیشتر از خود لاستیک کف بیرونی به پایداری مچ پا کمک می‌کنند. چسبندگی و پایداری با هم کار می‌کنند اما توسط بخش‌های متفاوتی از کفش حل می‌شوند."
+            },
+            {
+                "type": "quote",
+                "value": "کفشی را نمی‌خواهی که بیشترین چسبندگی را دارد؛ کفشی را می‌خواهی که هر بار یکسان می‌چسبد.",
+                "author": "پریا ناکامورا، مهندس پوشاک ورزشی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-014",
+        "title": "The Rise of Low-Top Basketball Shoes Among Pros",
+        "caption": "High-tops were once the default for ankle protection. More players are choosing low-tops instead — here's the reasoning.",
+        "category": "Basketball",
+        "cover": "/assest/img/articles/low-top-rise/cover.jpg",
+        "timeC": "apr17,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "A Shift Backed by Movement Science, Not Just Style"
+            },
+            {
+                "type": "paragraph",
+                "value": "For decades, high-top silhouettes were assumed to protect the ankle simply by covering more of it. Research on ankle sprains complicates that assumption — most of the joint's real stability comes from muscle strength and outsole-driven traction control, not fabric wrapped around the ankle bone."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/low-top-rise/img-1.jpg",
+                "alt": "Side-by-side comparison of low-top and high-top basketball shoes",
+                "caption": "Less material at the ankle means less weight and more range of motion."
+            },
+            {
+                "type": "heading",
+                "value": "What Players Actually Gain From Going Low"
+            },
+            {
+                "type": "paragraph",
+                "value": "A lower collar reduces weight and allows a fuller range of ankle motion, which many players feel improves quickness and first-step explosiveness. For athletes who already train ankle stability directly, that trade-off often feels worth it."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/low-top-rise/img-2.jpg",
+                "alt": "Basketball player exploding off the first step toward the basket",
+                "caption": "Many players feel a lower collar improves first-step quickness."
+            },
+            {
+                "type": "heading",
+                "value": "It's Still a Personal Choice, Not a Universal Upgrade"
+            },
+            {
+                "type": "paragraph",
+                "value": "Players recovering from a recent ankle injury, or those who simply feel more confident with extra ankle coverage, still have good reasons to choose mid-tops or high-tops. The trend toward low-tops reflects better data, not a single correct answer for everyone."
+            },
+            {
+                "type": "quote",
+                "value": "The ankle isn't protected by fabric. It's protected by strength, and a shoe that lets that strength work.",
+                "author": "Priya Nakamura, JUMIX Footwear Engineer"
+            }
+        ]
+    },
+    {
+        "id": "fa-014",
+        "title": "رشد محبوبیت کفش‌های ساقه‌کوتاه بسکتبال میان حرفه‌ای‌ها",
+        "caption": "زمانی ساقه‌بلندها پیش‌فرض محافظت از مچ پا بودند. بازیکنان بیشتری اکنون ساقه‌کوتاه را انتخاب می‌کنند؛ این استدلال پشت آن است.",
+        "category": "بسکتبال",
+        "cover": "/assest/img/articles/low-top-rise/cover.jpg",
+        "timeC": "apr17,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "تغییری با پشتوانه علم حرکت، نه فقط استایل"
+            },
+            {
+                "type": "paragraph",
+                "value": "برای دهه‌ها فرض بر این بود که سیلوئت ساقه‌بلند صرفاً با پوشاندن بخش بیشتری از مچ پا، از آن محافظت می‌کند. تحقیقات درباره پیچش مچ پا این فرض را پیچیده‌تر می‌کند؛ بیشتر پایداری واقعی مفصل از قدرت عضلانی و کنترل چسبندگی کف بیرونی می‌آید، نه پارچه‌ای دور استخوان مچ پا."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/low-top-rise/img-1.jpg",
+                "alt": "مقایسه کنار هم کفش بسکتبال ساقه‌کوتاه و ساقه‌بلند",
+                "caption": "پارچه کمتر روی مچ پا یعنی وزن کمتر و دامنه حرکتی بیشتر."
+            },
+            {
+                "type": "heading",
+                "value": "بازیکنان واقعاً از کوتاه بودن چه چیزی به دست می‌آورند"
+            },
+            {
+                "type": "paragraph",
+                "value": "یقه پایین‌تر وزن را کم می‌کند و دامنه حرکتی کامل‌تری به مچ پا می‌دهد که بسیاری از بازیکنان حس می‌کنند سرعت و انفجار قدم اول را بهتر می‌کند. برای ورزشکارانی که از قبل پایداری مچ پا را مستقیم تمرین می‌دهند، این معامله اغلب ارزشش را دارد."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/low-top-rise/img-2.jpg",
+                "alt": "بازیکن بسکتبال در حال انفجار قدم اول به‌سمت سبد",
+                "caption": "بسیاری از بازیکنان حس می‌کنند یقه پایین‌تر سرعت قدم اول را بهتر می‌کند."
+            },
+            {
+                "type": "heading",
+                "value": "همچنان یک انتخاب شخصی است، نه ارتقای همگانی"
+            },
+            {
+                "type": "paragraph",
+                "value": "بازیکنانی که تازه از مصدومیت مچ پا برگشته‌اند، یا کسانی که صرفاً با پوشش اضافه مچ پا اعتمادبه‌نفس بیشتری دارند، همچنان دلایل خوبی برای انتخاب ساقه‌متوسط یا ساقه‌بلند دارند. روند به‌سمت ساقه‌کوتاه، بازتاب داده‌های بهتر است، نه یک پاسخ درست برای همه."
+            },
+            {
+                "type": "quote",
+                "value": "مچ پا با پارچه محافظت نمی‌شود؛ با قدرت محافظت می‌شود، و کفشی که اجازه می‌دهد آن قدرت کار کند.",
+                "author": "پریا ناکامورا، مهندس پوشاک ورزشی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-015",
+        "title": "Libero vs. Attacker: Why Their Footwear Needs Are Different",
+        "caption": "Two volleyball players on the same team can need almost opposite things from a shoe, depending on the role they play.",
+        "category": "Volleyball",
+        "cover": "/assest/img/articles/libero-footwear/cover.jpg",
+        "timeC": "apr24,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "Different Jobs, Different Loads on the Foot"
+            },
+            {
+                "type": "paragraph",
+                "value": "An attacker spends the match approaching, jumping and landing hard from height near the net. A libero rarely leaves the ground — their game is low, fast, multidirectional movement: digging, diving and constant direction changes across the back row."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/libero-footwear/img-1.jpg",
+                "alt": "Volleyball attacker jumping high near the net",
+                "caption": "Attackers need forefoot cushioning for repeated high-impact landings."
+            },
+            {
+                "type": "heading",
+                "value": "What Attackers Need Most"
+            },
+            {
+                "type": "paragraph",
+                "value": "For attackers, forefoot cushioning and a stable landing platform take priority, since repeated high-impact landings are the dominant stress on their feet and joints over a match."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/libero-footwear/img-2.jpg",
+                "alt": "Libero diving low to dig a ball",
+                "caption": "A libero's movement is fast, low and constantly changing direction."
+            },
+            {
+                "type": "heading",
+                "value": "What Liberos Need Most"
+            },
+            {
+                "type": "paragraph",
+                "value": "Liberos benefit more from a lower-to-the-ground platform, maximum lateral responsiveness and a lightweight build that supports quick direction changes, since their movement pattern looks closer to a defensive shuffle than a vertical jump."
+            },
+            {
+                "type": "quote",
+                "value": "Ask a libero and an attacker what they want from a shoe, and you'll get two different answers — both correct.",
+                "author": "Priya Nakamura, JUMIX Footwear Engineer"
+            }
+        ]
+    },
+    {
+        "id": "fa-015",
+        "title": "لیبرو در برابر زننده؛ چرا نیاز کفش‌شان متفاوت است",
+        "caption": "دو بازیکن والیبال در یک تیم می‌توانند تقریباً چیزهای متضادی از یک کفش بخواهند، بسته به نقشی که بازی می‌کنند.",
+        "category": "والیبال",
+        "cover": "/assest/img/articles/libero-footwear/cover.jpg",
+        "timeC": "apr24,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "وظایف متفاوت، بار متفاوت روی پا"
+            },
+            {
+                "type": "paragraph",
+                "value": "یک زننده بخش زیادی از بازی را در حال دویدن به سمت تور، پرش و فرود سنگین از ارتفاع نزدیک تور می‌گذراند. یک لیبرو به‌ندرت زمین را ترک می‌کند؛ بازی او حرکت کم‌ارتفاع، سریع و چندجهته است: دیفنس، شیرجه و تغییر جهت مداوم در خط عقب."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/libero-footwear/img-1.jpg",
+                "alt": "زننده والیبال در حال پرش بلند نزدیک تور",
+                "caption": "زننده‌ها برای فرودهای پرضربه مکرر به کوشن پنجه نیاز دارند."
+            },
+            {
+                "type": "heading",
+                "value": "زننده‌ها بیشتر از همه به چه چیزی نیاز دارند"
+            },
+            {
+                "type": "paragraph",
+                "value": "برای زننده‌ها، کوشن پنجه و پلتفرم فرود پایدار در اولویت است، چون فرودهای پرضربه مکرر فشار غالب روی پا و مفاصل آن‌ها در طول یک بازی است."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/libero-footwear/img-2.jpg",
+                "alt": "لیبرو در حال شیرجه کم‌ارتفاع برای دیفنس توپ",
+                "caption": "حرکت لیبرو سریع، کم‌ارتفاع و همواره در حال تغییر جهت است."
+            },
+            {
+                "type": "heading",
+                "value": "لیبروها بیشتر از همه به چه چیزی نیاز دارند"
+            },
+            {
+                "type": "paragraph",
+                "value": "لیبروها بیشتر از پلتفرم نزدیک‌تر به زمین، حداکثر واکنش‌پذیری جانبی و ساختاری سبک که از تغییر جهت سریع پشتیبانی کند سود می‌برند، چون الگوی حرکتی آن‌ها بیشتر شبیه شافل دفاعی است تا پرش عمودی."
+            },
+            {
+                "type": "quote",
+                "value": "از یک لیبرو و یک زننده بپرس از کفش چه می‌خواهند، دو جواب متفاوت می‌گیری؛ هر دو درست.",
+                "author": "پریا ناکامورا، مهندس پوشاک ورزشی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-016",
+        "title": "Sustainable Materials in Performance Footwear, Explained",
+        "caption": "Recycled foam, bio-based leather alternatives and mono-material builds are showing up in performance shoes. Do they actually hold up?",
+        "category": "Footwear",
+        "cover": "/assest/img/articles/sustainable-materials/cover.jpg",
+        "timeC": "may3,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "Recycled Isn't Automatically Weaker"
+            },
+            {
+                "type": "paragraph",
+                "value": "Early skepticism about recycled foams and fibers assumed sustainable meant a performance trade-off. Materials science has closed much of that gap — recycled EVA foam blends and recycled polyester mesh can now match the durability and feel of virgin materials in many applications."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/sustainable-materials/img-1.jpg",
+                "alt": "Close-up of recycled foam midsole material texture",
+                "caption": "Recycled foam blends now approach the feel of virgin material."
+            },
+            {
+                "type": "heading",
+                "value": "Mono-Material Design Solves a Different Problem"
+            },
+            {
+                "type": "paragraph",
+                "value": "Shoes traditionally mix several materials — foam, rubber, textile, adhesive — which makes them difficult to recycle at end of life. Mono-material designs, built largely from one recyclable polymer family, are an attempt to make a shoe genuinely reusable rather than just less wasteful to produce."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/sustainable-materials/img-2.jpg",
+                "alt": "Mono-material shoe upper made from a single recyclable fabric",
+                "caption": "Mono-material builds aim to make a shoe genuinely recyclable at end of life."
+            },
+            {
+                "type": "heading",
+                "value": "The Honest Trade-Offs That Remain"
+            },
+            {
+                "type": "paragraph",
+                "value": "Some sustainable alternatives still cost more to produce at scale, and a few bio-based materials perform differently in humidity or extreme temperature compared to established synthetics. Progress here is real, but it's incremental rather than a solved problem."
+            },
+            {
+                "type": "quote",
+                "value": "Sustainable doesn't get a performance pass. It has to win on its own merits, every time.",
+                "author": "Priya Nakamura, JUMIX Footwear Engineer"
+            }
+        ]
+    },
+    {
+        "id": "fa-016",
+        "title": "مواد پایدار در پوشاک ورزشی حرفه‌ای، به زبان ساده",
+        "caption": "فوم بازیافتی، جایگزین‌های چرم زیستی و ساختارهای تک‌ماده در کفش‌های حرفه‌ای دیده می‌شوند. آیا واقعاً دوام می‌آورند؟",
+        "category": "پوشاک ورزشی",
+        "cover": "/assest/img/articles/sustainable-materials/cover.jpg",
+        "timeC": "may3,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "بازیافتی لزوماً ضعیف‌تر نیست"
+            },
+            {
+                "type": "paragraph",
+                "value": "شک اولیه درباره فوم‌ها و الیاف بازیافتی این فرض را داشت که پایدار بودن یعنی معامله‌ای در عملکرد. علم مواد بیشتر این شکاف را بسته است؛ ترکیب فوم EVA بازیافتی و مش پلی‌استر بازیافتی اکنون در بسیاری از کاربردها می‌تواند با دوام و حس مواد اولیه برابری کند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/sustainable-materials/img-1.jpg",
+                "alt": "نمای نزدیک از بافت فوم بازیافتی میان‌کفی",
+                "caption": "ترکیب‌های فوم بازیافتی اکنون به حس مواد اولیه نزدیک شده‌اند."
+            },
+            {
+                "type": "heading",
+                "value": "طراحی تک‌ماده یک مشکل متفاوت را حل می‌کند"
+            },
+            {
+                "type": "paragraph",
+                "value": "کفش‌ها به‌طور سنتی چند ماده را ترکیب می‌کنند؛ فوم، لاستیک، پارچه، چسب، که بازیافت آن‌ها در پایان عمر را دشوار می‌کند. طراحی‌های تک‌ماده که عمدتاً از یک خانواده پلیمری قابل‌بازیافت ساخته شده‌اند، تلاشی برای واقعاً قابل‌استفاده‌مجدد کردن کفش هستند، نه فقط کاهش هدررفت در تولید."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/sustainable-materials/img-2.jpg",
+                "alt": "رویه کفش تک‌ماده ساخته‌شده از یک پارچه قابل‌بازیافت",
+                "caption": "ساختار تک‌ماده تلاش می‌کند کفش را در پایان عمر واقعاً قابل‌بازیافت کند."
+            },
+            {
+                "type": "heading",
+                "value": "معامله‌های صادقانه‌ای که هنوز باقی است"
+            },
+            {
+                "type": "paragraph",
+                "value": "برخی جایگزین‌های پایدار هنوز در تولید در مقیاس بزرگ گران‌ترند، و چند ماده زیستی در رطوبت یا دمای شدید نسبت به مواد مصنوعی جاافتاده متفاوت عمل می‌کنند. پیشرفت در این زمینه واقعی است، اما تدریجی است نه یک مسئله حل‌شده."
+            },
+            {
+                "type": "quote",
+                "value": "پایدار بودن امتیاز عملکردی رایگان نمی‌گیرد؛ باید هر بار روی شایستگی خودش برنده شود.",
+                "author": "پریا ناکامورا، مهندس پوشاک ورزشی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-017",
+        "title": "Data-Driven Fit: How 3D Foot Scanning Actually Works",
+        "caption": "Shoe size has always been a rough estimate. 3D scanning is turning fit into something closer to a measurement.",
+        "category": "Footwear",
+        "cover": "/assest/img/articles/3d-foot-scanning/cover.jpg",
+        "timeC": "may10,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "Why Shoe Size Alone Was Never Enough"
+            },
+            {
+                "type": "paragraph",
+                "value": "A single length measurement ignores width, arch height, instep volume and how a foot spreads under load — which is why two people with the same shoe size can need noticeably different shoes to feel equally comfortable."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/3d-foot-scanning/img-1.jpg",
+                "alt": "3D scanner capturing the shape of a foot",
+                "caption": "A structured-light scan captures far more than a single length measurement."
+            },
+            {
+                "type": "heading",
+                "value": "What a Scan Actually Captures"
+            },
+            {
+                "type": "paragraph",
+                "value": "Structured-light or infrared scanners capture a foot's full 3D shape in seconds, both standing still and often under simulated movement, producing a detailed map of pressure points and volume that a tape measure simply can't provide."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/3d-foot-scanning/img-2.jpg",
+                "alt": "Digital 3D foot model displayed on a screen",
+                "caption": "A detailed foot map narrows the guesswork before a shoe is ever tried on."
+            },
+            {
+                "type": "heading",
+                "value": "From Data Point to Better Fit"
+            },
+            {
+                "type": "paragraph",
+                "value": "That scan data can guide which model and width a shoe recommendation engine suggests, and increasingly feeds into semi-custom insole production. It doesn't replace trying a shoe on, but it narrows the guesswork considerably before someone ever does."
+            },
+            {
+                "type": "quote",
+                "value": "Foot length was always the least interesting number on the tape measure.",
+                "author": "Priya Nakamura, JUMIX Footwear Engineer"
+            }
+        ]
+    },
+    {
+        "id": "fa-017",
+        "title": "تناسب داده‌محور؛ اسکن سه‌بعدی پا واقعاً چطور کار می‌کند",
+        "caption": "سایز کفش همیشه یک تخمین تقریبی بوده. اسکن سه‌بعدی دارد تناسب را به چیزی نزدیک‌تر به یک اندازه‌گیری تبدیل می‌کند.",
+        "category": "پوشاک ورزشی",
+        "cover": "/assest/img/articles/3d-foot-scanning/cover.jpg",
+        "timeC": "may10,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "چرا سایز کفش به‌تنهایی هرگز کافی نبود"
+            },
+            {
+                "type": "paragraph",
+                "value": "یک اندازه‌گیری طولی تنها، پهنا، ارتفاع قوس، حجم روی پا و نحوه پخش شدن پا زیر بار را نادیده می‌گیرد؛ به همین دلیل دو نفر با سایز کفش یکسان می‌توانند برای احساس راحتی برابر، به کفش‌های به‌طرز محسوسی متفاوتی نیاز داشته باشند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/3d-foot-scanning/img-1.jpg",
+                "alt": "اسکنر سه‌بعدی در حال ثبت شکل پا",
+                "caption": "اسکن نور ساختاریافته بسیار بیشتر از یک اندازه‌گیری طولی ثبت می‌کند."
+            },
+            {
+                "type": "heading",
+                "value": "یک اسکن واقعاً چه چیزی را ثبت می‌کند"
+            },
+            {
+                "type": "paragraph",
+                "value": "اسکنرهای نور ساختاریافته یا مادون‌قرمز، شکل کامل سه‌بعدی پا را در چند ثانیه ثبت می‌کنند، هم در حالت ایستاده و اغلب زیر شبیه‌سازی حرکت، و نقشه‌ای دقیق از نقاط فشار و حجم تولید می‌کنند که یک متر نواری به‌سادگی نمی‌تواند ارائه دهد."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/3d-foot-scanning/img-2.jpg",
+                "alt": "مدل سه‌بعدی دیجیتال پا روی صفحه نمایش",
+                "caption": "نقشه دقیق پا پیش از امتحان کردن کفش، حدس‌وگمان را کم می‌کند."
+            },
+            {
+                "type": "heading",
+                "value": "از نقطه داده تا تناسب بهتر"
+            },
+            {
+                "type": "paragraph",
+                "value": "آن داده اسکن می‌تواند مشخص کند موتور پیشنهاد کفش کدام مدل و پهنا را توصیه کند، و به‌طور فزاینده به تولید کفی نیمه‌سفارشی نیز راه پیدا می‌کند. جای امتحان کردن کفش را نمی‌گیرد، اما پیش از آن، حدس‌وگمان را به‌طور چشمگیری کم می‌کند."
+            },
+            {
+                "type": "quote",
+                "value": "طول پا همیشه کسل‌کننده‌ترین عدد روی متر نواری بود.",
+                "author": "پریا ناکامورا، مهندس پوشاک ورزشی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-018",
+        "title": "The Crossover and the Court: How Grip Changed Ball-Handling",
+        "caption": "A sharp crossover depends on more than skill — the outsole under a ball-handler's feet quietly makes or breaks the move.",
+        "category": "Basketball",
+        "cover": "/assest/img/articles/crossover-grip/cover.jpg",
+        "timeC": "may17,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "The Footwork Behind the Highlight"
+            },
+            {
+                "type": "paragraph",
+                "value": "A crossover dribble is really a rapid weight transfer between planted feet, and that plant only works if the outsole grips the floor predictably at the exact instant the direction change happens. Slip even slightly, and the move that should freeze a defender instead loses the ball-handler their balance."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/crossover-grip/img-1.jpg",
+                "alt": "Basketball player performing a low crossover dribble",
+                "caption": "A crossover lives or dies on grip at the exact moment of the plant."
+            },
+            {
+                "type": "heading",
+                "value": "Traction Built for Lateral Speed"
+            },
+            {
+                "type": "paragraph",
+                "value": "Guards' shoes are often designed with a wider forefoot traction zone specifically to support these quick lateral plants, distinct from the more straight-ahead traction demands of a big man posting up near the basket."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/crossover-grip/img-2.jpg",
+                "alt": "Player wiping the sole of a basketball shoe mid-game",
+                "caption": "Wiping soles between plays compensates for changing floor conditions."
+            },
+            {
+                "type": "heading",
+                "value": "Grip Has to Match the Playing Surface Too"
+            },
+            {
+                "type": "paragraph",
+                "value": "Traction that feels great on a freshly cleaned hardwood court can feel very different on a dusty or worn one, which is why many players wipe their soles between possessions — the shoe can only do part of the job the floor conditions ask of it."
+            },
+            {
+                "type": "quote",
+                "value": "A crossover isn't won in the hands. It's won in the half-second before, at the floor.",
+                "author": "Marcus Fields, JUMIX Performance Coach"
+            }
+        ]
+    },
+    {
+        "id": "fa-018",
+        "title": "کراس‌اور و زمین؛ چسبندگی چگونه هندلینگ توپ را تغییر داد",
+        "caption": "یک کراس‌اور تیز به بیش از مهارت نیاز دارد؛ کف بیرونی زیر پای هندلر توپ بی‌سروصدا حرکت را می‌سازد یا خراب می‌کند.",
+        "category": "بسکتبال",
+        "cover": "/assest/img/articles/crossover-grip/cover.jpg",
+        "timeC": "may17,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "فوت‌ورک پشت لحظه دیدنی"
+            },
+            {
+                "type": "paragraph",
+                "value": "دریبل کراس‌اور در واقع یک انتقال سریع وزن بین پاهای ثابت‌شده است، و آن ثابت شدن فقط زمانی کار می‌کند که کف بیرونی دقیقاً در لحظه تغییر جهت، به‌طور قابل‌پیش‌بینی به زمین بچسبد. حتی کمی سر خوردن، حرکتی را که باید مدافع را متوقف کند، به از دست دادن تعادل خود هندلر توپ تبدیل می‌کند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/crossover-grip/img-1.jpg",
+                "alt": "بازیکن بسکتبال در حال اجرای کراس‌اور کم‌ارتفاع",
+                "caption": "کراس‌اور دقیقاً لحظه ثابت شدن پا، به چسبندگی زنده می‌ماند یا می‌میرد."
+            },
+            {
+                "type": "heading",
+                "value": "چسبندگی ساخته‌شده برای سرعت جانبی"
+            },
+            {
+                "type": "paragraph",
+                "value": "کفش‌های گاردها اغلب با ناحیه چسبندگی پنجه پهن‌تر طراحی می‌شوند، مخصوصاً برای پشتیبانی از این ثابت‌شدن‌های سریع جانبی، متفاوت از نیازهای چسبندگی مستقیم‌تر یک پیوت که نزدیک سبد پست می‌گیرد."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/crossover-grip/img-2.jpg",
+                "alt": "بازیکن در حال پاک کردن کف کفش وسط بازی",
+                "caption": "پاک کردن کف کفش بین حمله‌ها، تغییر شرایط زمین را جبران می‌کند."
+            },
+            {
+                "type": "heading",
+                "value": "چسبندگی باید با سطح زمین هم هماهنگ باشد"
+            },
+            {
+                "type": "paragraph",
+                "value": "چسبندگی‌ای که روی زمین چوبی تازه‌تمیزشده عالی حس می‌شود، می‌تواند روی زمینی خاک‌گرفته یا فرسوده کاملاً متفاوت حس شود؛ به همین دلیل بسیاری از بازیکنان بین حمله‌ها کف کفش‌شان را پاک می‌کنند؛ کفش فقط می‌تواند بخشی از کاری را انجام دهد که شرایط زمین می‌خواهد."
+            },
+            {
+                "type": "quote",
+                "value": "کراس‌اور در دست‌ها برده نمی‌شود؛ در نیم‌ثانیه پیش از آن، روی زمین برده می‌شود.",
+                "author": "مارکوس فیلدز، مربی عملکرد جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-019",
+        "title": "Beach vs. Indoor Volleyball: Why the Gear Barely Overlaps",
+        "caption": "Same sport, same net height, almost completely different footwear philosophy. The sand explains most of it.",
+        "category": "Volleyball",
+        "cover": "/assest/img/articles/beach-vs-indoor/cover.jpg",
+        "timeC": "may24,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "Sand Changes Everything About the Foot"
+            },
+            {
+                "type": "paragraph",
+                "value": "Most beach volleyball is played barefoot by choice, because sand naturally cushions landings and shifts to distribute impact in a way no outsole needs to replicate. When footwear is worn, it's usually thin, sand-specific socks or minimal sand shoes built purely to protect against heat and abrasion, not for traction or support."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/beach-vs-indoor/img-1.jpg",
+                "alt": "Beach volleyball player diving barefoot in the sand",
+                "caption": "Sand cushions landings on its own — most players play barefoot by choice."
+            },
+            {
+                "type": "heading",
+                "value": "Indoor Courts Demand the Opposite"
+            },
+            {
+                "type": "paragraph",
+                "value": "A hard, flat, polished indoor court offers zero natural cushioning or give, which is exactly why indoor volleyball shoes carry dedicated cushioning, structured lateral support and a grippy gum-rubber outsole — all things sand simply doesn't require."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/beach-vs-indoor/img-2.jpg",
+                "alt": "Indoor volleyball player on a polished hardwood court",
+                "caption": "A hard indoor court offers no natural give, so the shoe has to provide it all."
+            },
+            {
+                "type": "heading",
+                "value": "Apparel Diverges Too"
+            },
+            {
+                "type": "paragraph",
+                "value": "Beach volleyball apparel prioritizes sun protection and minimal sand retention, while indoor gear is built around freedom of movement in a climate-controlled gym. Two versions of the same sport, shaped almost entirely by what's underfoot."
+            },
+            {
+                "type": "quote",
+                "value": "Change the surface, and you basically have to redesign the sport from the ground up.",
+                "author": "Priya Nakamura, JUMIX Footwear Engineer"
+            }
+        ]
+    },
+    {
+        "id": "fa-019",
+        "title": "والیبال ساحلی در برابر سالنی؛ چرا تجهیزاتشان تقریباً همپوشانی ندارد",
+        "caption": "ورزش یکسان، ارتفاع تور یکسان، فلسفه پوشاک تقریباً کاملاً متفاوت. شن بیشتر این ماجرا را توضیح می‌دهد.",
+        "category": "والیبال",
+        "cover": "/assest/img/articles/beach-vs-indoor/cover.jpg",
+        "timeC": "may24,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "شن همه‌چیز را درباره پا تغییر می‌دهد"
+            },
+            {
+                "type": "paragraph",
+                "value": "بیشتر والیبال ساحلی با انتخاب خود بازیکنان پابرهنه بازی می‌شود، چون شن به‌طور طبیعی فرودها را کوشن می‌کند و جابه‌جا می‌شود تا ضربه را به شکلی پخش کند که هیچ کف بیرونی‌ای نیازی به تکرار آن ندارد. وقتی کفش پوشیده می‌شود، معمولاً جوراب‌های نازک مخصوص شن یا کفش‌های حداقلی شنی است که صرفاً برای محافظت در برابر گرما و سایش ساخته شده‌اند، نه برای چسبندگی یا پشتیبانی."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/beach-vs-indoor/img-1.jpg",
+                "alt": "بازیکن والیبال ساحلی در حال شیرجه پابرهنه در شن",
+                "caption": "شن خودش فرودها را کوشن می‌کند؛ بیشتر بازیکنان با انتخاب خود پابرهنه بازی می‌کنند."
+            },
+            {
+                "type": "heading",
+                "value": "زمین‌های سرپوشیده برعکس آن را می‌خواهند"
+            },
+            {
+                "type": "paragraph",
+                "value": "یک زمین سرپوشیده سخت، تخت و صیقلی هیچ کوشن یا انعطاف طبیعی‌ای ارائه نمی‌دهد، و دقیقاً به همین دلیل کفش‌های والیبال سرپوشیده کوشن اختصاصی، پشتیبانی جانبی ساختاریافته و کف بیرونی لاستیک صمغی چسبنده دارند؛ همه چیزهایی که شن به‌سادگی نیازی به آن‌ها ندارد."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/beach-vs-indoor/img-2.jpg",
+                "alt": "بازیکن والیبال سالنی روی زمین چوبی صیقلی",
+                "caption": "زمین سخت سرپوشیده هیچ انعطاف طبیعی ندارد، پس کفش باید همه آن را فراهم کند."
+            },
+            {
+                "type": "heading",
+                "value": "پوشاک هم از هم جدا می‌شود"
+            },
+            {
+                "type": "paragraph",
+                "value": "پوشاک والیبال ساحلی محافظت در برابر آفتاب و حداقل نگه‌داشتن شن را در اولویت قرار می‌دهد، درحالی‌که تجهیزات سرپوشیده حول آزادی حرکت در سالنی با آب‌وهوای کنترل‌شده ساخته شده‌اند. دو نسخه از یک ورزش، تقریباً کاملاً شکل‌گرفته توسط آنچه زیر پاست."
+            },
+            {
+                "type": "quote",
+                "value": "سطح را عوض کن، عملاً باید کل ورزش را از صفر دوباره طراحی کنی.",
+                "author": "پریا ناکامورا، مهندس پوشاک ورزشی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-020",
+        "title": "Foam vs. Air vs. Gel: A Plain-Language Comparison",
+        "caption": "Three cushioning approaches, three different trade-offs. None of them is simply 'the best' — each is a different answer to the same question.",
+        "category": "Footwear",
+        "cover": "/assest/img/articles/foam-air-gel/cover.jpg",
+        "timeC": "jun3,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "Foam: Consistent and Tunable"
+            },
+            {
+                "type": "paragraph",
+                "value": "Modern midsole foams can be engineered across a wide range of softness and rebound by adjusting their chemical formula, making foam the most flexible starting point for a shoe designed around one specific sport's demands."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/foam-air-gel/img-1.jpg",
+                "alt": "Three midsole cushioning samples: foam, air unit and gel insert",
+                "caption": "Foam, air and gel each solve cushioning differently — none is universally best."
+            },
+            {
+                "type": "heading",
+                "value": "Air: Lightweight and Long-Lasting Shape"
+            },
+            {
+                "type": "paragraph",
+                "value": "Pressurized air units are light for their cushioning effect and resist permanently compressing over time the way some foams eventually do, though they typically add cost and a distinct underfoot feel some players love and others find less natural."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/foam-air-gel/img-2.jpg",
+                "alt": "Athlete testing shoe feel by pressing on the midsole",
+                "caption": "The right cushioning choice depends on the sport, not a single universal standard."
+            },
+            {
+                "type": "heading",
+                "value": "Gel: Precise, Localized Impact Absorption"
+            },
+            {
+                "type": "paragraph",
+                "value": "Gel inserts are usually used in targeted zones — the heel or forefoot — rather than throughout a midsole, because their density makes them better suited to absorbing sharp, localized impact than to providing broad underfoot cushioning."
+            },
+            {
+                "type": "quote",
+                "value": "There's no best material. There's only the best material for what a specific foot is about to do.",
+                "author": "Priya Nakamura, JUMIX Footwear Engineer"
+            }
+        ]
+    },
+    {
+        "id": "fa-020",
+        "title": "فوم در برابر هوا در برابر ژل؛ مقایسه‌ای ساده",
+        "caption": "سه رویکرد کوشن، سه معامله متفاوت. هیچ‌کدام صرفاً «بهترین» نیستند؛ هرکدام پاسخی متفاوت به یک سؤال هستند.",
+        "category": "پوشاک ورزشی",
+        "cover": "/assest/img/articles/foam-air-gel/cover.jpg",
+        "timeC": "jun3,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "فوم: ثابت و قابل‌تنظیم"
+            },
+            {
+                "type": "paragraph",
+                "value": "فوم‌های میان‌کفی مدرن با تنظیم فرمول شیمیایی‌شان در طیف وسیعی از نرمی و بازگشت مهندسی می‌شوند، که فوم را انعطاف‌پذیرترین نقطه شروع برای کفشی می‌سازد که حول نیازهای یک ورزش خاص طراحی شده."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/foam-air-gel/img-1.jpg",
+                "alt": "سه نمونه کوشن میان‌کفی: فوم، واحد هوا و اینسرت ژل",
+                "caption": "فوم، هوا و ژل هرکدام کوشن را متفاوت حل می‌کنند؛ هیچ‌کدام همگانی بهترین نیست."
+            },
+            {
+                "type": "heading",
+                "value": "هوا: سبک و با شکل ماندگار"
+            },
+            {
+                "type": "paragraph",
+                "value": "واحدهای هوای فشرده نسبت به اثر کوشنشان سبک هستند و در برابر فشرده شدن دائمی در طول زمان، برخلاف برخی فوم‌ها، مقاومت می‌کنند، هرچند معمولاً هزینه و حس زیر پای متمایزی اضافه می‌کنند که بعضی بازیکنان عاشقش‌اند و بعضی کمتر طبیعی می‌دانندش."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/foam-air-gel/img-2.jpg",
+                "alt": "ورزشکار در حال آزمایش حس کفش با فشار دادن میان‌کفی",
+                "caption": "انتخاب درست کوشن به ورزش بستگی دارد، نه یک استاندارد همگانی."
+            },
+            {
+                "type": "heading",
+                "value": "ژل: جذب دقیق و موضعی ضربه"
+            },
+            {
+                "type": "paragraph",
+                "value": "اینسرت‌های ژل معمولاً در نواحی هدفمند مثل پاشنه یا پنجه استفاده می‌شوند تا در سراسر میان‌کفی، چون چگالی آن‌ها برای جذب ضربه تیز و موضعی مناسب‌تر از فراهم کردن کوشن گسترده زیر پاست."
+            },
+            {
+                "type": "quote",
+                "value": "بهترین ماده وجود ندارد؛ فقط بهترین ماده برای کاری که یک پای خاص می‌خواهد انجام دهد وجود دارد.",
+                "author": "پریا ناکامورا، مهندس پوشاک ورزشی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-021",
+        "title": "ACL Injury Prevention in Jump-Landing Sports",
+        "caption": "Most ACL injuries in volleyball and basketball aren't caused by contact. That's actually good news for prevention.",
+        "category": "Injury & Recovery",
+        "cover": "/assest/img/articles/acl-prevention/cover.jpg",
+        "timeC": "jun10,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "A Non-Contact Injury, Mostly"
+            },
+            {
+                "type": "paragraph",
+                "value": "The majority of ACL tears in jump-landing sports happen without an opponent touching the athlete — they occur during landing, sudden deceleration, or a rapid change of direction. That mechanism is largely under an athlete's own control, which is exactly why structured prevention programs work as well as they do."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/acl-prevention/img-1.jpg",
+                "alt": "Athlete performing a landing-mechanics drill",
+                "caption": "Structured landing drills teach the body to absorb impact through the hips and knees."
+            },
+            {
+                "type": "heading",
+                "value": "What the Knee Is Actually Struggling With"
+            },
+            {
+                "type": "paragraph",
+                "value": "Risk climbs sharply when a knee collapses inward on landing — often described as a valgus position — combined with poor trunk control and a stiff, flat-footed touchdown instead of an absorbed, bent-knee landing."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/acl-prevention/img-2.jpg",
+                "alt": "Physiotherapist assessing knee alignment during a squat",
+                "caption": "Trunk and hip control are often the real target of ACL-prevention work."
+            },
+            {
+                "type": "heading",
+                "value": "What Prevention Programs Actually Train"
+            },
+            {
+                "type": "paragraph",
+                "value": "Evidence-based programs focus on landing mechanics, hip and glute strength, and neuromuscular control drills that teach the body to land softly and centered, rather than stiff and collapsed. Consistency matters more than intensity — these are typically done as a short routine before every practice, not an occasional add-on."
+            },
+            {
+                "type": "quote",
+                "value": "The knee isn't the weak link. It's usually just reacting to what the hip failed to control.",
+                "author": "Dr. Sofia Marchetti, JUMIX Medical Advisor"
+            }
+        ]
+    },
+    {
+        "id": "fa-021",
+        "title": "پیشگیری از مصدومیت ACL در ورزش‌های پرش-فرود",
+        "caption": "بیشتر پارگی‌های ACL در والیبال و بسکتبال ناشی از برخورد نیستند. این واقعاً خبر خوبی برای پیشگیری است.",
+        "category": "مصدومیت و ریکاوری",
+        "cover": "/assest/img/articles/acl-prevention/cover.jpg",
+        "timeC": "jun10,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "یک مصدومیت عمدتاً بدون برخورد"
+            },
+            {
+                "type": "paragraph",
+                "value": "اکثر پارگی‌های ACL در ورزش‌های پرش-فرود بدون آنکه حریفی به ورزشکار برخورد کند رخ می‌دهد؛ حین فرود، کاهش سرعت ناگهانی یا تغییر جهت سریع اتفاق می‌افتد. این مکانیزم عمدتاً تحت کنترل خود ورزشکار است، و دقیقاً به همین دلیل برنامه‌های پیشگیری ساختاریافته این‌قدر خوب جواب می‌دهند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/acl-prevention/img-1.jpg",
+                "alt": "ورزشکار در حال انجام تمرین مکانیک فرود",
+                "caption": "تمرین‌های ساختاریافته فرود به بدن یاد می‌دهند ضربه را از طریق باسن و زانو جذب کند."
+            },
+            {
+                "type": "heading",
+                "value": "زانو واقعاً با چه چیزی دست‌وپنجه نرم می‌کند"
+            },
+            {
+                "type": "paragraph",
+                "value": "ریسک زمانی به‌شدت بالا می‌رود که زانو هنگام فرود به‌سمت داخل فرومی‌ریزد؛ اغلب به‌عنوان وضعیت والگوس توصیف می‌شود؛ همراه با کنترل ضعیف تنه و فرودی سفت و صاف‌کف به‌جای فرودی جذب‌شده و با زانوی خمیده."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/acl-prevention/img-2.jpg",
+                "alt": "فیزیوتراپیست در حال ارزیابی راستای زانو حین اسکوات",
+                "caption": "کنترل تنه و لگن اغلب هدف واقعی برنامه‌های پیشگیری از مصدومیت ACL است."
+            },
+            {
+                "type": "heading",
+                "value": "برنامه‌های پیشگیری واقعاً چه چیزی تمرین می‌دهند"
+            },
+            {
+                "type": "paragraph",
+                "value": "برنامه‌های مبتنی بر شواهد روی مکانیک فرود، قدرت باسن و لگن، و تمرین‌های کنترل عصبی-عضلانی تمرکز می‌کنند که به بدن یاد می‌دهد نرم و متمرکز فرود بیاید، نه سفت و فروریخته. تداوم بیشتر از شدت اهمیت دارد؛ این‌ها معمولاً یک روتین کوتاه پیش از هر تمرین‌اند، نه یک افزودنی گاه‌به‌گاه."
+            },
+            {
+                "type": "quote",
+                "value": "زانو حلقه ضعیف نیست؛ معمولاً فقط دارد به چیزی واکنش نشان می‌دهد که باسن نتوانسته کنترلش کند.",
+                "author": "دکتر سوفیا مارکتی، مشاور پزشکی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-022",
+        "title": "Ankle Sprains: Why They Keep Coming Back",
+        "caption": "A rolled ankle often feels fine within a week or two. That's usually the moment the real risk begins.",
+        "category": "Injury & Recovery",
+        "cover": "/assest/img/articles/ankle-sprains/cover.jpg",
+        "timeC": "jun17,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "The Injury That Rarely Happens Once"
+            },
+            {
+                "type": "paragraph",
+                "value": "An ankle sprain overstretches or tears the ligaments that stabilize the joint, and once those ligaments have been damaged, they often heal slightly looser than before. That single change is a major reason ankle sprains are one of the most commonly repeated injuries in jump-landing sports."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/ankle-sprains/img-1.jpg",
+                "alt": "Physiotherapist taping an athlete's ankle",
+                "caption": "Ligament laxity after a sprain is a major reason re-injury is so common."
+            },
+            {
+                "type": "heading",
+                "value": "Why Feeling Better Isn't the Same as Being Ready"
+            },
+            {
+                "type": "paragraph",
+                "value": "Pain and swelling typically resolve well before balance and proprioception — the joint's sense of its own position — fully recover. An athlete who returns to play as soon as it stops hurting, without rebuilding that balance sense, is returning with a joint that's still functionally unprepared."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/ankle-sprains/img-2.jpg",
+                "alt": "Athlete balancing on one leg on an unstable pad",
+                "caption": "Balance and proprioception drills are the step most often skipped too early."
+            },
+            {
+                "type": "heading",
+                "value": "What Real Rehab Actually Involves"
+            },
+            {
+                "type": "paragraph",
+                "value": "Proper rehabilitation progresses from range of motion, to strength, to balance and proprioception drills — often on unstable surfaces — before finally reintroducing sport-specific cutting and landing movements. Skipping the middle steps is exactly what sets up the next sprain."
+            },
+            {
+                "type": "quote",
+                "value": "When the pain goes away, the rehab is maybe half done, not finished.",
+                "author": "Dr. Sofia Marchetti, JUMIX Medical Advisor"
+            }
+        ]
+    },
+    {
+        "id": "fa-022",
+        "title": "پیچش مچ پا؛ چرا دوباره و دوباره تکرار می‌شود",
+        "caption": "مچ پای پیچ‌خورده اغلب طی یک یا دو هفته احساس خوبی می‌دهد. معمولاً همان لحظه ریسک واقعی شروع می‌شود.",
+        "category": "مصدومیت و ریکاوری",
+        "cover": "/assest/img/articles/ankle-sprains/cover.jpg",
+        "timeC": "jun17,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "مصدومیتی که به‌ندرت فقط یک‌بار اتفاق می‌افتد"
+            },
+            {
+                "type": "paragraph",
+                "value": "پیچش مچ پا رباط‌هایی را که مفصل را پایدار می‌کنند بیش‌ازحد می‌کشد یا پاره می‌کند، و وقتی این رباط‌ها آسیب دیدند، اغلب کمی شل‌تر از قبل ترمیم می‌شوند. همین یک تغییر دلیل اصلی است که پیچش مچ پا یکی از پرتکرارترین مصدومیت‌های تکرارشونده در ورزش‌های پرش-فرود است."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/ankle-sprains/img-1.jpg",
+                "alt": "فیزیوتراپیست در حال بستن نوار مچ پای ورزشکار",
+                "caption": "شل شدن رباط پس از پیچش دلیل اصلی شایع بودن مصدومیت مجدد است."
+            },
+            {
+                "type": "heading",
+                "value": "چرا بهتر شدن با آماده بودن یکی نیست"
+            },
+            {
+                "type": "paragraph",
+                "value": "درد و تورم معمولاً خیلی زودتر از تعادل و حس عمقی، یعنی حس مفصل از موقعیت خودش، بهبود می‌یابند. ورزشکاری که به‌محض قطع شدن درد بدون بازسازی آن حس تعادل به بازی برمی‌گردد، با مفصلی برمی‌گردد که هنوز از نظر عملکردی آماده نیست."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/ankle-sprains/img-2.jpg",
+                "alt": "ورزشکار در حال تعادل روی یک پا روی سطح ناپایدار",
+                "caption": "تمرین‌های تعادل و حس عمقی مرحله‌ای است که اغلب خیلی زود رد می‌شود."
+            },
+            {
+                "type": "heading",
+                "value": "ریکاوری واقعی واقعاً شامل چیست"
+            },
+            {
+                "type": "paragraph",
+                "value": "ریکاوری درست از دامنه حرکتی به قدرت، سپس به تمرین‌های تعادل و حس عمقی، اغلب روی سطوح ناپایدار، پیش می‌رود تا در نهایت حرکات برش و فرود اختصاصی ورزش دوباره معرفی شوند. رد کردن مراحل میانی دقیقاً همان چیزی است که پیچش بعدی را می‌سازد."
+            },
+            {
+                "type": "quote",
+                "value": "وقتی درد از بین می‌رود، ریکاوری شاید نیمه‌کاره است، نه تمام‌شده.",
+                "author": "دکتر سوفیا مارکتی، مشاور پزشکی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-023",
+        "title": "Jumper's Knee: Understanding Patellar Tendinopathy",
+        "caption": "It's one of the most common overuse injuries in volleyball and basketball, and one of the most misunderstood.",
+        "category": "Injury & Recovery",
+        "cover": "/assest/img/articles/patellar-tendinopathy/cover.jpg",
+        "timeC": "jun24,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "Overload, Not Just Overuse"
+            },
+            {
+                "type": "paragraph",
+                "value": "Patellar tendinopathy develops when the tendon connecting the kneecap to the shin is loaded faster than it can adapt and repair, most often from repeated jumping. It's less about total volume alone and more about volume rising faster than the tendon's capacity to keep up."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/patellar-tendinopathy/img-1.jpg",
+                "alt": "Athlete icing the front of the knee after training",
+                "caption": "Jumper's knee develops when jump volume rises faster than the tendon can adapt."
+            },
+            {
+                "type": "heading",
+                "value": "Why Rest Alone Often Doesn't Fix It"
+            },
+            {
+                "type": "paragraph",
+                "value": "Unlike many soft-tissue injuries, tendinopathy often responds poorly to complete rest, because the tendon actually needs some loading to remodel and strengthen. Too little load and healing stalls; too much and the irritation returns."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/patellar-tendinopathy/img-2.jpg",
+                "alt": "Athlete performing a slow, heavy leg-strength exercise",
+                "caption": "Slow, controlled loading is now central to modern tendon rehab."
+            },
+            {
+                "type": "heading",
+                "value": "The Role of Progressive Loading"
+            },
+            {
+                "type": "paragraph",
+                "value": "Current rehabilitation approaches typically use progressive, controlled strength exercises — slow, heavy resistance work in particular — to rebuild tendon capacity gradually, alongside a carefully managed reduction in jumping volume rather than a total stop."
+            },
+            {
+                "type": "quote",
+                "value": "The tendon doesn't want to be protected forever. It wants to be loaded correctly, and given time.",
+                "author": "Dr. Sofia Marchetti, JUMIX Medical Advisor"
+            }
+        ]
+    },
+    {
+        "id": "fa-023",
+        "title": "زانوی جامپر؛ شناخت تاندینوپاتی کشکک",
+        "caption": "یکی از شایع‌ترین مصدومیت‌های ناشی از استفاده بیش‌ازحد در والیبال و بسکتبال است، و یکی از بدفهمیده‌شده‌ترین‌ها.",
+        "category": "مصدومیت و ریکاوری",
+        "cover": "/assest/img/articles/patellar-tendinopathy/cover.jpg",
+        "timeC": "jun24,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "اضافه‌بار، نه فقط استفاده زیاد"
+            },
+            {
+                "type": "paragraph",
+                "value": "تاندینوپاتی کشکک زمانی ایجاد می‌شود که تاندون اتصال‌دهنده کشکک به ساق پا، سریع‌تر از توانایی سازگاری و ترمیمش تحت بار قرار گیرد، اغلب ناشی از پرش مکرر. موضوع کمتر درباره حجم کل به‌تنهایی است و بیشتر درباره افزایش حجم سریع‌تر از ظرفیت تاندون برای همراهی است."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/patellar-tendinopathy/img-1.jpg",
+                "alt": "ورزشکار در حال یخ گذاشتن روی جلوی زانو پس از تمرین",
+                "caption": "زانوی جامپر زمانی ایجاد می‌شود که حجم پرش سریع‌تر از توان سازگاری تاندون بالا برود."
+            },
+            {
+                "type": "heading",
+                "value": "چرا استراحت به‌تنهایی اغلب مشکل را حل نمی‌کند"
+            },
+            {
+                "type": "paragraph",
+                "value": "برخلاف بسیاری از مصدومیت‌های بافت نرم، تاندینوپاتی اغلب پاسخ خوبی به استراحت کامل نمی‌دهد، چون تاندون واقعاً به مقداری بار برای بازسازی و تقویت نیاز دارد. بار خیلی کم باعث توقف ترمیم می‌شود؛ بار خیلی زیاد باعث بازگشت التهاب می‌شود."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/patellar-tendinopathy/img-2.jpg",
+                "alt": "ورزشکار در حال انجام تمرین قدرتی کند و سنگین پا",
+                "caption": "بارگذاری کند و کنترل‌شده اکنون محور ریکاوری مدرن تاندون است."
+            },
+            {
+                "type": "heading",
+                "value": "نقش بارگذاری تدریجی"
+            },
+            {
+                "type": "paragraph",
+                "value": "رویکردهای فعلی ریکاوری معمولاً از تمرین‌های قدرتی تدریجی و کنترل‌شده، به‌ویژه کار مقاومتی کند و سنگین، برای بازسازی تدریجی ظرفیت تاندون استفاده می‌کنند، همراه با کاهش دقیقاً مدیریت‌شده حجم پرش به‌جای توقف کامل."
+            },
+            {
+                "type": "quote",
+                "value": "تاندون نمی‌خواهد برای همیشه محافظت شود؛ می‌خواهد درست بارگذاری شود و زمان داشته باشد.",
+                "author": "دکتر سوفیا مارکتی، مشاور پزشکی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-024",
+        "title": "Overtraining Syndrome: The Warning Signs Athletes Miss",
+        "caption": "Not every dip in performance means an athlete needs to train harder. Sometimes it means the exact opposite.",
+        "category": "Injury & Recovery",
+        "cover": "/assest/img/articles/overtraining/cover.jpg",
+        "timeC": "jul3,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "When More Training Makes an Athlete Worse, Not Better"
+            },
+            {
+                "type": "paragraph",
+                "value": "Overtraining syndrome develops when training load consistently outpaces recovery over weeks or months, leading to a persistent drop in performance that doesn't resolve with a normal day or two of rest — the usual fix simply stops working."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/overtraining/img-1.jpg",
+                "alt": "Exhausted athlete sitting on the court after practice",
+                "caption": "Performance decline that persists past normal rest is a signal, not weakness."
+            },
+            {
+                "type": "heading",
+                "value": "The Signs That Get Dismissed as 'Just Tired'"
+            },
+            {
+                "type": "paragraph",
+                "value": "Unexplained performance decline, disrupted sleep despite exhaustion, mood changes, elevated resting heart rate and frequent minor illness are all common markers. Because each sign alone seems minor, the pattern is often missed until it's fairly advanced."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/overtraining/img-2.jpg",
+                "alt": "Coach and athlete reviewing a wellness questionnaire",
+                "caption": "Wellness tracking helps catch overtraining before it becomes a long-term problem."
+            },
+            {
+                "type": "heading",
+                "value": "Why Prevention Beats Treatment Here"
+            },
+            {
+                "type": "paragraph",
+                "value": "Recovery from true overtraining syndrome can take weeks to months, far longer than the training block that caused it. This is why tracking wellness markers and adjusting load proactively is treated as seriously as the training itself in well-run programs."
+            },
+            {
+                "type": "quote",
+                "value": "Fatigue that a good night's sleep doesn't fix isn't normal fatigue anymore. It's a signal.",
+                "author": "Dr. Sofia Marchetti, JUMIX Medical Advisor"
+            }
+        ]
+    },
+    {
+        "id": "fa-024",
+        "title": "سندرم تمرین‌زدگی؛ علائم هشداری که ورزشکاران از دست می‌دهند",
+        "caption": "هر افت عملکردی به معنای نیاز به تمرین سخت‌تر نیست. گاهی دقیقاً برعکس آن است.",
+        "category": "مصدومیت و ریکاوری",
+        "cover": "/assest/img/articles/overtraining/cover.jpg",
+        "timeC": "jul3,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "وقتی تمرین بیشتر، ورزشکار را بدتر می‌کند نه بهتر"
+            },
+            {
+                "type": "paragraph",
+                "value": "سندرم تمرین‌زدگی زمانی ایجاد می‌شود که بار تمرینی به‌طور مداوم طی هفته‌ها یا ماه‌ها از ریکاوری پیشی بگیرد و به افت پایدار عملکردی منجر شود که با یکی دو روز استراحت معمولی برطرف نمی‌شود؛ راه‌حل همیشگی دیگر جواب نمی‌دهد."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/overtraining/img-1.jpg",
+                "alt": "ورزشکار خسته نشسته روی زمین پس از تمرین",
+                "caption": "افت عملکردی که پس از استراحت معمولی باقی می‌ماند، یک سیگنال است، نه ضعف."
+            },
+            {
+                "type": "heading",
+                "value": "علائمی که به‌عنوان «فقط خستگی» نادیده گرفته می‌شوند"
+            },
+            {
+                "type": "paragraph",
+                "value": "افت عملکرد بی‌دلیل، اختلال خواب با وجود خستگی، تغییر خلق‌وخو، ضربان قلب استراحتی بالاتر و بیماری‌های جزئی مکرر، همگی نشانگرهای رایج هستند. چون هر نشانه به‌تنهایی جزئی به نظر می‌رسد، این الگو اغلب تا زمانی که نسبتاً پیشرفته شود نادیده گرفته می‌شود."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/overtraining/img-2.jpg",
+                "alt": "مربی و ورزشکار در حال بررسی پرسش‌نامه سلامت",
+                "caption": "پیگیری سلامت به شناسایی تمرین‌زدگی پیش از تبدیل شدن به مشکل بلندمدت کمک می‌کند."
+            },
+            {
+                "type": "heading",
+                "value": "چرا پیشگیری اینجا بر درمان برتری دارد"
+            },
+            {
+                "type": "paragraph",
+                "value": "بهبودی از سندرم تمرین‌زدگی واقعی می‌تواند هفته‌ها تا ماه‌ها طول بکشد، بسیار بیشتر از دوره تمرینی‌ای که آن را ایجاد کرده. به همین دلیل پیگیری نشانگرهای سلامت و تنظیم فعالانه بار، در برنامه‌های خوب‌اداره‌شده به‌اندازه خود تمرین جدی گرفته می‌شود."
+            },
+            {
+                "type": "quote",
+                "value": "خستگی‌ای که یک شب خواب خوب آن را رفع نمی‌کند، دیگر خستگی معمولی نیست؛ یک سیگنال است.",
+                "author": "دکتر سوفیا مارکتی، مشاور پزشکی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-025",
+        "title": "Shoulder Overuse Injuries in Overhead Athletes",
+        "caption": "A volleyball attacker's shoulder absorbs an enormous, repetitive workload most fans never think about.",
+        "category": "Injury & Recovery",
+        "cover": "/assest/img/articles/shoulder-overuse/cover.jpg",
+        "timeC": "jul10,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "The Hidden Cost of the Overhead Swing"
+            },
+            {
+                "type": "paragraph",
+                "value": "Every hard-hit spike puts the shoulder through a rapid, high-velocity arm swing repeated dozens or hundreds of times across a single match and practice week combined. Over a season, that repetition — not any single swing — is usually what wears down the joint's supporting structures."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/shoulder-overuse/img-1.jpg",
+                "alt": "Volleyball attacker swinging hard for a spike",
+                "caption": "The deceleration after a spike often stresses the shoulder more than the swing itself."
+            },
+            {
+                "type": "heading",
+                "value": "Why the Rotator Cuff Takes the Brunt"
+            },
+            {
+                "type": "paragraph",
+                "value": "The small rotator cuff muscles are responsible for decelerating the arm after the ball is struck, and that deceleration phase is often more damaging over time than the acceleration phase that actually powers the hit."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/shoulder-overuse/img-2.jpg",
+                "alt": "Athlete doing rotator cuff strengthening exercises with a resistance band",
+                "caption": "Rotator cuff strength work is preventive maintenance, not just rehab."
+            },
+            {
+                "type": "heading",
+                "value": "Managing Load Before Pain Shows Up"
+            },
+            {
+                "type": "paragraph",
+                "value": "Many programs now track total swing count across practice and matches combined, not just game-day swings, since practice repetition often adds up to a larger share of overall shoulder load than the match itself."
+            },
+            {
+                "type": "quote",
+                "value": "By the time the shoulder hurts, the overload usually started weeks earlier.",
+                "author": "Dr. Sofia Marchetti, JUMIX Medical Advisor"
+            }
+        ]
+    },
+    {
+        "id": "fa-025",
+        "title": "مصدومیت‌های ناشی از استفاده بیش‌ازحد شانه در ورزشکاران بالای سر",
+        "caption": "شانه یک زننده والیبال حجم کاری عظیم و تکراری‌ای را تحمل می‌کند که بیشتر هواداران هرگز به آن فکر نمی‌کنند.",
+        "category": "مصدومیت و ریکاوری",
+        "cover": "/assest/img/articles/shoulder-overuse/cover.jpg",
+        "timeC": "jul10,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "هزینه پنهان ضربه بالای سر"
+            },
+            {
+                "type": "paragraph",
+                "value": "هر اسپک محکم، شانه را از یک چرخش سریع و پرسرعت بازو عبور می‌دهد که ده‌ها یا صدها بار در یک بازی و هفته تمرینی با هم تکرار می‌شود. در طول یک فصل، این تکرار، نه یک ضربه منفرد، معمولاً چیزی است که ساختارهای نگه‌دارنده مفصل را فرسوده می‌کند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/shoulder-overuse/img-1.jpg",
+                "alt": "زننده والیبال در حال ضربه محکم برای اسپک",
+                "caption": "کاهش سرعت پس از اسپک اغلب بیشتر از خود ضربه به شانه فشار می‌آورد."
+            },
+            {
+                "type": "heading",
+                "value": "چرا روتاتور کاف بیشترین فشار را متحمل می‌شود"
+            },
+            {
+                "type": "paragraph",
+                "value": "عضلات کوچک روتاتور کاف مسئول کاهش سرعت بازو پس از برخورد به توپ هستند، و آن فاز کاهش سرعت اغلب در طول زمان مخرب‌تر از فاز شتاب‌گیری است که واقعاً به ضربه قدرت می‌دهد."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/shoulder-overuse/img-2.jpg",
+                "alt": "ورزشکار در حال تمرین تقویت روتاتور کاف با کش مقاومتی",
+                "caption": "تمرین تقویت روتاتور کاف نگهداری پیشگیرانه است، نه فقط ریکاوری."
+            },
+            {
+                "type": "heading",
+                "value": "مدیریت بار پیش از بروز درد"
+            },
+            {
+                "type": "paragraph",
+                "value": "بسیاری از برنامه‌ها اکنون تعداد کل ضربه‌ها را در طول تمرین و بازی با هم پیگیری می‌کنند، نه فقط ضربه‌های روز بازی، چون تکرار در تمرین اغلب سهم بزرگ‌تری از کل بار شانه نسبت به خود بازی دارد."
+            },
+            {
+                "type": "quote",
+                "value": "تا زمانی که شانه درد بگیرد، اضافه‌بار معمولاً هفته‌ها قبل شروع شده بوده.",
+                "author": "دکتر سوفیا مارکتی، مشاور پزشکی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-026",
+        "title": "Inside JUMIX Lab: Where the Next Shoe Starts",
+        "caption": "Before a JUMIX shoe reaches a court, it spends months inside a room most people never get to see.",
+        "category": "Brand",
+        "cover": "/assest/img/articles/jumix-lab/cover.jpg",
+        "timeC": "jul17,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "A Floor That's Also a Sensor"
+            },
+            {
+                "type": "paragraph",
+                "value": "JUMIX Lab sits behind a plain door at the back of headquarters, built around a pressure-mapped test court that records every footstep run across it. It's less a design studio and more a research floor where prototypes get quietly torn apart by data before they ever get a name."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-lab/img-1.jpg",
+                "alt": "Pressure-mapped test court inside a footwear research lab",
+                "caption": "Every prototype run across this floor gets recorded as raw pressure data."
+            },
+            {
+                "type": "heading",
+                "value": "Where Prototypes Go to Get Broken"
+            },
+            {
+                "type": "paragraph",
+                "value": "A single midsole compound can go through dozens of small chemical variations before one earns a place in a real prototype. The team's unofficial rule is simple: if a shoe can't survive the Lab's accelerated wear-testing rig, it doesn't survive to see a locker room."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-lab/img-2.jpg",
+                "alt": "Engineer examining a shoe midsole prototype on a workbench",
+                "caption": "Dozens of small material variations are tested before one earns a real prototype."
+            },
+            {
+                "type": "heading",
+                "value": "The People Behind the Data"
+            },
+            {
+                "type": "paragraph",
+                "value": "Engineers, biomechanists and a small rotating group of test athletes share the same floor, which is deliberate — the team believes a great cushioning number means nothing until a real foot, moving fast, confirms it feels the way the data promised."
+            },
+            {
+                "type": "quote",
+                "value": "We don't get to call it done. The court decides that.",
+                "author": "Priya Nakamura, JUMIX Footwear Engineer"
+            }
+        ]
+    },
+    {
+        "id": "fa-026",
+        "title": "داخل آزمایشگاه جومیکس؛ جایی که کفش بعدی شروع می‌شود",
+        "caption": "پیش از آنکه یک کفش جومیکس به زمین بازی برسد، ماه‌ها را داخل اتاقی می‌گذراند که بیشتر آدم‌ها هرگز نمی‌بینند.",
+        "category": "برند",
+        "cover": "/assest/img/articles/jumix-lab/cover.jpg",
+        "timeC": "jul17,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "زمینی که خودش یک حسگر است"
+            },
+            {
+                "type": "paragraph",
+                "value": "آزمایشگاه جومیکس پشت یک در ساده در انتهای دفتر مرکزی قرار دارد، حول یک زمین تست فشارسنج ساخته شده که هر قدمی را که رویش دویده می‌شود ثبت می‌کند. کمتر یک استودیوی طراحی است و بیشتر یک طبقه پژوهشی است که نمونه‌های اولیه پیش از آنکه اصلاً اسمی بگیرند، بی‌سروصدا زیر داده تکه‌تکه می‌شوند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-lab/img-1.jpg",
+                "alt": "زمین تست فشارسنج داخل آزمایشگاه پژوهش پوشاک ورزشی",
+                "caption": "هر دویدن روی این زمین با هر نمونه اولیه، به‌صورت داده خام فشار ثبت می‌شود."
+            },
+            {
+                "type": "heading",
+                "value": "جایی که نمونه‌های اولیه شکسته می‌شوند"
+            },
+            {
+                "type": "paragraph",
+                "value": "یک ترکیب میان‌کفی می‌تواند ده‌ها تغییر شیمیایی کوچک را پشت سر بگذارد پیش از آنکه یکی جایی در یک نمونه واقعی به دست بیاورد. قانون غیررسمی تیم ساده است: اگر یک کفش نتواند دستگاه تست سایش شتاب‌یافته آزمایشگاه را تاب بیاورد، زنده نمی‌ماند که رخت‌کن را ببیند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-lab/img-2.jpg",
+                "alt": "مهندس در حال بررسی نمونه اولیه میان‌کفی روی میز کار",
+                "caption": "ده‌ها تغییر کوچک ماده تست می‌شود پیش از آنکه یکی به یک نمونه اولیه واقعی برسد."
+            },
+            {
+                "type": "heading",
+                "value": "آدم‌های پشت داده"
+            },
+            {
+                "type": "paragraph",
+                "value": "مهندسان، متخصصان بیومکانیک و گروهی کوچک و چرخشی از ورزشکاران تست، همان طبقه را به اشتراک می‌گذارند، و این عمدی است؛ تیم معتقد است یک عدد کوشن عالی تا وقتی یک پای واقعی، در حال حرکت سریع، تأیید نکند همان چیزی حس می‌شود که داده وعده داده بود، معنایی ندارد."
+            },
+            {
+                "type": "quote",
+                "value": "ما نمی‌توانیم بگوییم کار تمام است؛ زمین بازی این را تصمیم می‌گیرد.",
+                "author": "پریا ناکامورا، مهندس پوشاک ورزشی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-027",
+        "title": "Inside JUMIX Design Studio: From Sketch to Sole",
+        "caption": "A shoe's shape starts as a pencil line long before it becomes anything a foot can wear.",
+        "category": "Brand",
+        "cover": "/assest/img/articles/jumix-design-studio/cover.jpg",
+        "timeC": "jul24,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "The Wall of Rejected Sketches"
+            },
+            {
+                "type": "paragraph",
+                "value": "One wall of the JUMIX Design Studio is reserved for sketches that didn't make it — hundreds of them, pinned up as a reminder that most ideas are supposed to fail fast, on paper, where it's cheap, rather than late, in a mold, where it isn't."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-design-studio/img-1.jpg",
+                "alt": "Wall covered in pinned-up shoe concept sketches",
+                "caption": "Hundreds of rejected sketches are kept as a reminder to fail fast and cheap."
+            },
+            {
+                "type": "heading",
+                "value": "Where Form Has to Answer to Function"
+            },
+            {
+                "type": "paragraph",
+                "value": "Every design pass gets handed across the hall to the Lab team for a reality check before it goes further. A silhouette that looks striking but can't hit the traction or weight targets gets sent back — the studio treats that pushback as part of the design process, not an obstacle to it."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-design-studio/img-2.jpg",
+                "alt": "Designer reviewing motion-capture footage of a running stride",
+                "caption": "The studio designs around a foot in motion, not a shoe standing still."
+            },
+            {
+                "type": "heading",
+                "value": "Designing for a Foot in Motion, Not a Shelf"
+            },
+            {
+                "type": "paragraph",
+                "value": "Designers work from motion-capture footage as often as from static shoe references, because a shoe that looks sharp standing still can look completely wrong mid-stride. The studio's real client, they say, isn't the eye — it's the foot."
+            },
+            {
+                "type": "quote",
+                "value": "A beautiful shoe that can't move right isn't a shoe yet. It's just a sketch with laces.",
+                "author": "Lena Novak, JUMIX Design Director"
+            }
+        ]
+    },
+    {
+        "id": "fa-027",
+        "title": "داخل استودیوی طراحی جومیکس؛ از طرح مدادی تا کف کفش",
+        "caption": "شکل یک کفش مدت‌ها پیش از آنکه به چیزی تبدیل شود که پا بتواند بپوشد، با یک خط مدادی شروع می‌شود.",
+        "category": "برند",
+        "cover": "/assest/img/articles/jumix-design-studio/cover.jpg",
+        "timeC": "jul24,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "دیوار طرح‌های رد‌شده"
+            },
+            {
+                "type": "paragraph",
+                "value": "یک دیوار در استودیوی طراحی جومیکس برای طرح‌هایی رزرو شده که موفق نشدند؛ صدها طرح، آویزان‌شده به‌عنوان یادآوری اینکه بیشتر ایده‌ها قرار است سریع شکست بخورند، روی کاغذ، جایی که ارزان است، نه دیر، داخل قالب، جایی که ارزان نیست."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-design-studio/img-1.jpg",
+                "alt": "دیوار پوشیده از طرح‌های مفهومی کفش",
+                "caption": "صدها طرح رد‌شده به‌عنوان یادآوری شکست سریع و ارزان نگه داشته می‌شوند."
+            },
+            {
+                "type": "heading",
+                "value": "جایی که فرم باید به عملکرد پاسخگو باشد"
+            },
+            {
+                "type": "paragraph",
+                "value": "هر مرحله طراحی پیش از ادامه، به تیم آزمایشگاه در آن‌سوی راهرو تحویل داده می‌شود برای یک بررسی واقعیت. سیلوئتی که چشمگیر به نظر می‌رسد اما نمی‌تواند به اهداف چسبندگی یا وزن برسد، پس فرستاده می‌شود؛ استودیو این بازخورد را بخشی از فرایند طراحی می‌داند، نه مانعی برای آن."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-design-studio/img-2.jpg",
+                "alt": "طراح در حال بررسی فیلم موشن‌کپچر یک گام دویدن",
+                "caption": "استودیو حول پایی در حرکت طراحی می‌کند، نه کفشی ایستاده."
+            },
+            {
+                "type": "heading",
+                "value": "طراحی برای پایی در حرکت، نه یک قفسه"
+            },
+            {
+                "type": "paragraph",
+                "value": "طراحان به‌همان‌اندازه که از مراجع ثابت کفش استفاده می‌کنند، از فیلم موشن‌کپچر هم استفاده می‌کنند، چون کفشی که ایستاده جذاب به نظر می‌رسد ممکن است وسط گام کاملاً اشتباه به نظر برسد. می‌گویند مشتری واقعی استودیو، چشم نیست؛ پاست."
+            },
+            {
+                "type": "quote",
+                "value": "کفش زیبایی که نتواند درست حرکت کند هنوز کفش نیست؛ فقط یک طرح مدادی با بند است.",
+                "author": "لنا نواک، مدیر طراحی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-028",
+        "title": "The JUMIX Athlete Program: Testing Shoes Before They Exist",
+        "caption": "A small, rotating roster of club and college players quietly shapes every JUMIX shoe long before it has a name.",
+        "category": "Brand",
+        "cover": "/assest/img/articles/jumix-athlete-program/cover.jpg",
+        "timeC": "aug3,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "Unreleased, Unlabeled, Unproven"
+            },
+            {
+                "type": "paragraph",
+                "value": "Athletes in the JUMIX Athlete Program train and compete in prototype shoes with the branding blacked out, months or sometimes years before a public release. What they're wearing on court often doesn't have a name yet — just a code and a spreadsheet row waiting for feedback."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-athlete-program/img-1.jpg",
+                "alt": "Athlete wearing an unbranded prototype shoe during training",
+                "caption": "Prototype shoes wear a code, not a name, for months before release."
+            },
+            {
+                "type": "heading",
+                "value": "Feedback That Isn't a Survey"
+            },
+            {
+                "type": "paragraph",
+                "value": "Instead of a satisfaction form, athletes sit down with the Lab team after sessions and describe, in their own words, exactly where a shoe felt wrong — too stiff through a cut, too vague on a plant. That plain-language feedback gets translated back into measurable engineering targets."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-athlete-program/img-2.jpg",
+                "alt": "Athlete and engineer discussing shoe feel after a session",
+                "caption": "Plain-language feedback gets translated into measurable engineering targets."
+            },
+            {
+                "type": "heading",
+                "value": "Why the Program Stays Small on Purpose"
+            },
+            {
+                "type": "paragraph",
+                "value": "JUMIX deliberately keeps the roster small rather than broad, on the belief that a handful of athletes giving detailed, trusted feedback across dozens of sessions teaches the Lab more than a large group giving a single rushed impression ever could."
+            },
+            {
+                "type": "quote",
+                "value": "They're not wearing our shoes. They're wearing our questions, and answering them one practice at a time.",
+                "author": "Marcus Fields, JUMIX Performance Coach"
+            }
+        ]
+    },
+    {
+        "id": "fa-028",
+        "title": "برنامه ورزشکاران جومیکس؛ تست کفش‌هایی که هنوز وجود ندارند",
+        "caption": "گروهی کوچک و چرخشی از بازیکنان باشگاهی و دانشگاهی، بی‌سروصدا هر کفش جومیکس را مدت‌ها پیش از داشتن اسم شکل می‌دهند.",
+        "category": "برند",
+        "cover": "/assest/img/articles/jumix-athlete-program/cover.jpg",
+        "timeC": "aug3,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "منتشرنشده، بدون برچسب، اثبات‌نشده"
+            },
+            {
+                "type": "paragraph",
+                "value": "ورزشکاران برنامه جومیکس ماه‌ها یا گاهی سال‌ها پیش از عرضه عمومی، با کفش‌های نمونه اولیه‌ای که برندشان پوشانده شده، تمرین و رقابت می‌کنند. آنچه روی زمین می‌پوشند اغلب هنوز اسمی ندارد؛ فقط یک کد و یک ردیف در جدول است که منتظر بازخورد است."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-athlete-program/img-1.jpg",
+                "alt": "ورزشکار با کفش نمونه اولیه بدون برند حین تمرین",
+                "caption": "کفش‌های نمونه اولیه ماه‌ها پیش از عرضه فقط یک کد دارند، نه اسم."
+            },
+            {
+                "type": "heading",
+                "value": "بازخوردی که یک پرسش‌نامه نیست"
+            },
+            {
+                "type": "paragraph",
+                "value": "به‌جای فرم رضایت، ورزشکاران پس از جلسات با تیم آزمایشگاه می‌نشینند و با کلمات خودشان دقیقاً می‌گویند کجای کفش حس بدی داشته؛ خیلی سفت حین یک برش، خیلی مبهم روی یک پلنت. آن بازخورد ساده به اهداف مهندسی قابل‌اندازه‌گیری ترجمه می‌شود."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-athlete-program/img-2.jpg",
+                "alt": "ورزشکار و مهندس در حال گفتگو درباره حس کفش پس از جلسه",
+                "caption": "بازخورد ساده به اهداف مهندسی قابل‌اندازه‌گیری ترجمه می‌شود."
+            },
+            {
+                "type": "heading",
+                "value": "چرا برنامه عمداً کوچک نگه داشته می‌شود"
+            },
+            {
+                "type": "paragraph",
+                "value": "جومیکس عمداً جمع را کوچک نگه می‌دارد نه گسترده، بر این باور که چند ورزشکار که بازخورد دقیق و معتبر در ده‌ها جلسه می‌دهند، بیشتر از یک گروه بزرگ که یک برداشت عجولانه می‌دهد به آزمایشگاه یاد می‌دهد."
+            },
+            {
+                "type": "quote",
+                "value": "آن‌ها کفش‌های ما را نمی‌پوشند؛ سؤال‌های ما را می‌پوشند و هر بار در یک تمرین جوابشان را می‌دهند.",
+                "author": "مارکوس فیلدز، مربی عملکرد جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-029",
+        "title": "The JUMIX Sustainability Division: Closing the Material Loop",
+        "caption": "A small team inside JUMIX has one job: make sure a shoe's story doesn't end in a landfill.",
+        "category": "Brand",
+        "cover": "/assest/img/articles/jumix-sustainability/cover.jpg",
+        "timeC": "aug10,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "Starting With What Already Exists"
+            },
+            {
+                "type": "paragraph",
+                "value": "Rather than treating sustainability as a separate line, the Sustainability Division works alongside the Lab from a shoe's earliest concept, screening candidate materials for recycled content and end-of-life recyclability before a single prototype is built."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-sustainability/img-1.jpg",
+                "alt": "Sorted bins of recyclable shoe materials in a workshop",
+                "caption": "Material screening starts at a shoe's earliest concept, not after it's finished."
+            },
+            {
+                "type": "heading",
+                "value": "The Take-Back Question Nobody Used to Ask"
+            },
+            {
+                "type": "paragraph",
+                "value": "The team's guiding question is simple but was rarely asked in footwear design a decade ago: when this shoe is finally worn out, what happens to it? That question is now shaping decisions about adhesives, material mixing and even how a shoe is meant to be taken apart."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-sustainability/img-2.jpg",
+                "alt": "Team member disassembling a shoe to study its material layers",
+                "caption": "Understanding how a shoe comes apart shapes how it gets designed in the first place."
+            },
+            {
+                "type": "heading",
+                "value": "Small Wins, Tracked Honestly"
+            },
+            {
+                "type": "paragraph",
+                "value": "The division publishes its own material scorecards internally, including the trade-offs that didn't work, rather than only celebrating finished wins — a deliberate choice to keep the team honest about how much work is still incremental rather than done."
+            },
+            {
+                "type": "quote",
+                "value": "Sustainable isn't a finish line we crossed. It's a question we ask about every single shoe, every single time.",
+                "author": "Dr. Sofia Marchetti, JUMIX Medical Advisor"
+            }
+        ]
+    },
+    {
+        "id": "fa-029",
+        "title": "بخش پایداری جومیکس؛ بستن چرخه مواد",
+        "caption": "یک تیم کوچک داخل جومیکس یک وظیفه دارد: مطمئن شود داستان یک کفش به زباله‌دانی ختم نمی‌شود.",
+        "category": "برند",
+        "cover": "/assest/img/articles/jumix-sustainability/cover.jpg",
+        "timeC": "aug10,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "شروع با آنچه از قبل وجود دارد"
+            },
+            {
+                "type": "paragraph",
+                "value": "به‌جای رفتار با پایداری به‌عنوان یک خط جداگانه، بخش پایداری از همان اولین مفهوم یک کفش، کنار آزمایشگاه کار می‌کند و مواد کاندید را از نظر محتوای بازیافتی و قابلیت بازیافت در پایان عمر، پیش از ساخت حتی یک نمونه اولیه، بررسی می‌کند."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-sustainability/img-1.jpg",
+                "alt": "سطل‌های دسته‌بندی‌شده مواد قابل‌بازیافت کفش در کارگاه",
+                "caption": "بررسی مواد از همان اولین مفهوم کفش شروع می‌شود، نه پس از تمام شدن آن."
+            },
+            {
+                "type": "heading",
+                "value": "سؤال پس‌گیری که قبلاً هیچ‌کس نمی‌پرسید"
+            },
+            {
+                "type": "paragraph",
+                "value": "سؤال راهنمای تیم ساده است اما یک دهه پیش در طراحی پوشاک ورزشی به‌ندرت پرسیده می‌شد: وقتی این کفش بالاخره فرسوده شد، چه بر سرش می‌آید؟ آن سؤال اکنون تصمیم‌ها درباره چسب، ترکیب مواد و حتی نحوه از‌هم‌بازشدن کفش را شکل می‌دهد."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-sustainability/img-2.jpg",
+                "alt": "عضو تیم در حال بازکردن کفش برای بررسی لایه‌های مواد آن",
+                "caption": "فهم اینکه کفش چطور از هم باز می‌شود، نحوه طراحی اولیه آن را شکل می‌دهد."
+            },
+            {
+                "type": "heading",
+                "value": "پیروزی‌های کوچک، صادقانه ثبت‌شده"
+            },
+            {
+                "type": "paragraph",
+                "value": "این بخش کارنامه‌های مواد خودش را داخلی منتشر می‌کند، از‌جمله معامله‌هایی که جواب نداد، نه فقط جشن گرفتن پیروزی‌های نهایی؛ انتخابی عمدی برای صادق نگه داشتن تیم درباره اینکه چقدر از این کار هنوز تدریجی است نه تمام‌شده."
+            },
+            {
+                "type": "quote",
+                "value": "پایدار بودن خط پایانی نیست که رد کرده باشیم؛ سؤالی است که درباره هر کفش، هر بار، می‌پرسیم.",
+                "author": "دکتر سوفیا مارکتی، مشاور پزشکی جومیکس"
+            }
+        ]
+    },
+    {
+        "id": "en-030",
+        "title": "Behind the JUMIX Academy: Coaching the Next Generation",
+        "caption": "Long before a young player ever needs a performance shoe, JUMIX Academy is already working on the player, not the product.",
+        "category": "Brand",
+        "cover": "/assest/img/articles/jumix-academy/cover.jpg",
+        "timeC": "aug17,2026",
+        "dir": "ltr",
+        "content": [
+            {
+                "type": "heading",
+                "value": "A Program That Isn't Really About Shoes"
+            },
+            {
+                "type": "paragraph",
+                "value": "JUMIX Academy runs free weekend clinics for young volleyball and basketball players, built around fundamentals — footwork, landing mechanics, basic strength — rather than any product pitch. Coaches are explicitly told the session succeeds if a kid moves better by the end, not if they leave wanting new gear."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-academy/img-1.jpg",
+                "alt": "Young players practicing footwork drills at a weekend clinic",
+                "caption": "Academy sessions build around fundamentals, not product."
+            },
+            {
+                "type": "heading",
+                "value": "Teaching Movement Before Teaching a Sport"
+            },
+            {
+                "type": "paragraph",
+                "value": "Younger sessions spend a surprising amount of time on general movement literacy — jumping, landing, changing direction safely — treating those as a foundation every sport builds on, rather than jumping straight into drills specific to one game."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-academy/img-2.jpg",
+                "alt": "Coach demonstrating a safe landing technique to young athletes",
+                "caption": "Movement literacy taught young is a foundation every sport builds on later."
+            },
+            {
+                "type": "heading",
+                "value": "Where the Lab and the Academy Quietly Meet"
+            },
+            {
+                "type": "paragraph",
+                "value": "Movement patterns the Academy notices repeatedly in young athletes sometimes make their way back to the Lab as design considerations — a reminder that the people who'll wear a shoe in ten years are already on a court somewhere today."
+            },
+            {
+                "type": "quote",
+                "value": "We're not raising customers. We're just trying to keep kids moving well long enough to fall in love with the game.",
+                "author": "Marcus Fields, JUMIX Performance Coach"
+            }
+        ]
+    },
+    {
+        "id": "fa-030",
+        "title": "پشت‌صحنه آکادمی جومیکس؛ مربی‌گری نسل بعدی",
+        "caption": "مدت‌ها پیش از آنکه یک بازیکن جوان به کفش حرفه‌ای نیاز داشته باشد، آکادمی جومیکس از قبل روی خود بازیکن کار می‌کند، نه محصول.",
+        "category": "برند",
+        "cover": "/assest/img/articles/jumix-academy/cover.jpg",
+        "timeC": "aug17,2026",
+        "dir": "rtl",
+        "content": [
+            {
+                "type": "heading",
+                "value": "برنامه‌ای که واقعاً درباره کفش نیست"
+            },
+            {
+                "type": "paragraph",
+                "value": "آکادمی جومیکس کلینیک‌های رایگان آخر هفته برای بازیکنان جوان والیبال و بسکتبال برگزار می‌کند، حول مبانی؛ فوت‌ورک، مکانیک فرود، قدرت پایه، نه هیچ تبلیغ محصولی. به مربیان صراحتاً گفته می‌شود جلسه زمانی موفق است که یک بچه در پایان بهتر حرکت کند، نه اینکه با آرزوی تجهیزات جدید برود."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-academy/img-1.jpg",
+                "alt": "بازیکنان جوان در حال تمرین فوت‌ورک در کلینیک آخر هفته",
+                "caption": "جلسات آکادمی حول مبانی ساخته می‌شوند، نه محصول."
+            },
+            {
+                "type": "heading",
+                "value": "آموزش حرکت پیش از آموزش یک ورزش"
+            },
+            {
+                "type": "paragraph",
+                "value": "جلسات کودکان کم‌سن‌وسال‌تر زمان شگفت‌آوری را روی سواد حرکتی عمومی می‌گذرانند؛ پرش، فرود، تغییر جهت ایمن؛ و با آن‌ها به‌عنوان پایه‌ای که هر ورزش رویش ساخته می‌شود رفتار می‌کنند، نه پریدن مستقیم به تمرین‌های اختصاصی یک بازی."
+            },
+            {
+                "type": "img",
+                "value": "/assest/img/articles/jumix-academy/img-2.jpg",
+                "alt": "مربی در حال نمایش تکنیک فرود ایمن به ورزشکاران جوان",
+                "caption": "سواد حرکتی آموخته‌شده در سنین پایین، پایه‌ای است که هر ورزشی بعداً رویش ساخته می‌شود."
+            },
+            {
+                "type": "heading",
+                "value": "جایی که آزمایشگاه و آکادمی بی‌سروصدا به هم می‌رسند"
+            },
+            {
+                "type": "paragraph",
+                "value": "الگوهای حرکتی‌ای که آکادمی مکرراً در ورزشکاران جوان می‌بیند، گاهی به‌عنوان ملاحظات طراحی به آزمایشگاه بازمی‌گردد؛ یادآوری اینکه کسانی که ده سال دیگر یک کفش را می‌پوشند، همین امروز جایی در یک زمین بازی هستند."
+            },
+            {
+                "type": "quote",
+                "value": "ما مشتری تربیت نمی‌کنیم؛ فقط سعی می‌کنیم بچه‌ها را آن‌قدر خوب حرکت نگه داریم که عاشق این بازی شوند.",
+                "author": "مارکوس فیلدز، مربی عملکرد جومیکس"
             }
         ]
     }

@@ -82,11 +82,12 @@
     .block-text-art{
         margin-top: 10px;
         .title-text-art{
+            margin-top: 25px;
             color: var(--white);
             font-size: 25px;
         }
         .body-text-art{
-            margin-top: 5px;
+            margin-top: 15px;
             color: var(--muted);
             font-size: 16px;
             padding-left: 10px;

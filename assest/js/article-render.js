@@ -8,6 +8,7 @@ class RenderArticleEngine{
     async renderArticle(id){
         let res = await this.#resApi.setByIdArticle(id);
         let bodyArticle = document.createElement("div");
+        bodyArticle.setAttribute("dir" , res.dir);
         let headerMain = craetHeader();
         let bodyMain = creatContent(res.content)
         bodyArticle.appendChild(headerMain);
@@ -144,6 +145,160 @@ class RenderArticleEngine{
         }) 
         return numbs.length
         }
+    }
+    async renderListArticleGrup(typeList){
+        let listArt = await this.#resApi.creatList(typeList);
+        let responMain;
+        console.log(listArt);
+        switch(typeList){
+            case "random":
+                responMain = renderGruopList();
+                break;
+            case "timer":
+                responMain = renderGruopList();
+                break;
+            default:
+                responMain = renderGruopList();
+                break;
+        }
+        return responMain;
+        // responMain = renderRandomList();
+        function renderGruopList(){
+            let divWraperList = document.createElement("div");
+            divWraperList.classList.add("wraper-item-list-article");
+            listArt.forEach((item)=>{
+                let divCardArt = document.createElement("div");
+                divCardArt.classList.add("card-article");
+                {// for image =>
+                    let divwrapImg = document.createElement("div");
+                    divwrapImg.classList.add("img-title");
+                    let imgTag = document.createElement("img");
+                    imgTag.setAttribute("src" , item.cover);
+                    imgTag.setAttribute("alt" , item.category);
+                    divwrapImg.appendChild(imgTag);
+                    divCardArt.appendChild(divwrapImg);
+                }
+                {// title
+                    let divTitleWrap = document.createElement("div");
+                    divTitleWrap.classList.add("card-title-text");
+                    let divCatgoriTag = document.createElement("h4");
+                    divCatgoriTag.classList.add("item-category");
+                    divCatgoriTag.textContent = item.category;
+                    let titleTag = document.createElement("h2");
+                    titleTag.classList.add("item-header");
+                    let linkMainTitle = document.createElement("a");
+                    linkMainTitle.textContent= item.title;
+                    linkMainTitle.setAttribute("href",`./article.html?idArticle=${item.id}`);
+                    titleTag.appendChild(linkMainTitle);
+                    let divItemInformation = document.createElement("div");
+                    divItemInformation.classList.add("wraper-item-information");
+                    let timeCreateTag = document.createElement("h4");
+                    timeCreateTag.classList.add("item-time-create");
+                    timeCreateTag.textContent = item.timeC;
+                    let timeReadingTag = document.createElement("h4");
+                    timeReadingTag.classList.add("item-time-reading");
+                    timeReadingTag.textContent = `${timeReadingfunc(item.content)}min read`;
+                    divItemInformation.appendChild(timeCreateTag);
+                    divItemInformation.appendChild(timeReadingTag);
+                    divTitleWrap.appendChild(divCatgoriTag);
+                    divTitleWrap.appendChild(titleTag);
+                    divTitleWrap.appendChild(divItemInformation);
+                    divCardArt.appendChild(divTitleWrap);
+                }
+                divWraperList.appendChild(divCardArt);
+                
+
+            })
+            return divWraperList;
+        }
+
+
+
+        /////func 
+        function timeReadingfunc(content){
+        let  numbs= content.filter((item)=>{
+            return item.type === "paragraph";
+        }) 
+        return numbs.length
+        }
+    }
+    async renderallList(typeSort="none" , prop){
+        let respon = await this.#resApi.allArticle();
+        let listArt = [];
+        switch(typeSort){
+            case "none":
+                noneHandeler(respon);
+                break;
+        }
+        return listArt;
+        function timerHandeler(){
+
+        }
+        function noneHandeler(respon){
+            rendererList(respon); 
+        }
+
+
+
+        /////////////rendiring
+        function rendererList(list){
+            list.forEach((item)=>{
+                listArt.push(renderitemArt(item));
+                
+                
+                
+            })
+            function renderitemArt(item){
+                let artWrapItem = document.createElement("div");
+                artWrapItem.classList.add("card-art-wrap");
+                artWrapItem.setAttribute("dir" , item.dir);
+                let imgTag = document.createElement("img");
+                imgTag.setAttribute("src",item.cover);
+                imgTag.setAttribute("alt" , item.category);
+                artWrapItem.appendChild(imgTag);
+                {
+                    let divWrapTitle = document.createElement("div");
+                    divWrapTitle.classList.add("title-card-art");
+                    let categotyTag = document.createElement("h4");
+                    categotyTag.classList.add("categoory-card");
+                    categotyTag.textContent = item.category;
+                    let titleTag = document.createElement("h2");
+                    titleTag.classList.add("title-main-card");
+                    let linkArt = document.createElement("a");
+                    linkArt.setAttribute("href" , `./article.html?idArticle=${item.id}`)
+                    linkArt.textContent=item.title;
+                    titleTag.appendChild(linkArt);
+                    let captionTag = document.createElement("p");
+                    captionTag.classList.add("caption-card");
+                    captionTag.textContent = item.caption;
+                    let footerCardTag = document.createElement("div");
+                    footerCardTag.classList.add("footer-card");
+                    {
+                        let nasherTag = document.createElement("h5");
+                        nasherTag.classList.add("nasher");
+                        nasherTag.textContent= item?.nasher || "Jumix Team";
+                        let timeReadingTag = document.createElement("h5");
+                        timeReadingTag.classList.add("time-reading");
+                        timeReadingTag.textContent = `${timeReadingfunc(item.content)}min read`;
+                        footerCardTag.appendChild(nasherTag);
+                        footerCardTag.appendChild(timeReadingTag);
+                    }
+                    divWrapTitle.appendChild(categotyTag);
+                    divWrapTitle.appendChild(titleTag);
+                    divWrapTitle.appendChild(captionTag);
+                    divWrapTitle.appendChild(footerCardTag);
+                    artWrapItem.appendChild(divWrapTitle);
+                }
+                return artWrapItem;
+            }
+            function timeReadingfunc(content){
+                let  numbs= content.filter((item)=>{
+                    return item.type === "paragraph";
+                }) 
+                return numbs.length
+                }
+        }
+
     }
     
 }
