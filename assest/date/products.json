@@ -1,0 +1,24 @@
+[
+    {
+        "id":"v-001"
+        ,"name":"Jumix volt pro"
+        ,"cover":"./assest/img/shose-2.png"
+        ,"position":"Outside hilter"
+        ,"type":"Performance"
+        ,"brand":"jumix"
+        ,"price":"150"
+        ,"timeC":"2026/02/11"
+        ,"category":"Volleyball"
+        ,"caption":"Lightweight. responsive and built for explosive jumps. Designed for maximum gri. stability and comfort during every match."
+        ,"sizes":["42","43","44","45","46"]
+        ,"coler":["red" , "black","green","white"]
+        ,"image":[
+            "./assest/img/shose-poz-1.png"
+            ,"./assest/img/shose-poz-2.png"
+            ,"./assest/img/shose-poz-3.png"
+            ,"./assest/img/shose-poz-4.png"
+            ,"./assest/img/shose-poz-5.png"
+            
+        ]
+    }
+]

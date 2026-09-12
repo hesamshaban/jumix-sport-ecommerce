@@ -7,21 +7,22 @@ class articleApiEngine{
     constructor(){
         
     }
-    async getApi(){
-        let respon = await fetch(this.#urlApi);
+    static async getApi(url){
+        let respon = await fetch(url);
         let date =await respon.json();
         return date
         
     }
     async allArticle(){
-        let allArt = await this.getApi();
+        let url = this.#urlApi;
+        let allArt = await articleApiEngine.getApi(url);
         return allArt;
     }
     async creatList(typeList){
          this.#typeList =typeList
         let itemFainaly;
-
-        let respon = await this.getApi();
+        let url = this.#urlApi;
+        let respon = await articleApiEngine.getApi(url);
         switch (this.#typeList){
             case "random":
                 randomList(respon);
@@ -76,7 +77,8 @@ class articleApiEngine{
     }
     async setByIdArticle(id){
         let artMain;
-        let respon = await this.getApi();
+        let url = this.#urlApi;
+        let respon = await articleApiEngine.getApi(url);
         artMain = respon.find(art => {
             return art.id === id;
         });

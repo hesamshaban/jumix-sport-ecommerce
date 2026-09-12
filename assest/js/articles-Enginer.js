@@ -43,6 +43,12 @@ class articelsEngin{
         wrapBtn.addEventListener("click" , (e)=>{
             if(e.target !== e.currentTarget){
                 this.clickChangeArt(e);
+                for(let btn of wrapBtn.children){
+                    if(btn.classList.contains("select-page")){
+                        btn.classList.remove("select-page");
+                    }
+                }
+                e.target.classList.add("select-page");
             }
         });
     }

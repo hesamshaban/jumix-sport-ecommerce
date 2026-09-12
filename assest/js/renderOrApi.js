@@ -3,7 +3,7 @@ class renderOrApi{
     #htmlChild
     #url
     #typeFile;
-    constructor( url ,  typeFile="json" , elemParent){
+    constructor( url ,  typeFile="html" , elemParent){
         this.#url = url
         this.#ElemParent = elemParent;
         // this.managerEngin(typeFile);
