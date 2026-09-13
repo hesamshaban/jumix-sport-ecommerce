@@ -15,8 +15,12 @@ new class manegerList{
         this.#wraperMain= document.getElementById("import-list-product");
         this.setDateList(this.#wraperMain);
         this.#mainApi = new getApi();
-        this.getList();
-        this.importListHtml()    
+        this.managerAsync();
+    }
+    async managerAsync(){
+        await    this.getList();
+        await    this.importListHtml()    
+
     }
     setDateList(wraper){
         this.#titleHeader = wraper.textContent;
@@ -49,9 +53,15 @@ new class manegerList{
                 break
         }
         let itemsList =[];
-        for(let i=0 ; i<this.#contProduct;i++){
-            itemsList.push(this.#listMain[i]);
+        if(this.#listMain.length <  this.#contProduct){
+            itemsList = [...this.#listMain];
         }
+        else{
+            for(let i=0 ; i<this.#contProduct;i++){
+            itemsList.push(this.#listMain[i]);
+            }
+        }
+        
         this.#listMain = itemsList;
     }
     async managerlist(){

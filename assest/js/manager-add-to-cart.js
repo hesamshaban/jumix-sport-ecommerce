@@ -7,7 +7,7 @@ class addToCartManaget {
     }
     clickaddTocart(e , item){
         let listCart = localStorage.getItem("cart");
-        listCart =JSON.parse(listCart);
+        listCart =JSON.parse(listCart) || [];
         console.log("click cart");
         let elemBtn = e;
         if(elemBtn.dataset.cart === "false"){
@@ -30,7 +30,7 @@ class addToCartManaget {
     }
     async managerIconCartHeader(cont){
         let cart = document.querySelector("#cart-icon div");
-        let mainCont = cont || (JSON.parse(localStorage.getItem("cart"))).length;
+        let mainCont = cont || (JSON.parse(localStorage.getItem("cart"))).length || 0;
         console.log(cart);
         cart.textContent = mainCont;
     }
