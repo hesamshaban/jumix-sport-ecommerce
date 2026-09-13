@@ -149,7 +149,6 @@ class RenderArticleEngine{
     async renderListArticleGrup(typeList){
         let listArt = await this.#resApi.creatList(typeList);
         let responMain;
-        console.log(listArt);
         switch(typeList){
             case "random":
                 responMain = renderGruopList();

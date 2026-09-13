@@ -33,25 +33,25 @@
     },
     {
         "id": "v-002",
-        "name": "JUMIX FORCE 3",
+        "name": "JUMIX ELEVATE 2",
         "kind": "shoe",
         "category": "volleyball",
-        "position": "middle blocker",
+        "position": "setter",
         "type": "performance",
         "brand": "jumix",
-        "price": 149.99,
+        "price": 139.99,
         "timeC": "2026/02/11",
-        "caption": "Reinforced heel support and extra cushioning for players who spend the match at the net.",
+        "caption": "Precision-tuned cushioning for setters who need quick footwork and controlled lateral movement.",
         "sizes": [
+            "41",
+            "42",
             "43",
             "44",
-            "45",
-            "46",
-            "47"
+            "45"
         ],
         "coler": [
-            "black",
-            "red"
+            "white",
+            "green"
         ],
         "cover": "./assest/img/shose-2.png",
         "image": [
@@ -63,21 +63,22 @@
     },
     {
         "id": "v-003",
-        "name": "NIKE COURT STRIKE",
+        "name": "JUMIX QUICKSTEP",
         "kind": "shoe",
         "category": "volleyball",
-        "position": "outside hitter",
-        "type": "performance",
-        "brand": "nike",
-        "price": 164.99,
+        "position": "setter",
+        "type": "training",
+        "brand": "jumix",
+        "price": 109.99,
         "timeC": "2026/03/12",
-        "caption": "High-rebound cushioning tuned for hard-hitting outside attackers.",
+        "caption": "A durable training shoe built for long practice sessions without sacrificing court feel.",
         "sizes": [
+            "40",
+            "41",
             "42",
             "43",
             "44",
-            "45",
-            "46"
+            "45"
         ],
         "coler": [
             "black",
@@ -93,24 +94,25 @@
     },
     {
         "id": "v-004",
-        "name": "ADIDAS SPIKE GUARD",
+        "name": "JUMIX FORCE 3",
         "kind": "shoe",
         "category": "volleyball",
         "position": "middle blocker",
         "type": "performance",
-        "brand": "adidas",
-        "price": 159.99,
+        "brand": "jumix",
+        "price": 149.99,
         "timeC": "2026/04/13",
-        "caption": "Reinforced ankle support engineered for repeated blocking jumps.",
+        "caption": "Reinforced heel support and extra cushioning for players who spend the match at the net.",
         "sizes": [
             "43",
             "44",
             "45",
-            "46"
+            "46",
+            "47"
         ],
         "coler": [
             "black",
-            "orange"
+            "red"
         ],
         "cover": "./assest/img/shose-4.png",
         "image": [
@@ -122,25 +124,24 @@
     },
     {
         "id": "v-005",
-        "name": "JUMIX ACE PRO",
+        "name": "JUMIX STABILITY 1",
         "kind": "shoe",
         "category": "volleyball",
-        "position": "opposite",
+        "position": "middle blocker",
         "type": "performance",
         "brand": "jumix",
-        "price": 169.99,
+        "price": 119.99,
         "timeC": "2026/05/14",
-        "caption": "Maximum energy return for opposites who need power on every swing.",
+        "caption": "Wide base platform for confident blocking and landing stability on every jump.",
         "sizes": [
+            "42",
             "43",
             "44",
-            "45",
-            "46",
-            "47"
+            "45"
         ],
         "coler": [
-            "red",
-            "black"
+            "blue",
+            "white"
         ],
         "cover": "./assest/img/shose-5.png",
         "image": [
@@ -152,26 +153,26 @@
     },
     {
         "id": "v-006",
-        "name": "JUMIX QUICKSTEP",
+        "name": "JUMIX HYPERFLY",
         "kind": "shoe",
         "category": "volleyball",
-        "position": "setter",
-        "type": "training",
+        "position": "outside hitter",
+        "type": "performance",
         "brand": "jumix",
-        "price": 109.99,
+        "price": 119.99,
         "timeC": "2026/06/15",
-        "caption": "A durable training shoe built for long practice sessions without sacrificing court feel.",
+        "caption": "An ultra-flexible upper that moves with your foot through every attack approach.",
         "sizes": [
-            "40",
             "41",
             "42",
             "43",
             "44",
-            "45"
+            "45",
+            "46"
         ],
         "coler": [
-            "black",
-            "white"
+            "white",
+            "orange"
         ],
         "cover": "./assest/img/shose-6.png",
         "image": [
@@ -183,24 +184,25 @@
     },
     {
         "id": "v-007",
-        "name": "JUMIX RALLY LITE",
+        "name": "JUMIX DEFEND X",
         "kind": "shoe",
         "category": "volleyball",
-        "position": "opposite",
-        "type": "training",
+        "position": "libero",
+        "type": "performance",
         "brand": "jumix",
-        "price": 99.99,
+        "price": 109.99,
         "timeC": "2026/07/16",
-        "caption": "A lightweight training option for opposites working on approach speed.",
+        "caption": "Low-profile and quick, built for the fast direction changes liberos need on defense.",
         "sizes": [
+            "40",
             "41",
             "42",
             "43",
             "44"
         ],
         "coler": [
-            "gray",
-            "red"
+            "black",
+            "green"
         ],
         "cover": "./assest/img/shose-8.png",
         "image": [
@@ -212,94 +214,6 @@
     },
     {
         "id": "v-008",
-        "name": "NIKE REBOUND FLEX",
-        "kind": "shoe",
-        "category": "volleyball",
-        "position": "libero",
-        "type": "training",
-        "brand": "nike",
-        "price": 129.99,
-        "timeC": "2026/08/17",
-        "caption": "Built for agility drills and the quick digs a libero needs every rally.",
-        "sizes": [
-            "41",
-            "42",
-            "43",
-            "44"
-        ],
-        "coler": [
-            "white",
-            "blue"
-        ],
-        "cover": "./assest/img/shose-9.png",
-        "image": [
-            "./assest/img/shose-poz-1.png",
-            "./assest/img/shose-poz-2.png",
-            "./assest/img/shose-poz-3.png",
-            "./assest/img/shose-poz-4.png"
-        ]
-    },
-    {
-        "id": "v-009",
-        "name": "ADIDAS DRILL SERIES",
-        "kind": "shoe",
-        "category": "volleyball",
-        "position": "middle blocker",
-        "type": "training",
-        "brand": "adidas",
-        "price": 119.99,
-        "timeC": "2026/09/18",
-        "caption": "A supportive training build for repeated approach and block drills.",
-        "sizes": [
-            "43",
-            "44",
-            "45",
-            "46"
-        ],
-        "coler": [
-            "gray",
-            "black"
-        ],
-        "cover": "./assest/img/shose-10.png",
-        "image": [
-            "./assest/img/shose-poz-2.png",
-            "./assest/img/shose-poz-3.png",
-            "./assest/img/shose-poz-4.png",
-            "./assest/img/shose-poz-5.png"
-        ]
-    },
-    {
-        "id": "v-010",
-        "name": "JUMIX STEPUP",
-        "kind": "shoe",
-        "category": "volleyball",
-        "position": "outside hitter",
-        "type": "training",
-        "brand": "jumix",
-        "price": 114.99,
-        "timeC": "2026/01/19",
-        "caption": "Practice-ready cushioning for hitters working on approach timing.",
-        "sizes": [
-            "41",
-            "42",
-            "43",
-            "44",
-            "45"
-        ],
-        "coler": [
-            "white",
-            "green"
-        ],
-        "cover": "./assest/img/shose-1.png",
-        "image": [
-            "./assest/img/shose-poz-3.png",
-            "./assest/img/shose-poz-4.png",
-            "./assest/img/shose-poz-5.png",
-            "./assest/img/shose-poz.png"
-        ]
-    },
-    {
-        "id": "v-011",
         "name": "JUMIX IGNITE",
         "kind": "shoe",
         "category": "volleyball",
@@ -307,7 +221,7 @@
         "type": "lifestyle",
         "brand": "jumix",
         "price": 119.99,
-        "timeC": "2026/02/20",
+        "timeC": "2026/08/17",
         "caption": "Off-court comfort with the same silhouette athletes trust on the court.",
         "sizes": [
             "42",
@@ -319,16 +233,45 @@
             "white",
             "gray"
         ],
-        "cover": "./assest/img/shose-2.png",
+        "cover": "./assest/img/shose-9.png",
         "image": [
-            "./assest/img/shose-poz-4.png",
-            "./assest/img/shose-poz-5.png",
-            "./assest/img/shose-poz.png",
-            "./assest/img/shose-poz-1.png"
+            "./assest/img/shose-poz-1.png",
+            "./assest/img/shose-poz-2.png",
+            "./assest/img/shose-poz-3.png",
+            "./assest/img/shose-poz-4.png"
         ]
     },
     {
-        "id": "v-012",
+        "id": "v-009",
+        "name": "JUMIX RALLY LITE",
+        "kind": "shoe",
+        "category": "volleyball",
+        "position": "opposite",
+        "type": "training",
+        "brand": "jumix",
+        "price": 99.99,
+        "timeC": "2026/09/18",
+        "caption": "A lightweight training option for opposites working on approach speed.",
+        "sizes": [
+            "41",
+            "42",
+            "43",
+            "44"
+        ],
+        "coler": [
+            "gray",
+            "red"
+        ],
+        "cover": "./assest/img/shose-10.png",
+        "image": [
+            "./assest/img/shose-poz-2.png",
+            "./assest/img/shose-poz-3.png",
+            "./assest/img/shose-poz-4.png",
+            "./assest/img/shose-poz-5.png"
+        ]
+    },
+    {
+        "id": "v-010",
         "name": "JUMIX SETPOINT",
         "kind": "shoe",
         "category": "volleyball",
@@ -336,7 +279,7 @@
         "type": "lifestyle",
         "brand": "jumix",
         "price": 104.99,
-        "timeC": "2026/03/21",
+        "timeC": "2026/01/19",
         "caption": "Everyday wear for setters who want their game shoe's comfort on the street.",
         "sizes": [
             "40",
@@ -350,6 +293,65 @@
             "white",
             "navy"
         ],
+        "cover": "./assest/img/shose-1.png",
+        "image": [
+            "./assest/img/shose-poz-3.png",
+            "./assest/img/shose-poz-4.png",
+            "./assest/img/shose-poz-5.png",
+            "./assest/img/shose-poz.png"
+        ]
+    },
+    {
+        "id": "v-011",
+        "name": "NIKE COURT STRIKE",
+        "kind": "shoe",
+        "category": "volleyball",
+        "position": "outside hitter",
+        "type": "performance",
+        "brand": "nike",
+        "price": 164.99,
+        "timeC": "2026/02/20",
+        "caption": "High-rebound cushioning tuned for hard-hitting outside attackers.",
+        "sizes": [
+            "42",
+            "43",
+            "44",
+            "45",
+            "46"
+        ],
+        "coler": [
+            "black",
+            "white"
+        ],
+        "cover": "./assest/img/shose-2.png",
+        "image": [
+            "./assest/img/shose-poz-4.png",
+            "./assest/img/shose-poz-5.png",
+            "./assest/img/shose-poz.png",
+            "./assest/img/shose-poz-1.png"
+        ]
+    },
+    {
+        "id": "v-012",
+        "name": "NIKE REBOUND FLEX",
+        "kind": "shoe",
+        "category": "volleyball",
+        "position": "libero",
+        "type": "training",
+        "brand": "nike",
+        "price": 129.99,
+        "timeC": "2026/03/21",
+        "caption": "Built for agility drills and the quick digs a libero needs every rally.",
+        "sizes": [
+            "41",
+            "42",
+            "43",
+            "44"
+        ],
+        "coler": [
+            "white",
+            "blue"
+        ],
         "cover": "./assest/img/shose-3.png",
         "image": [
             "./assest/img/shose-poz-5.png",
@@ -360,24 +362,24 @@
     },
     {
         "id": "v-013",
-        "name": "NIKE COURT CASUAL",
+        "name": "ADIDAS SPIKE GUARD",
         "kind": "shoe",
         "category": "volleyball",
-        "position": "libero",
-        "type": "lifestyle",
-        "brand": "nike",
-        "price": 134.99,
+        "position": "middle blocker",
+        "type": "performance",
+        "brand": "adidas",
+        "price": 159.99,
         "timeC": "2026/04/22",
-        "caption": "A relaxed everyday sneaker inspired by the libero's low-profile court shoe.",
+        "caption": "Reinforced ankle support engineered for repeated blocking jumps.",
         "sizes": [
-            "41",
-            "42",
             "43",
-            "44"
+            "44",
+            "45",
+            "46"
         ],
         "coler": [
-            "white",
-            "black"
+            "black",
+            "orange"
         ],
         "cover": "./assest/img/shose-4.png",
         "image": [
@@ -418,24 +420,25 @@
     },
     {
         "id": "v-015",
-        "name": "JUMIX AFTER MATCH",
+        "name": "JUMIX ACE PRO",
         "kind": "shoe",
         "category": "volleyball",
         "position": "opposite",
-        "type": "lifestyle",
+        "type": "performance",
         "brand": "jumix",
-        "price": 109.99,
+        "price": 169.99,
         "timeC": "2026/06/24",
-        "caption": "Soft everyday cushioning for athletes on their way home from the gym.",
+        "caption": "Maximum energy return for opposites who need power on every swing.",
         "sizes": [
-            "42",
             "43",
             "44",
-            "45"
+            "45",
+            "46",
+            "47"
         ],
         "coler": [
-            "black",
-            "white"
+            "red",
+            "black"
         ],
         "cover": "./assest/img/shose-6.png",
         "image": [
@@ -477,6 +480,36 @@
     },
     {
         "id": "b-002",
+        "name": "JUMIX CROSSOVER X",
+        "kind": "shoe",
+        "category": "basketball",
+        "position": "point guard",
+        "type": "performance",
+        "brand": "jumix",
+        "price": 174.99,
+        "timeC": "2026/08/26",
+        "caption": "Low-cut and responsive, built for guards who live on quick direction changes.",
+        "sizes": [
+            "40",
+            "41",
+            "42",
+            "43",
+            "44"
+        ],
+        "coler": [
+            "white",
+            "blue"
+        ],
+        "cover": "./assest/img/shose-9.png",
+        "image": [
+            "./assest/img/shose-poz-4.png",
+            "./assest/img/shose-poz-5.png",
+            "./assest/img/shose-poz.png",
+            "./assest/img/shose-poz-1.png"
+        ]
+    },
+    {
+        "id": "b-003",
         "name": "JUMIX PAINT KING",
         "kind": "shoe",
         "category": "basketball",
@@ -484,7 +517,7 @@
         "type": "performance",
         "brand": "jumix",
         "price": 189.99,
-        "timeC": "2026/08/26",
+        "timeC": "2026/09/27",
         "caption": "Extra ankle support and a wide base for players who battle in the paint.",
         "sizes": [
             "44",
@@ -497,36 +530,6 @@
             "black",
             "white"
         ],
-        "cover": "./assest/img/shose-9.png",
-        "image": [
-            "./assest/img/shose-poz-4.png",
-            "./assest/img/shose-poz-5.png",
-            "./assest/img/shose-poz.png",
-            "./assest/img/shose-poz-1.png"
-        ]
-    },
-    {
-        "id": "b-003",
-        "name": "NIKE AIR CLUTCH",
-        "kind": "shoe",
-        "category": "basketball",
-        "position": "shooting guard",
-        "type": "performance",
-        "brand": "nike",
-        "price": 194.99,
-        "timeC": "2026/09/27",
-        "caption": "Responsive cushioning built for catch-and-shoot guards.",
-        "sizes": [
-            "41",
-            "42",
-            "43",
-            "44",
-            "45"
-        ],
-        "coler": [
-            "white",
-            "black"
-        ],
         "cover": "./assest/img/shose-10.png",
         "image": [
             "./assest/img/shose-poz-5.png",
@@ -537,24 +540,25 @@
     },
     {
         "id": "b-004",
-        "name": "ADIDAS RIM PROTECTOR",
+        "name": "JUMIX MIDRANGE",
         "kind": "shoe",
         "category": "basketball",
-        "position": "center",
-        "type": "performance",
-        "brand": "adidas",
-        "price": 184.99,
+        "position": "shooting guard",
+        "type": "training",
+        "brand": "jumix",
+        "price": 129.99,
         "timeC": "2026/01/10",
-        "caption": "Reinforced cushioning for centers absorbing repeated impact near the rim.",
+        "caption": "A steady training shoe for guards working on shot mechanics and footwork.",
         "sizes": [
-            "45",
-            "46",
-            "47",
-            "48"
+            "41",
+            "42",
+            "43",
+            "44",
+            "45"
         ],
         "coler": [
-            "black",
-            "red"
+            "gray",
+            "green"
         ],
         "cover": "./assest/img/shose-1.png",
         "image": [
@@ -595,152 +599,6 @@
     },
     {
         "id": "b-006",
-        "name": "JUMIX FASTBREAK",
-        "kind": "shoe",
-        "category": "basketball",
-        "position": "point guard",
-        "type": "training",
-        "brand": "jumix",
-        "price": 109.99,
-        "timeC": "2026/03/12",
-        "caption": "Light and breathable, made for transition drills and long practice runs.",
-        "sizes": [
-            "40",
-            "41",
-            "42",
-            "43"
-        ],
-        "coler": [
-            "white",
-            "red"
-        ],
-        "cover": "./assest/img/shose-3.png",
-        "image": [
-            "./assest/img/shose-poz-2.png",
-            "./assest/img/shose-poz-3.png",
-            "./assest/img/shose-poz-4.png",
-            "./assest/img/shose-poz-5.png"
-        ]
-    },
-    {
-        "id": "b-007",
-        "name": "JUMIX MIDRANGE",
-        "kind": "shoe",
-        "category": "basketball",
-        "position": "shooting guard",
-        "type": "training",
-        "brand": "jumix",
-        "price": 129.99,
-        "timeC": "2026/04/13",
-        "caption": "A steady training shoe for guards working on shot mechanics and footwork.",
-        "sizes": [
-            "41",
-            "42",
-            "43",
-            "44",
-            "45"
-        ],
-        "coler": [
-            "gray",
-            "green"
-        ],
-        "cover": "./assest/img/shose-4.png",
-        "image": [
-            "./assest/img/shose-poz-3.png",
-            "./assest/img/shose-poz-4.png",
-            "./assest/img/shose-poz-5.png",
-            "./assest/img/shose-poz.png"
-        ]
-    },
-    {
-        "id": "b-008",
-        "name": "NIKE DRIVE PHANTOM",
-        "kind": "shoe",
-        "category": "basketball",
-        "position": "point guard",
-        "type": "training",
-        "brand": "nike",
-        "price": 139.99,
-        "timeC": "2026/05/14",
-        "caption": "A flexible training shoe for guards sharpening ball-handling drills.",
-        "sizes": [
-            "40",
-            "41",
-            "42",
-            "43"
-        ],
-        "coler": [
-            "blue",
-            "white"
-        ],
-        "cover": "./assest/img/shose-5.png",
-        "image": [
-            "./assest/img/shose-poz-4.png",
-            "./assest/img/shose-poz-5.png",
-            "./assest/img/shose-poz.png",
-            "./assest/img/shose-poz-1.png"
-        ]
-    },
-    {
-        "id": "b-009",
-        "name": "ADIDAS BOARD DRILL",
-        "kind": "shoe",
-        "category": "basketball",
-        "position": "power forward",
-        "type": "training",
-        "brand": "adidas",
-        "price": 124.99,
-        "timeC": "2026/06/15",
-        "caption": "Durable traction built for repeated box-out and rebounding drills.",
-        "sizes": [
-            "43",
-            "44",
-            "45",
-            "46"
-        ],
-        "coler": [
-            "gray",
-            "orange"
-        ],
-        "cover": "./assest/img/shose-6.png",
-        "image": [
-            "./assest/img/shose-poz-5.png",
-            "./assest/img/shose-poz.png",
-            "./assest/img/shose-poz-1.png",
-            "./assest/img/shose-poz-2.png"
-        ]
-    },
-    {
-        "id": "b-010",
-        "name": "JUMIX BOARD CRASHER",
-        "kind": "shoe",
-        "category": "basketball",
-        "position": "center",
-        "type": "training",
-        "brand": "jumix",
-        "price": 134.99,
-        "timeC": "2026/07/16",
-        "caption": "Durable outsole traction built for players fighting for every rebound.",
-        "sizes": [
-            "44",
-            "45",
-            "46",
-            "47"
-        ],
-        "coler": [
-            "black",
-            "gray"
-        ],
-        "cover": "./assest/img/shose-8.png",
-        "image": [
-            "./assest/img/shose-poz.png",
-            "./assest/img/shose-poz-1.png",
-            "./assest/img/shose-poz-2.png",
-            "./assest/img/shose-poz-3.png"
-        ]
-    },
-    {
-        "id": "b-011",
         "name": "JUMIX BASELINE",
         "kind": "shoe",
         "category": "basketball",
@@ -748,7 +606,7 @@
         "type": "lifestyle",
         "brand": "jumix",
         "price": 119.99,
-        "timeC": "2026/08/17",
+        "timeC": "2026/03/12",
         "caption": "Streetwear comfort with the DNA of Jumix's on-court performance line.",
         "sizes": [
             "41",
@@ -761,16 +619,74 @@
             "white",
             "navy"
         ],
-        "cover": "./assest/img/shose-9.png",
+        "cover": "./assest/img/shose-3.png",
         "image": [
-            "./assest/img/shose-poz-1.png",
             "./assest/img/shose-poz-2.png",
             "./assest/img/shose-poz-3.png",
-            "./assest/img/shose-poz-4.png"
+            "./assest/img/shose-poz-4.png",
+            "./assest/img/shose-poz-5.png"
         ]
     },
     {
-        "id": "b-012",
+        "id": "b-007",
+        "name": "JUMIX FASTBREAK",
+        "kind": "shoe",
+        "category": "basketball",
+        "position": "point guard",
+        "type": "training",
+        "brand": "jumix",
+        "price": 109.99,
+        "timeC": "2026/04/13",
+        "caption": "Light and breathable, made for transition drills and long practice runs.",
+        "sizes": [
+            "40",
+            "41",
+            "42",
+            "43"
+        ],
+        "coler": [
+            "white",
+            "red"
+        ],
+        "cover": "./assest/img/shose-4.png",
+        "image": [
+            "./assest/img/shose-poz-3.png",
+            "./assest/img/shose-poz-4.png",
+            "./assest/img/shose-poz-5.png",
+            "./assest/img/shose-poz.png"
+        ]
+    },
+    {
+        "id": "b-008",
+        "name": "JUMIX BOARD CRASHER",
+        "kind": "shoe",
+        "category": "basketball",
+        "position": "center",
+        "type": "training",
+        "brand": "jumix",
+        "price": 134.99,
+        "timeC": "2026/05/14",
+        "caption": "Durable outsole traction built for players fighting for every rebound.",
+        "sizes": [
+            "44",
+            "45",
+            "46",
+            "47"
+        ],
+        "coler": [
+            "black",
+            "gray"
+        ],
+        "cover": "./assest/img/shose-5.png",
+        "image": [
+            "./assest/img/shose-poz-4.png",
+            "./assest/img/shose-poz-5.png",
+            "./assest/img/shose-poz.png",
+            "./assest/img/shose-poz-1.png"
+        ]
+    },
+    {
+        "id": "b-009",
         "name": "JUMIX SIXTH MAN",
         "kind": "shoe",
         "category": "basketball",
@@ -778,7 +694,7 @@
         "type": "lifestyle",
         "brand": "jumix",
         "price": 99.99,
-        "timeC": "2026/09/18",
+        "timeC": "2026/06/15",
         "caption": "A versatile everyday shoe for guards on and off the court.",
         "sizes": [
             "41",
@@ -790,6 +706,94 @@
             "gray",
             "black"
         ],
+        "cover": "./assest/img/shose-6.png",
+        "image": [
+            "./assest/img/shose-poz-5.png",
+            "./assest/img/shose-poz.png",
+            "./assest/img/shose-poz-1.png",
+            "./assest/img/shose-poz-2.png"
+        ]
+    },
+    {
+        "id": "b-010",
+        "name": "JUMIX SLAM SERIES",
+        "kind": "shoe",
+        "category": "basketball",
+        "position": "power forward",
+        "type": "lifestyle",
+        "brand": "jumix",
+        "price": 124.99,
+        "timeC": "2026/07/16",
+        "caption": "Bold styling paired with the cushioning Jumix forwards rely on.",
+        "sizes": [
+            "43",
+            "44",
+            "45",
+            "46"
+        ],
+        "coler": [
+            "black",
+            "white"
+        ],
+        "cover": "./assest/img/shose-8.png",
+        "image": [
+            "./assest/img/shose-poz.png",
+            "./assest/img/shose-poz-1.png",
+            "./assest/img/shose-poz-2.png",
+            "./assest/img/shose-poz-3.png"
+        ]
+    },
+    {
+        "id": "b-011",
+        "name": "NIKE AIR CLUTCH",
+        "kind": "shoe",
+        "category": "basketball",
+        "position": "shooting guard",
+        "type": "performance",
+        "brand": "nike",
+        "price": 194.99,
+        "timeC": "2026/08/17",
+        "caption": "Responsive cushioning built for catch-and-shoot guards.",
+        "sizes": [
+            "41",
+            "42",
+            "43",
+            "44",
+            "45"
+        ],
+        "coler": [
+            "white",
+            "black"
+        ],
+        "cover": "./assest/img/shose-9.png",
+        "image": [
+            "./assest/img/shose-poz-1.png",
+            "./assest/img/shose-poz-2.png",
+            "./assest/img/shose-poz-3.png",
+            "./assest/img/shose-poz-4.png"
+        ]
+    },
+    {
+        "id": "b-012",
+        "name": "NIKE DRIVE PHANTOM",
+        "kind": "shoe",
+        "category": "basketball",
+        "position": "point guard",
+        "type": "training",
+        "brand": "nike",
+        "price": 139.99,
+        "timeC": "2026/09/18",
+        "caption": "A flexible training shoe for guards sharpening ball-handling drills.",
+        "sizes": [
+            "40",
+            "41",
+            "42",
+            "43"
+        ],
+        "coler": [
+            "blue",
+            "white"
+        ],
         "cover": "./assest/img/shose-10.png",
         "image": [
             "./assest/img/shose-poz-2.png",
@@ -800,24 +804,24 @@
     },
     {
         "id": "b-013",
-        "name": "NIKE HARDWOOD CASUAL",
+        "name": "ADIDAS RIM PROTECTOR",
         "kind": "shoe",
         "category": "basketball",
         "position": "center",
-        "type": "lifestyle",
-        "brand": "nike",
-        "price": 144.99,
+        "type": "performance",
+        "brand": "adidas",
+        "price": 184.99,
         "timeC": "2026/01/19",
-        "caption": "A comfortable everyday build carrying the presence of Nike's big-man line.",
+        "caption": "Reinforced cushioning for centers absorbing repeated impact near the rim.",
         "sizes": [
-            "44",
             "45",
             "46",
-            "47"
+            "47",
+            "48"
         ],
         "coler": [
-            "white",
-            "black"
+            "black",
+            "red"
         ],
         "cover": "./assest/img/shose-1.png",
         "image": [
@@ -829,24 +833,24 @@
     },
     {
         "id": "b-014",
-        "name": "ADIDAS STREETBALL",
+        "name": "ADIDAS TRANSITION PRO",
         "kind": "shoe",
         "category": "basketball",
-        "position": "power forward",
-        "type": "lifestyle",
+        "position": "small forward",
+        "type": "performance",
         "brand": "adidas",
-        "price": 109.99,
+        "price": 164.99,
         "timeC": "2026/02/20",
-        "caption": "Off-court style built from Adidas's power forward silhouette.",
+        "caption": "Balanced support for forwards who run the floor in transition.",
         "sizes": [
+            "42",
             "43",
             "44",
-            "45",
-            "46"
+            "45"
         ],
         "coler": [
-            "gray",
-            "orange"
+            "white",
+            "green"
         ],
         "cover": "./assest/img/shose-2.png",
         "image": [
@@ -858,15 +862,15 @@
     },
     {
         "id": "b-015",
-        "name": "JUMIX SLAM SERIES",
+        "name": "ADIDAS STREETBALL",
         "kind": "shoe",
         "category": "basketball",
         "position": "power forward",
         "type": "lifestyle",
-        "brand": "jumix",
-        "price": 124.99,
+        "brand": "adidas",
+        "price": 109.99,
         "timeC": "2026/03/21",
-        "caption": "Bold styling paired with the cushioning Jumix forwards rely on.",
+        "caption": "Off-court style built from Adidas's power forward silhouette.",
         "sizes": [
             "43",
             "44",
@@ -874,8 +878,8 @@
             "46"
         ],
         "coler": [
-            "black",
-            "white"
+            "gray",
+            "orange"
         ],
         "cover": "./assest/img/shose-3.png",
         "image": [

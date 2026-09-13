@@ -10,7 +10,6 @@ class renderBanner{
     async renderArticle(wraper ){
         await new renderOrApi( "./template-aticle-banner.html","html", wraper ).managerEngin();
         let item =await new articleApiEngine().creatList("singel")
-    console.log(item);
     this.setText(item)
     
     }

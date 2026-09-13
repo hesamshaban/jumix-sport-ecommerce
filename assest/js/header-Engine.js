@@ -1,4 +1,5 @@
 import renderOrApi from "./renderOrApi.js";
+import addToCartManaget from "./manager-add-to-cart.js"
 const headerParent = document.getElementById("header-import");
 new renderOrApi(  "./header.html", "html" ,headerParent).managerEngin().then((result)=>{
    console.log("header load");
@@ -86,6 +87,7 @@ class headerEngine{
         },
     ]
     constructor(){
+        new addToCartManaget().managerIconCartHeader();
         this.queryStr = new URLSearchParams(window.location.search)
         const mainNavHeader = document.querySelector(".main-nav-header");
         mainNavHeader.addEventListener('click' , (e)=>{
@@ -133,6 +135,7 @@ class headerEngine{
         }   
     }
     menuItemSelect(){
+        
         const navMenuMainS = document.querySelector(".nav-bar>ul");
         let allItemMenu=[] ;
         for( let i of navMenuMainS.children){

@@ -20,15 +20,15 @@
 .cards-row-poroduckt{
     max-width: 1200px;
     margin: auto;
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     
 
 
 }
 
 .card-porodukt{
-    width: 25%;
+    /* width: 25%; */
     margin: 0 10px;
     /* flex-basis: 23%; */
     background-color: var(--gray);
@@ -158,12 +158,12 @@ background: radial-gradient(circle, rgba(255, 255, 255, 0.185) 0%, rgba(255, 255
         
     }
     .cards-row-poroduckt{
-        flex-wrap: wrap;
+        grid-template-columns: 1fr 1fr;
     }
         .card-porodukt{
         justify-content: center;
         
-        width:45%;
+        /* width:45%; */
         
         
     }
