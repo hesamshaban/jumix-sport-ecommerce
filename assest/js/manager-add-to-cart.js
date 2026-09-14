@@ -6,6 +6,16 @@ class addToCartManaget {
        addToCartManaget.#listCart = localStorage.getItem("favorite");
     }
     clickaddTocart(e , item){
+        window.location.href = `product.html?idProduct=${item.id}`
+
+    }
+    async managerIconCartHeader(cont){
+        let cart = document.querySelector("#cart-icon div");
+        let mainCont = cont || (JSON.parse(localStorage.getItem("cart"))).length || 0;
+        console.log(cart);
+        cart.textContent = mainCont;
+    }
+    addCartmain(){
         let listCart = localStorage.getItem("cart");
         listCart =JSON.parse(listCart) || [];
         console.log("click cart");
@@ -26,13 +36,6 @@ class addToCartManaget {
             localStorage.setItem("cart",JSON.stringify(listCart));
         }
         this.managerIconCartHeader(listCart.length)
-
-    }
-    async managerIconCartHeader(cont){
-        let cart = document.querySelector("#cart-icon div");
-        let mainCont = cont || (JSON.parse(localStorage.getItem("cart"))).length || 0;
-        console.log(cart);
-        cart.textContent = mainCont;
     }
 }
 export default addToCartManaget;

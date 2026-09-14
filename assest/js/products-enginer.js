@@ -36,12 +36,10 @@ new class {
         this.#mainList = this.#getApi;
         this.#alertMain.hidden = true;
         this.searchChekcked();
-        console.log(this.#getApi);
         this.btnMovePage();
         this.renderProducts();
     }
     async renderProducts(){
-        console.log(this.#pageShowEnable);
         try{
         let allElem =await new renderProduct().renderListProducts(this.#mainList , "products");
         let allElement =await this.uiPageSystem(allElem);
@@ -61,12 +59,11 @@ new class {
         this.#textShowSort.textContent=`Showing ${this.#wraperProducts.children.length} of ${allElem.length} products`;
         }catch(e){
             console.error("kirrrr" , this.#alertMain)
-            this.#alertMainClone.children[0].children[0].hidden = false;
+            this.#alertMainClone.children[0].children[0].hidden = false;         
             this.#alertMainClone.children[0].children[1].hidden = true;
             this.#wraperProducts.append(this.#alertMainClone);
             this.#alertMain.style.display = "flex";
         }
-        // this.#wraperProducts.append(...allElem);
         
     }
     btnMovePage(){
@@ -100,7 +97,6 @@ new class {
             btn.textContent =list.indexOf(elem)+1;
             btn.addEventListener("click",(e)=>{
                 this.#pageShowEnable = e.target.dataset.contPage;
-                console.log(this.#pageShowEnable);
                 this.renderProducts();
             })
             listBtn.push(btn);
@@ -149,7 +145,7 @@ new class {
             })
         }
         wrperFilter.addEventListener("change",(e)=>{
-            // console.log(e.target.type);
+
             if(e.target.type === "checkbox"){
                 let key = e.target.dataset.key;
                 let value =e.target.dataset.value;
@@ -158,9 +154,8 @@ new class {
                     this.sendFilter();
                 }else{
                     this.sendFilter();
-                    //console.log(allFilters);
+
                 }
-                // this.filterByFilters(allFilters);
             }else{
                 let showPrice = document.getElementById("max-price-f");
                 let priceTarget = (e.target.value);
@@ -181,7 +176,6 @@ new class {
     }
     async sorting(sortValue){
         this.#checkInputPrice =false;
-        console.log(sortValue);
         this.#pageShowEnable =0;
         if(sortValue ==="Featured"){
             this.#mainList = this.#getApi;
@@ -200,7 +194,6 @@ new class {
                 listFilter.push({[key]:value});
             }
         })
-        console.log(listFilter);
         this.filterByFilters(listFilter);
     }
     async filterByFilters(filters){
@@ -212,15 +205,11 @@ new class {
             return
         }
         this.#pageShowEnable =0;
-        console.log(filters);
         let listSorted =await new getApi().filterProduct(filters);
-        this.#mainList = listSorted;
-        console.log(this.#mainList);
-        
+        this.#mainList = listSorted;      
         this.renderProducts();
     }
     async filterByPriceInput(priceNumber){
-        console.log(Number(priceNumber));
        let listSecend= this.#mainList.filter((item)=>{
             return item.price <= Number(priceNumber);
        })
@@ -237,7 +226,6 @@ new class {
              })
             this.#mainList = listSecend; 
         } 
-        console.log(listSecend);
         this.renderProducts();
     }
 }
