@@ -17,8 +17,8 @@ class apiFilterProduct{
             return apiFilterProduct.#listAllCatch;
         }
     }
-    async filterProduct( list,...filters){
-        let allProducts =list|| await apiFilterProduct.allApi();
+    async filterProduct(filters){
+        let allProducts = await apiFilterProduct.allApi();
         // console.log(filters , Object.keys(filters[0]).join() , Object.values(filters[0]));
         let listFiltered = [allProducts];
         for (let item of filters){

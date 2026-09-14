@@ -162,6 +162,19 @@ class renderProducts{
                             let priceTag = document.createElement("h4");
                             priceTag.textContent = "$"+item.price;
                             let btnAddToCart = document.createElement("button");
+                            let hasCart =cartAddList.some((e)=>{
+                            return e == item.id;
+                            });
+                            if(hasCart){
+                                btnAddToCart.dataset.cart = "true";
+                            }
+                            else{
+                                btnAddToCart.dataset.cart = "false";
+                            }
+                            btnAddToCart.addEventListener("click" , (e)=>{
+                                new addToCartManaget().clickaddTocart(e.currentTarget , item);
+                                
+                            })
                             {
                                 let iconBtn = document.createElement("i");
                                 iconBtn.className = "fa fa-plus";
@@ -177,13 +190,32 @@ class renderProducts{
 
                     }
                     let divwrapFavorite = document.createElement("div");
-                    divwrapFavorite.className = "btns-card-pro"
+                    divwrapFavorite.className = "btns-card-pro";
                     {
                         let btnFavorite = document.createElement("button");
                         btnFavorite.className = "love";
+                        let has =favoriteList.some((e)=>{
+                        return e == item.id;
+                        });
+                        if(has){
+                            btnFavorite.dataset.favorite = "true";
+                        }
+                        else{
+                            btnFavorite.dataset.favorite = "false";
+                        }
+                        btnFavorite.addEventListener("click" , (e)=>{
+                            new favoriteManaget().clickFavorite(e.currentTarget , item);
+                            
+                        })
                         {
                             let iconBtn = document.createElement("i");
-                            iconBtn.className = "fa fa-heart-o";
+                            if(btnFavorite.dataset.favorite ==="true"){
+                            iconBtn.className = "fa fa-heart";
+                            }
+                            else{
+                                iconBtn.className = "fa fa-heart-o";
+
+                            }
                             iconBtn.setAttribute("aria-hidden","true");
                             btnFavorite.appendChild(iconBtn);
                         }

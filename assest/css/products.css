@@ -159,12 +159,18 @@
             padding: 10px;
             gap: 18px;
             position: relative;
+            .alert-page{
+                position: relative;
+                width: 100%;
+                width: 500px;
+                height: 500px;
+                margin: auto;
+            }
             .load-api{
                 z-index: 999;
                 width: 100%;
                 height: 100%;
                 min-height: 500px;
-
                 position: absolute;
                 display: flex;
                 justify-content: center;
@@ -228,6 +234,11 @@
                 font-size: 20px;
                 transition: 0.9s;
                 color: var(--muted);
+            }
+            button.selected{
+                color: var(--black);
+                background-color: var(--white);
+                box-shadow: 0px 0px 10px var(--white);
             }
             button:hover{
                 color: var(--black);

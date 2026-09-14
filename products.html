@@ -26,29 +26,29 @@
 
     <main class="main-products">
         <div class="filter-products">
-            <div class="wrapwer-item-filter">
+            <div class="wrapwer-item-filter category-div">
                 <h2 class="title-fillter">SPORT</h2>
-                <label for="s-v"><input id="s-v" type="checkbox" >Volleyball</label>
-                <label for="s-b"><input id="s-b" type="checkbox" >Basketball</label>
+                <label for="s-v"><input id="s-v" data-key="category" data-value="volleyball" type="checkbox" >Volleyball</label>
+                <label for="s-b"><input id="s-b" data-key="category" data-value="basketball" type="checkbox" >Basketball</label>
                 <div class="filter-gruop"></div>
             </div>
-            <div class="wrapwer-item-filter">
+            <div class="wrapwer-item-filter type-div">
                 <h2 class="title-fillter">PRODUCT TYPE</h2>
-                <label for="p-p"><input id="p-p" type="checkbox" >Performance</label>
-                <label for="p-t"><input id="p-t" type="checkbox" >Training</label>
-                <label for="p-l"><input id="p-l" type="checkbox" >Lifestyle</label>
+                <label for="p-p"><input id="p-p" data-key="type" data-value="performance"  type="checkbox" >Performance</label>
+                <label for="p-t"><input id="p-t" type="checkbox" data-key="type" data-value="training" >Training</label>
+                <label for="p-l"><input id="p-l" type="checkbox" data-key="type" data-value="lifestyle">Lifestyle</label>
                 <div class="filter-gruop"></div>
             </div>
-            <div class="wrapwer-item-filter">
+            <div class="wrapwer-item-filter brand-div">
                 <h2>BRAND</h2>
-                <label for="b-j"><input id="b-j" type="checkbox" >Jumix</label>
-                <label for="b-n"><input id="b-n" type="checkbox" >Nike</label>
-                <label for="b-a"><input id="b-a" type="checkbox" >Adidass</label>
+                <label for="b-j"><input id="b-j" type="checkbox" data-key="brand" data-value="jumix">Jumix</label>
+                <label for="b-n"><input id="b-n" type="checkbox" data-key="brand" data-value="nike">Nike</label>
+                <label for="b-a"><input id="b-a" type="checkbox" data-key="brand" data-value="adidas">Adidass</label>
                 <div class="filter-gruop"></div>
             </div>
             <div class="wrapwer-item-filter">
                 <h2>PRICE</h2>
-                <input class="inpt-range" type="range" max="100" value="20" id="">
+                <input class="inpt-range" type="range" max="400" value="20" id="">
                 <h3>$0 — <i id="max-price-f">$200</i></h3>
             </div>
         </div>
@@ -58,27 +58,29 @@
                     <p>Showing <i id="shows-pro">8</i> of <i id="all-pro">24</i> products</p>
                     <select name="sort-product-m" id="sort-product-m">
                         <option value="Featured">Featured</option>
-                        <option value="price:L to H">price: Low to High</option>
-                        <option value="price:H to L">price: High to Low</option>
-                        <option value="newest">Newest</option>
+                        <option value="priceLtoH">price: Low to High</option>
+                        <option value="priceHtoL">price: High to Low</option>
+                        <option value="timeLtoH">Newest</option>
                     </select>
                 </div>
                 
-                <div class="wrap-products">
-                    <div class="load-api" hidden>
-                        <div class="massage-error" hidden>
-                            <h2>
-                                <i>❗</i>
-                                load Page not found
-                                <i>❗</i>
-                            </h2>
-                        </div>
-                        <div class="anim-load" hidden>
-                            <div class="item">☢</div>
-                            <div class="title-load" >Loading...</div>
-                        </div>
-                    </div>
-                    <div class="card-product">
+                <div id="wrap-products-id" class="wrap-products">
+                   <div class="alert-page">
+                     <div class="load-api" >
+                         <div class="massage-error" hidden>
+                             <h2>
+                                 <i>❗</i>
+                                 load Page not found
+                                 <i>❗</i>
+                             </h2>
+                         </div>
+                         <div class="anim-load" >
+                             <div class="item">☢</div>
+                             <div class="title-load" >Loading...</div>
+                         </div>
+                     </div>
+                   </div>
+                    <!-- <div class="card-product">
                         <a href="product.html?idProduct=v-001"><div class="img-product">
                             <img src="assest/img/shose-3.png" alt="">
                         </div></a>
@@ -151,25 +153,22 @@
                             <button class="love"><i class="fa fa-heart-o"></i></button>
                             <button><i class="fa fa-plus"></i></button>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="move-page-pro">
-                    <button>←</button>
-                    <div class="number-btn">
-                        <button>1</button>
-                        <button>2</button>
-                        <button>3</button>
+                    <button data-action="privios">←</button>
+                    <div id="number-btn-id" class="number-btn">
                     </div>
-                    <button>→</button>
+                    <button data-action="next">→</button>
                 </div>
             </div>
         </div>
      </main>
              <!-- send about section start => -->
-                  <div>
+    <div>
         <div class="line-section"></div>
     </div>
-         <section class="send-about">
+     <section class="send-about">
             <div class="send-about-row">
                 <div class="send-about-item">
                     <div class="img-send-about">
@@ -208,80 +207,22 @@
                     </div>
                 </div>
             </div>
-         </section>
+     </section>
          
      <!-- <= send abut  footer section tag  -->
      <!-- /////////////////////// -->
-    <footer class="footer">
-        <div class="main-footer">
-            <div class="call-me">
-                <div class="title">
-                    <h3>NEWSLETTER</h3>
-                    <p>Join the JUMIX community and get exclusive offerse and Updetes</p>
-                </div>
-                <div class="emsil-user">
-                    
-                    
-                    <input class="input-email" type="email" placeholder="  Enter your email">
-                <button class="btn-send-mail"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
-                </div>
-            </div>
-            <ul class="link-footer">
-                <li><h4>COMPANY</h4></li>
-                <li><p><a href="">About Us</a></p></li>
-                <li><p><a href="">Careers</a></p></li>
-                <li><p><a href="">News</a></p></li>
-                <li><p><a href="">Sustainability</a></p></li>
-                <li><p><a href="">Become a Partner</a></p></li>
-            </ul>
-            <ul class="link-footer">
-                <li><h4>SUPPORT</h4></li>
-                <li><p><a href="">Help Center</a></p></li>
-                <li><p><a href="">Shipping</a></p></li>
-                <li><p><a href="">Return</a></p></li>
-                <li><p><a href="">Size Guide</a></p></li>
-                <li><p><a href="">Track Order</a></p></li>
-                <li><p><a href="">Contact Us</a></p></li>
-            </ul>
-            <ul class="link-footer">
-               <li> <h4>SHOP</h4></li>
-                <li><p><a href="">All Shoes</a></p></li>
-                <li><p><a href="">Volleyball</a></p></li>
-                <li><p><a href="">Basketball</a></p></li>
-                <li><p><a href="">Training</a></p></li>
-                <li><p><a href="">Lifestyle</a></p></li>
-                <li><p><a href="">Collections</a></p></li>
-            </ul>
-            <div class="about-us">
-                <div class="logo-img"><img class="img-res" src="assest/img/lego-header-site.png" alt=""></div>
-                <div class="discription">
-                    <p>Built for athletes. Designed for performace. JUMIX SPORT delivers premium quality and unstoppable energy in every move</p>
-                </div>
-                <ul class="icon-contact">
-                    <li><a id="email-icon" href=""><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
-                    <li><a id="instagram-icon"  href=""><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a id="telegram-icon"  href=""><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
-                    <li><a  id="youtube-icon" href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                    <li><a id="phone-icon"  href=""><i class="fa fa-phone" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-            </div>
-            <div>
-                <div class="line-section"></div>
-            </div>
-            <div class="b-footer">
-                <div class="foot-mo">
-                    <h6>c 2025 JUMIX SPORT.All rights reserved.</h6>
-                </div>
-                <ul class="foot-tozi">
-                    <li>Privacy Policy</li>
-                    <li>Terms of Service</li>
-                    <li>Cookie Policy</li>
-                </ul>
-            </div>
-    </footer>
+      <div id="banner-article-import"></div>
+    <div id="import-list-product" data-type-render="index" 
+    data-cont="4" data-sort="new">NEW PRODUCTS</div>
+    <!-- footer section start => -->
+    <div id="footer-import"></div>
+     <!-- <= end  footer section tag  -->
+    <script type="module" src=" aner.js"></script>
+    <script type="module" src="assest/js/footer-engine.js"></script>
     <script type="module" src="assest/js/header-Engine.js"></script>
-
+    <script src="assest/js/list-index-manager.js" type="module"></script>
+ 
+    <script src="assest/js/products-enginer.js" type="module"></script>
 
 </body>
 </html>

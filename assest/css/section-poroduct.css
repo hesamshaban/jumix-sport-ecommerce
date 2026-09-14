@@ -21,6 +21,7 @@
     max-width: 1200px;
     margin: auto;
     display: grid;
+    gap: 18px;
     grid-template-columns: repeat(4,1fr);
     
 
