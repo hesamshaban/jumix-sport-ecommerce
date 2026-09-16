@@ -4,6 +4,7 @@ const headerParent = document.getElementById("header-import");
 new renderOrApi(  "./header.html", "html" ,headerParent).managerEngin().then((result)=>{
    console.log("header load");
     new headerEngine
+    addToCartManaget.managerIconCartHeader((JSON.parse(localStorage.cart)).length);
 } , (error)=>{
     headerParent.innerHTML="<h1 class ='error '>header no Loading...</h1>"
 })
@@ -87,7 +88,7 @@ class headerEngine{
         },
     ]
     constructor(){
-        new addToCartManaget().managerIconCartHeader();
+        addToCartManaget.managerIconCartHeader();
         this.queryStr = new URLSearchParams(window.location.search)
         const mainNavHeader = document.querySelector(".main-nav-header");
         mainNavHeader.addEventListener('click' , (e)=>{
@@ -185,4 +186,3 @@ class headerEngine{
     }
 
 }
-

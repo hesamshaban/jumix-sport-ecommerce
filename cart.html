@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart | JUmixSrpot</title>
+        <!-- start font text import  -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Oswald:wght@200..700&family=Yusei+Magic&display=swap" rel="stylesheet">
+     <!-- end font text import  -->
+    <link rel="stylesheet" href="assest/css/main.css">
+    <!-- start font icon import  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assest/css/main.css">
+    <link rel="stylesheet" href="assest/css/products.css">
+    <!-- end font text import  -->
+     <style>
+        .wrap-cart{
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+            aside.by-product{
+                width: 100%;
+            }
+        }
+        aside{
+            width: 100%;
+            max-width: 1200px;
+            margin: auto;
+        }
+     </style>
+</head>
+<body>
+        <header id="header-import">
+    </header>
+    <div calss="wrap-cart">
+        <aside class="by-product">
+                <div class="title-nav">
+                    <h4>YOUR CART <span>(2)</span></h4>
+                    <p>CLEAR CART <i class="fa fa-trash-o" aria-hidden="true"></i></p>
+                </div>
+                
+                <div id="wrap-item-cart">
+                    <div class="card-by-product">
+                    <div class="img-card-by-product"><img class="img-res" src="assest/img/shose-5.png" alt=""></div>
+                    <div class="title-card-by-product">
+                        <h5>JUMix VOLT PRO</h5>
+                        <p>Size:43</p>
+                        <p>Color:Black/Green</p>
+                        <h5>$129.99</h5>
+                    </div>
+                    <div class="add-remove-card-by-product-main" >
+                        <div class="add-remove-card-by-product">
+                            <button class="maynes">-</button>
+                            <input type="number" readonly value="1" name="" id="">
+                            <button class="plus">+</button>
+                        </div>
+                        <button class="exit"><i class="fa fa-times" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                <div class="card-by-product">
+                    <div class="img-card-by-product"><img class="img-res" src="assest/img/shose-9.png" alt=""></div>
+                    <div class="title-card-by-product">
+                        <h5>JUMix ELEVENT 2</h5>
+                        <p>Size:44</p>
+                        <p>Color:White/Green</p>
+                        <h5>$149.99</h5>
+                    </div>
+                    <div class="add-remove-card-by-product-main" >
+                        <div class="add-remove-card-by-product">
+                            <button class="maynes">-</button>
+                            <input type="text" value="1" name="" id="">
+                            <button class="plus">+</button>
+                        </div>
+                        <button class="exit"><i class="fa fa-times" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+                </div>
+                <div class="off-code">
+                    <i class="fa fa-gift" aria-hidden="true"></i>
+        
+                    <input placeholder=" Have a promo code?" type="text">
+                    <button>APPLY</button>
+                </div>
+                <div class="sum-product">
+                    <div class="subtotal-sum-product">
+                        <h6>Subtotal</h6>
+                        <h6 class="main">$234.99</h6>
+                    </div>
+                    <div class="shipping-sum-product">
+                        <h4>Shipping</h4>
+                        <h4>FREE</h4>
+                    </div>
+                    <div class="tax-sum-product">
+                        <h4>tax(10%)</h4>
+                        <h4 class="main">$0.00</h4>
+                    </div>
+                    <div class="total-sum-product">
+                        <h3>Total</h3>
+                        <h3 class="main">$234.99</h3>
+                    </div>
+                    <button class="btn-sum"><i class="fa fa-lock" aria-hidden="true"></i>PROCEED TO CHECKOUT</button>
+                </div>
+                <div class="we-accept">
+                    <h4>We accept</h4>
+                    <div><img class="img-res" src="assest/img/visa.png" alt="visa"></div>
+                    <div><img class="img-res" src="assest/img/paypal.png" alt="pay pal"></div>
+                    <div><img class="img-res" src="assest/img/money.png" alt="pay"></div>
+                    <div><img class="img-res" src="assest/img/paypal.png" alt="blue"></div>
+                </div>
+        
+        </aside>
+    </div>
+
+
+        <div id="footer-import"></div>
+     <!-- <= end  footer section tag  -->
+          <script type="module" src="assest/js/footer-engine.js"></script>
+    <script type="module" src="assest/js/header-Engine.js"></script>
+    <script type="module" src="assest/js/cartManager.js"></script>
+</body>
+</html>

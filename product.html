@@ -64,15 +64,22 @@
                 <div class="quantity-input">
                     <h2>QUANTITY</h2>
                     <div class="input-quan">
-                        <button class="maines">-</button>
-                        <input type="text" value="2" name="" id="">
-                        <button class="plus">+</button>
+                        <button class="maines" data-action="maines">-</button>
+                        <input type="number" value="1" name="" readonly max="5" id="">
+                        <button class="plus" data-action="plus">+</button>
                     </div>
                 </div>
             </div>
             <div class="btn-s-f">
-                <button >ADD TO CART</button>
-                <button ><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+                <button data-action="add-cart">ADD TO CART</button>
+                <button  data-action="favorite"><i class="fa fa-heart-o" aria-hidden="true"></i></button>
+            </div>
+            <div hidden class="alarm-add-cart">
+                <h2>add to cart?</h2>
+                <div class="btn-carts">
+                    <button class="cansel">Cansel</button>
+                    <button  hidden class="ok" id="ok-add-to-cart">YES</button>
+                </div>
             </div>
         </aside>
         <aside class="by-product">
@@ -80,7 +87,9 @@
                 <h4>YOUR CART <span>(2)</span></h4>
                 <p>CLEAR CART <i class="fa fa-trash-o" aria-hidden="true"></i></p>
             </div>
-            <div class="card-by-product">
+            
+            <div id="wrap-item-cart">
+                <div class="card-by-product">
                 <div class="img-card-by-product"><img class="img-res" src="assest/img/shose-5.png" alt=""></div>
                 <div class="title-card-by-product">
                     <h5>JUMix VOLT PRO</h5>
@@ -91,7 +100,7 @@
                 <div class="add-remove-card-by-product-main" >
                     <div class="add-remove-card-by-product">
                         <button class="maynes">-</button>
-                        <input type="text" value="1" name="" id="">
+                        <input type="number" readonly value="1" name="" id="">
                         <button class="plus">+</button>
                     </div>
                     <button class="exit"><i class="fa fa-times" aria-hidden="true"></i></button>
@@ -114,7 +123,7 @@
                     <button class="exit"><i class="fa fa-times" aria-hidden="true"></i></button>
                 </div>
             </div>
-            
+            </div>
             <div class="off-code">
                 <i class="fa fa-gift" aria-hidden="true"></i>
 
@@ -124,19 +133,19 @@
             <div class="sum-product">
                 <div class="subtotal-sum-product">
                     <h6>Subtotal</h6>
-                    <h6>$234.99</h6>
+                    <h6 class="main">$234.99</h6>
                 </div>
                 <div class="shipping-sum-product">
                     <h4>Shipping</h4>
                     <h4>FREE</h4>
                 </div>
                 <div class="tax-sum-product">
-                    <h4>tax(0%)</h4>
-                    <h4>$0.00</h4>
+                    <h4>tax(10%)</h4>
+                    <h4 class="main">$0.00</h4>
                 </div>
                 <div class="total-sum-product">
                     <h3>Total</h3>
-                    <h3>$234.99</h3>
+                    <h3 class="main">$234.99</h3>
                 </div>
                 <button class="btn-sum"><i class="fa fa-lock" aria-hidden="true"></i>PROCEED TO CHECKOUT</button>
             </div>
