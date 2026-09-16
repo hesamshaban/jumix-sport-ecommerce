@@ -1,13 +1,16 @@
 class favoriteManaget {
     static #listFavorite;
     constructor(){
+        if(localStorage.favorite === undefined){
+            localStorage.setItem("favorite" , JSON.stringify([]));
+        }
         favoriteManaget.#listFavorite = localStorage.getItem("favorite");
     }
     clickFavorite(e , item){
         let listfavorite = localStorage.getItem("favorite");
         listfavorite =JSON.parse(listfavorite);
         let elemBtn = e;
-        console.log(listfavorite , "start");
+         (listfavorite , "start");
         
         if(elemBtn.dataset.favorite === "true"){
 
@@ -17,7 +20,7 @@ class favoriteManaget {
             let indexCHAR = listfavorite.indexOf(item.id);
             listfavorite.splice(indexCHAR , 1);            
             localStorage.setItem("favorite",JSON.stringify(listfavorite));
-        console.log(listfavorite , "shart1");
+         (listfavorite , "shart1");
         
         }else{
             elemBtn.children[0].classList.remove("fa-heart-o")
@@ -25,7 +28,7 @@ class favoriteManaget {
             elemBtn.dataset.favorite = "true";
             listfavorite.push(item.id)
             localStorage.setItem("favorite",JSON.stringify(listfavorite));
-        console.log(listfavorite , "shart2");
+         (listfavorite , "shart2");
         
         }
     }

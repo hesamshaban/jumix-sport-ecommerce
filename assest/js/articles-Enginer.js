@@ -11,9 +11,9 @@ class articelsEngin{
     async callRender(typeSort , prop){
         let respon = await this.#renderApi.renderallList(typeSort , prop); 
         let mainList = this.listedItem(respon , 9);
-        console.log(mainList);
+         (mainList);
         let allBtn = this.creatBTN(mainList);
-        console.log(allBtn);
+         (allBtn);
         // let x = this.creatBTN([1,2,3,4]);
         this.#wraperPage = document.getElementById("id-product-art");
         this.#allList = mainList;

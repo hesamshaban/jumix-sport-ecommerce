@@ -11,7 +11,6 @@ new class manegerList{
     #titleHeader;
     #wraperProduct;
     constructor(){
-        // localStorage.setItem("cart",JSON.stringify(["v-001","b-002","v-002","v-005"]))
         this.#wraperMain= document.getElementById("import-list-product");
         this.setDateList(this.#wraperMain);
         this.#mainApi = new getApi();
@@ -32,7 +31,7 @@ new class manegerList{
     async importListHtml(){
        new renderOrApi(  "./list-product-index.html", "html" ,this.#wraperMain).managerEngin().then((result)=>{
         this.managerlist();
-        console.log("list product load");
+         ("list product load");
         } , (error)=>{
             headerParent.innerHTML="<h1 class ='error '>header no Loading...</h1>"
         })        
@@ -48,6 +47,9 @@ new class manegerList{
                 break;
             case "priceHigh":
                 this.#listMain = await this.#mainApi.sortingProducts(this.#listMain,"priceHtoL");
+                break;
+            case "favorite":
+                this.#listMain =await this.favoriteListCreate();
                 break;
             default:
                 break
@@ -76,10 +78,35 @@ new class manegerList{
             let listElem =await  renderer.renderListProducts(this.#listMain,this.#typeList);
             this.#wraperProduct.append(...listElem);
         }catch(e){
-            console.log(e);
+             (e);
             
             this.#wraperMain.innerHTML =`<h1 class="error">render object eroror</h1>`     
         }
+        
+    }
+    async favoriteListCreate(){
+        let allProducts = await this.#mainApi.getAllApi();
+        if(localStorage.favorite === undefined){
+            localStorage.setItem("favorite" , JSON.stringify([]));
+        }
+        let favoriteId = JSON.parse(localStorage.getItem("favorite"));
+        let listProduvFav = [];
+        if(favoriteId.length  === 0){
+            this.#wraperProduct =await document.getElementById("wraper-item-product");
+            this.#wraperMain.innerHTML = `<h1 class='error'>product favorite undefinde😍😍</h1>`
+            return
+        }
+        else{
+            favoriteId.forEach(element => {
+                allProducts.forEach((item)=>{
+                    if(item.id === element){
+                        listProduvFav.push(item);
+                    }
+                })
+            });
+        }
+        this.#contProduct = listProduvFav.length;
+        return listProduvFav;
         
     }
 }

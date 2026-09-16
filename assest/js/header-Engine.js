@@ -2,7 +2,7 @@ import renderOrApi from "./renderOrApi.js";
 import addToCartManaget from "./manager-add-to-cart.js"
 const headerParent = document.getElementById("header-import");
 new renderOrApi(  "./header.html", "html" ,headerParent).managerEngin().then((result)=>{
-   console.log("header load");
+    ("header load");
     new headerEngine
     addToCartManaget.managerIconCartHeader((JSON.parse(localStorage.cart)).length);
 } , (error)=>{
@@ -63,7 +63,7 @@ class headerEngine{
             }
         },
         {id:"cart",
-            address:"./products.html",
+            address:"./cart.html",
             query:{
                 
             }
@@ -75,7 +75,7 @@ class headerEngine{
             }
         },
         {id:"love",
-            address:"./products.html",
+            address:"./fovorite.html",
             query:{
                 
             }
@@ -127,7 +127,7 @@ class headerEngine{
         }
         else{
         allItemMenu.forEach((item) =>{
-            // console.log(item.dataset.file , this.queryStr.get("file")  )
+            //  (item.dataset.file , this.queryStr.get("file")  )
             if(item.dataset.file === this.queryStr.get("file")){
                 item.classList.add("selected-n-m");
             }
@@ -147,7 +147,7 @@ class headerEngine{
         }
         else{
         allItemMenu.forEach((item) =>{
-            // console.log(item.dataset.file , this.queryStr.get("file")  )
+            //  (item.dataset.file , this.queryStr.get("file")  )
             if(item.dataset.file === this.queryStr.get("file")){
                 item.classList.add("selected-n-m");
             }
@@ -156,7 +156,7 @@ class headerEngine{
         }  
     }
     moveToPage(e){
-        // console.log(e);
+        //  (e);
         let item =this.#formatLonkMove.find(function(item){
             return item.id === e.dataset.idMove
         })
@@ -169,8 +169,8 @@ class headerEngine{
                 quryParams.append(i , item.query[i]);
             }
             quryParams.append("file", item.file);
-            // console.log(quryParams.get("file"));
-            // console.log(quryParams.toString())
+            //  (quryParams.get("file"));
+            //  (quryParams.toString())
             window.location.href = item.address+"?" + quryParams.toString()
 
         }
@@ -181,7 +181,7 @@ class headerEngine{
         searchBox.classList.toggle("hidden-search");
     }
     searchEnginr(e){
-        // console.log(e)
+        //  (e)
         //////after figthur
     }
 

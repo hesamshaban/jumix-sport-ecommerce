@@ -27,13 +27,26 @@
         aside{
             width: 100%;
             max-width: 1200px;
-            margin: auto;
+            margin:40px auto;
         }
      </style>
 </head>
 <body>
         <header id="header-import">
     </header>
+    <!-- //////////////////// -->
+         <header class="header-main-art">
+        <img src="assest/img/header.png" alt="">
+        <div class="titile-header-ma">
+        <div class="title-header-ma-c">
+                <h4>Built for athletes</h4>
+                <h1>Built for athletes</h1>
+                <p>Performance footwear engineered for volleyball and basketball players who demand grip, stability and speed.</p>
+                <div class="adress-page"><a href="index.html">home</a><i> ›  cart</i></div>
+        </div>
+    </div>
+    </header> 
+     <!-- ////////////////////////// -->
     <div calss="wrap-cart">
         <aside class="by-product">
                 <div class="title-nav">
@@ -113,11 +126,18 @@
         </aside>
     </div>
 
-
+          <!-- poroduckt section start => -->
+    <div id="import-list-product" data-type-render="products" 
+    data-cont="4" data-sort="priceLow">FEATURED PRODUCTS</div>
+    <!-- <= end  poroduckt section tag  -->
+         <div id="list-article-import"></div>
         <div id="footer-import"></div>
      <!-- <= end  footer section tag  -->
+           <script src="assest/js/list-index-manager.js" type="module"></script>
           <script type="module" src="assest/js/footer-engine.js"></script>
     <script type="module" src="assest/js/header-Engine.js"></script>
     <script type="module" src="assest/js/cartManager.js"></script>
+    <script type="module" src="assest/js/list-articles-engin.js"></script>
+
 </body>
 </html>

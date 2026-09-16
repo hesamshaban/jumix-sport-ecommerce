@@ -19,7 +19,7 @@ class apiFilterProduct{
     }
     async filterProduct(filters){
         let allProducts = await apiFilterProduct.allApi();
-        // console.log(filters , Object.keys(filters[0]).join() , Object.values(filters[0]));
+        //  (filters , Object.keys(filters[0]).join() , Object.values(filters[0]));
         let listFiltered = [allProducts];
         for (let item of filters){
             let filterKey = Object.keys(item).join();
@@ -75,7 +75,7 @@ class apiFilterProduct{
                 
                 let aTime =timeToNumber(a.timeC);
                 let bTime=timeToNumber(b.timeC)
-                // console.log(aTime , bTime);
+                //  (aTime , bTime);
                 return aTime - bTime;
             })
             return listSecend;
@@ -87,7 +87,7 @@ class apiFilterProduct{
                 
                 let aTime =timeToNumber(a.timeC);
                 let bTime=timeToNumber(b.timeC)
-                // console.log(aTime , bTime);
+                //  (aTime , bTime);
                 return bTime - aTime;
             })
             return listSecend;
@@ -121,6 +121,6 @@ export default apiFilterProduct;
 //     let y=await apiFilterProduct.allApi();
 //     let x=await new apiFilterProduct().filterProduct({category:"volleyball"} , {type:"performance"});
 //     let t = await new apiFilterProduct().sortingProducts(y , "timeHtoL");
-//     console.log(t);
+//      (t);
    
 // }

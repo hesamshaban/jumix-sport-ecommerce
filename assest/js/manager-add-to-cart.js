@@ -14,7 +14,7 @@ class addToCartManaget {
     static async managerIconCartHeader(cont){
         let cartIndex = await document.querySelector("#cart-icon div.cont-cart-add");
         let mainCont = cont || (JSON.parse(localStorage.getItem("cart")))?.length || 0;
-        console.log(cartIndex);
+         (cartIndex);
         if(cartIndex === null){
             return
         }
@@ -26,9 +26,9 @@ class addToCartManaget {
         if(listCart === null){
             listCart =[];
         }
-        console.log("click cart");
+         ("click cart");
         let elemBtn = e;
-        console.log("add cart");
+         ("add cart");
         elemBtn.dataset.cart = "true";
             // let indexCHAR = listCart.indexOf(item.id);
             let listCartItem = {
@@ -38,12 +38,12 @@ class addToCartManaget {
                 quantity:quantity
             };
             listCart.push(listCartItem);
-            console.log(listCart);
+             (listCart);
             
             localStorage.setItem("cart",JSON.stringify(listCart));
         // }else{
         //     console.warn("egane");
-        //     console.log(listCart);
+        //      (listCart);
         //     // فعلابرای تست تا موقعی که کارت خودش درست بشه
         //     // elemBtn.dataset.cart = "false";
         //     // let indexCHAR = listCart.indexOf(item.id);

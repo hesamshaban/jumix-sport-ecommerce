@@ -1,0 +1,137 @@
+# Query: console.log
+# ContextLines: 1
+
+35 results - 9 files
+
+assest\js\api-product.js:
+   21          let allProducts = await apiFilterProduct.allApi();
+   22:       
+   23          let listFiltered = [allProducts];
+
+   77                  let bTime=timeToNumber(b.timeC)
+   
+   79                  return aTime - bTime;
+
+   89                  let bTime=timeToNumber(b.timeC)
+
+   91                  return bTime - aTime;
+
+  125     
+
+assest\js\articles-Enginer.js:
+  13          let mainList = this.listedItem(respon , 9);
+
+  15          let allBtn = this.creatBTN(mainList);
+
+
+
+assest\js\cartManager.js:
+   14      constructor(){
+
+   16          this.#wraperItem = document.getElementById("wrap-item-cart");
+
+   51      getListCart(){
+
+   53          if(localStorage[this.#keyLocalStoreg] === undefined){         
+
+  246          btnByCart.addEventListener("click" , (e)=>{
+  2
+  248              
+
+  270                  this.#listCartTital.push([await new GetApi().getApiById(item.id) , item.quantity]);
+
+  272                  if(this.#listCart[this.#listCart.length-1] === item){
+
+  287          
+
+  289      }
+
+assest\js\footer-engine.js:
+  3  new renderOrApi(  "./footer-template.html", "html" ,footerParent).managerEngin().then((result)=>{
+
+  5  } , (error)=>{
+
+assest\js\header-Engine.js:
+    4  new renderOrApi(  "./header.html", "html" ,headerParent).managerEngin().then((result)=>{
+
+    6      new headerEngine
+
+  129          allItemMenu.forEach((item) =>{
+
+  131              if(item.dataset.file === this.queryStr.get("file")){
+
+  149          allItemMenu.forEach((item) =>{
+
+  151              if(item.dataset.file === this.queryStr.get("file")){
+
+  158      moveToPage(e){
+  1
+  160          let item =this.#formatLonkMove.find(function(item){
+
+  171              quryParams.append("file", item.file);
+  
+
+  174              window.location.href = item.address+"?" + quryParams.toString()
+
+  183      searchEnginr(e){
+r
+
+assest\js\list-index-manager.js:
+  33          this.managerlist();
+
+  35          } , (error)=>{
+
+  80          }catch(e){       
+
+assest\js\manager-add-to-cart.js:
+  16          let mainCont = cont || (JSON.parse(localStorage.getItem("cart")))?.length || 0;
+
+  18          if(cartIndex === null){
+
+  28          }
+
+  30          let elemBtn = e;
+
+  32          elemBtn.dataset.cart = "true";
+
+  40              listCart.push(listCartItem);
+
+  42              
+
+
+
+assest\js\managerFavorite.js:
+  12          let elemBtn = e;
+
+  14          
+
+  22              localStorage.setItem("favorite",JSON.stringify(listfavorite));
+
+  24          
+
+  30              localStorage.setItem("favorite",JSON.stringify(listfavorite));
+
+  32          
+
+assest\js\product-manager.js:
+   15      constructor(){
+
+   17          this.getIdBySearch();
+
+   29          this.#objectProduct =await reespon;
+
+   31          this.manager();
+
+   39          const wrapGaleryItems = document.querySelectorAll(`.galery-img [class^="galery-item"]`);
+
+   41          this.#objectProduct.image.push(this.#objectProduct.cover)
+
+  144          });
+
+  146          if(has){
+
+  148              
+
+  161          btnFavorit.addEventListener("click" ,(event)=>{
+
+  163              
