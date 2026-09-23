@@ -123,7 +123,7 @@ new class {
     searchChekcked(){
             let urlOption =new URLSearchParams(window.location.search);
             let value = (urlOption.get("file"));
-            if(value !== null || value !== undefined){
+            if(value !== null && value !== undefined){
              this.#wrapFilterInput.forEach(item =>{
                 if(item.dataset.value === value){
                     item.checked =true;

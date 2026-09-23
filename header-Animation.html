@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header animation</title>
+        <link rel="stylesheet" href="assest/css/main.css">
+    <!-- start font icon import  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assest/css/main.css">
+    <style>
+        .wraper-header-anime{
+            /* display: flex; */
+            /* height:max-content; */
+            /* overflow-y: hidden; */
+            position: relative;
+            max-width: 100vw;
+            overflow:hidden;
+            /* height: 1200px; */
+            .movment{
+                transition: 2s;
+                height: 700px;
+                position: relative;
+                .alaki{
+                    visibility: hidden;
+                }
+            }
+            .header-main{
+                position: absolute;
+                width: 100%;
+            }
+            .header-main:nth-child(1){
+                right: -100%;
+                z-index: 2;
+            }
+            .header-main:nth-child(2){
+                right: -200%;
+                z-index: 3;
+
+            }
+            .header-main:nth-child(3){
+                right: -300%;
+                z-index: 4;
+            }
+        }
+        .button{
+            position: fixed;
+            padding: 20px;
+            z-index: 10;
+            top: 25%;
+            border-radius: 100%;
+            background-color: black;
+            border: 1px solid white;
+            color: white;
+            font-size: 20px;
+        }
+        .next{
+            right: 5px;
+        }
+        .prenios{
+            left: 5px;
+        }
+    </style>
+</head>
+<body>
+         <header class="wraper-header-anime">
+             <button class="button next">next</button>
+             <button class="button prenios"> previos</button>
+             <div class="movment">
+                 
+                 <figure class="header-main">
+                     <img src="assest/img/header.png" class="img-header" alt="heder site">
+                     <div class="title-header">
+                         <h5>BULT FOR ATHLETES</h5>
+                         <h2>MOVE FASTER.</h2>
+                    <h2>JUMP HIGHER.</h2>
+                    <h6>premium volleyball and basketball shose <br>
+                        designed for performance and winners.</h6>
+                        <button class="button-m">SHOP NOW</button>
+                        <button class="button-c">EXPLORE COLLECTION</button>   
+                    </div>
+                </figure>
+                <figure class="header-main">
+                <img src="assest/img/header.png" class="img-header" alt="heder site">
+                <div class="title-header">
+                    <h5>BULT FOR ATHLETES</h5>
+                    <h2>MOVE FASTER.</h2>
+                    <h2>JUMP HIGHER.</h2>
+                    <h6>premium volleyball and basketball shose <br>
+                        designed for performance and winners.</h6>
+                        <button class="button-m">SHOP NOW</button>
+                     <button class="button-c">EXPLORE COLLECTION</button>   
+                </div>
+            </figure>
+            <figure class="header-main">
+                <img src="assest/img/header.png" class="img-header" alt="heder site">
+                <div class="title-header">
+                    <h5>BULT FOR ATHLETES</h5>
+                    <h2>MOVE FASTER.</h2>
+                    <h2>JUMP HIGHER.</h2>
+                    <h6>premium volleyball and basketball shose <br>
+                        designed for performance and winners.</h6>
+                        <button class="button-m">SHOP NOW</button>
+                        <button class="button-c">EXPLORE COLLECTION</button>   
+                    </div>
+                </figure>
+                <figure class="header-main">
+                <img src="assest/img/header.png" class="img-header" alt="heder site">
+                <div class="title-header">
+                    <h5>BULT FOR ATHLETES</h5>
+                    <h2>MOVE FASTER.</h2>
+                    <h2>JUMP HIGHER.</h2>
+                    <h6>premium volleyball and basketball shose <br>
+                        designed for performance and winners.</h6>
+                        <button class="button-m">SHOP NOW</button>
+                        <button class="button-c">EXPLORE COLLECTION</button>   
+                    </div>
+                </figure>
+                <figure class="header-main alaki">
+                    <img src="assest/img/header.png" class="img-header" alt="heder site">
+                    <div class="title-header">
+                        <h5>BULT FOR ATHLETES</h5>
+                        <h2>MOVE FASTER.</h2>
+                        <h2>JUMP HIGHER.</h2>
+                        <h6>premium volleyball and basketball shose <br>
+                         designed for performance and winners.</h6>
+                         <button class="button-m">SHOP NOW</button>
+                         <button class="button-c">EXPLORE COLLECTION</button>   
+                    </div>
+                </figure>
+            </div>
+            
+
+        </header>
+        <!-- <script>
+
+        </script> -->
+     <script src="assest/js/header-animation.js" type="module"></script>
+    </body>
+</html>
